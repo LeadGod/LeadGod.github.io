@@ -1,0 +1,206 @@
+Icon|Name|Type|Quote|Effect
+Master Round I.png|Master Round|Passive|First Chamber|Grants a heart container.
+Master Round II.png|Master Round|Passive|Second Chamber|Grants a heart container.
+Master Round III.png|Master Round|Passive|Third Chamber|Grants a heart container.
+Master Round IV.png|Master Round|Passive|Fourth Chamber|Grants a heart container.
+Master Round V.png|Master Round|Passive|Fifth Chamber|Grants a heart container.
+Prime Primer.png|Prime Primer|Passive|Old Magic|Doubles ammo upon picking up new weapons. Does not increase max ammo. Ingredient for The Bullet That Can Kill The Past.
+Arcane Gunpowder.png|Arcane Gunpowder|Active|From The Deep|"Ingredient for The Bullet That Can Kill The Past, cannot be used."
+Planar Lead.png|Planar Lead|Passive|Astral Slug|Ingredient for The Bullet That Can Kill The Past.
+Obsidian Shell Casing.png|Obsidian Shell Casing|Passive|Indestructible|Ingredient for The Bullet That Can Kill The Past.
+Meatbun.png|Meatbun|Active|On A Roll|Single use. Heals the player for one heart.
+Medkit.png|Medkit|Active|Heals|Single use. Heals the player for three hearts.
+Ration.png|Ration|Active|"Calories, Mate"|Single use. Heals the player for two hearts. Automatically used if the player runs out of health.
+Orange.png|Orange|Active|You're Not Alexander|Single use. Fully heals the player and grants a heart container.
+Friendship Cookie.png|Friendship Cookie|Active|It's Delicious|Single use. Resurrects your co-op partner with full health.
+Bomb.png|Bomb|Active|Use For Boom|Throws a bomb that explodes after a short delay.
+Ice Bomb.png|Ice Bomb|Active|Cool It!|Throws a bomb that freezes enemies.
+Chaff Grenade.png|Chaff Grenade|Active|Dazed And Confused|Stuns enemies. Can be used to steal items from shops.
+Proximity Mine.png|Proximity Mine|Active|Use To Place|Places a mine that explodes when an enemy comes near it.
+Cluster Mine.png|Cluster Mine|Active|Area Hazard|Places 5 small mines that explode when an enemy comes into contact with them.
+C4 (Item).png|C4|Active|Stick Boom|Places explosives on the ground which then can be detonated by using the item again.
+Molotov.png|Molotov|Active|Feel The Burn|Throws a Molotov that sets an area on fire.
+Air Strike.png|Air Strike|Active|Superior!|Calls down a bombardment on a large rectangular area.
+Napalm Strike.png|Napalm Strike|Active|Smells Great!|Sets a large rectangular area on fire.
+Big Boy.png|Big Boy|Active|Set The World On Fire|"Calls down a missile at the crosshair, causing a large explosion that leaves behind a large pool of poison creep."
+IBomb Companion App.png|iBomb Companion App|Active|One For That|Detonates all explosives and explosive enemies in the room.
+Supply Drop.png|Supply Drop|Active|I Need Mags!|Single use. Spawns ammo.
+Ammo Synthesizer.png|Ammo Synthesizer|Passive|Ammo Chance On Kills|Chance to regain ammo upon killing an enemy.
+Armor Synthesizer.png|Armor Synthesizer|Passive|"Play Well, Get Armor"|Increases the chance to get armor upon completing a room.
+Heart Synthesizer.png|Heart Synthesizer|Passive|"Play Well, Get Hearts"|Increases the chance to find hearts upon completing a room.
+Master of Unlocking.png|Master of Unlocking|Passive|"Play Well, Get Keys"|Increases the chance to find keys upon completing rooms.
+Utility Belt.png|Utility Belt|Passive|All Capacity Up!|Grants an extra active item slot and increases maximum ammo.
+Hidden Compartment.png|Hidden Compartment|Passive|Extra Space|Grants an extra active item slot and increased maximum ammo.
+Backpack.png|Backpack|Passive|Item Capacity Up!|Allows the player to hold an extra active item.
+Scope.png|Scope|Passive|Steady Aim|Increases accuracy.
+Laser Sight.png|Laser Sight|Passive|King Of The Dot|Increases accuracy.
+Ammo Belt.png|Ammo Belt|Passive|Ammo Capacity Up!|Increases maximum ammo.
+Bullet Time.png|Bullet Time|Active|Dodge This|Slows down time while active.
+Aged Bell.png|Aged Bell|Active|Lacuna|Briefly stops enemies and enemy bullets.
+Singularity.png|Singularity|Active|Sucks|Spawns a black hole that attracts enemies and bullets.
+Decoy.png|Decoy|Active|Get Him!|Places a decoy that enemies will target. The decoy will be destroyed after taking enough damage.
+Explosive Decoy.png|Explosive Decoy|Active|KABOOM!|Places a decoy that enemies will target. The decoy will explode after taking enough damage.
+Melted Rock.png|Melted Rock|Active|Corpses Explode|Causes enemy corpses to explode on use.
+Trusty Lockpicks.png|Trusty Lockpicks|Active|Who Needs Keys?|Has a chance to unlock a lock or locked chest. If it fails, the lock will no longer function.
+Smoke Bomb.png|Smoke Bomb|Active|Vanish!|Temporarily become invisible to enemies. Can be used to steal from the Shop.
+Box.png|Box|Active|Just A Box|"If the player enters a room while under the box, enemies will not target the player. Firing a weapon will remove the box. Has no effect if used while enemies are already targeting the player. Can be used to steal items from shops."
+Fortune's Favor.png|Fortune's Favor|Active|Use For Luck|"While active, bullets will curve around the player."
+Jar of Bees.png|Jar of Bees|Active|The Pain!|Spawns bees that home in on and damage enemies.
+Potion of Lead Skin.png|Potion of Lead Skin|Active|I'm Invincible!|"While active, the player reflects enemy bullets."
+Double Vision.png|Double Vision|Active|One For Each Of You|"While active, doubles the player's bullets."
+Poison Vial.png|Poison Vial|Active|For External Use Only|Creates a pool of poison creep.
+Potion of Gun Friendship.png|Potion of Gun Friendship|Active|Temporary +1 To Gun|"While active, increases all gun stats."
+Portable Turret.png|Portable Turret|Active|Some Assembly Required|Places a stationary turret that shoots at enemies. The turret will be destroyed if it takes enough damage.
+Knife Shield.png|Knife Shield|Active|Use Again To Launch!|Creates a ring of knives around the player that damage enemies and block enemy bullets. Knives vanish after taking enough damage. If used again while the shield is active, the knives are launched forward. Increases curse while being carried.
+Grappling Hook.png|Grappling Hook|Active|Rapid Transit|Allows players to hook onto and then pull themselves towards walls at a fast speed. Hitting enemies with the hook will deal minor damage and stun them for a short duration. Allows players to steal items from the shop. The hook has an unlimited range.
+Stuffed Star.png|Stuffed Star|Active|Protective Plush|"While active, the player is invincible."
+Boomerang.png|Boomerang|Active|Usually Comes Back|Throws a boomerang that travels around the room and stuns enemies.
+Shield of the Maiden.png|Shield of the Maiden|Active|Block And Load|Pulls up a shield to protect players from bullets. Players are immobile while using the shield.
+-1 Bullets.png|+1 Bullets|Passive|+1 To Bullet|Increases damage.
+Rocket-Powered Bullets.png|Rocket-Powered Bullets|Passive|Faster Bullets|Increases the player's bullet speed.
+Heavy Bullets.png|Heavy Bullets|Passive|Thunk!|Increases damage but decreases bullet speed.
+Shock Rounds.png|Shock Rounds|Passive|Electrified!|Creates a beam of electricity between fired bullets.
+Bouncy Bullets.png|Bouncy Bullets|Passive|Boiyoiyoing!|Grants bullets the ability to bounce off objects.
+Ghost Bullets.png|Ghost Bullets|Passive|Shoot Through|Bullets pass through enemies and obstacles.
+Alpha Bullets.png|Alpha Bullets|Passive|First!|The first shot of a weapon's magazine will deal extra damage.
+Omega Bullets.png|Omega Bullets|Passive|Last!|The final shot of each magazine deals increased damage.
+Scattershot.png|Scattershot|Passive|Quantity Over Quality|Guns fire a spread of tripled bullets which deal less damage.
+Irradiated Lead.png|Irradiated Lead|Passive|Poison Shot|Adds a chance to fire bullets that poison enemies.
+Hot Lead.png|Hot Lead|Passive|Chance To Ignite|Adds a chance to fire bullets that ignite enemies.
+Frost Bullets.png|Frost Bullets|Passive|Icy Fire|Adds a chance to fire bullets that freeze enemies.
+Fat Bullets.png|Fat Bullets|Passive|Fatter = Stronger|Significantly increases bullet size but slightly decreases maximum ammo.
+Angry Bullets.png|Angry Bullets|Passive|Hungry For More|Hitting an enemy has a chance to refire the projectile at nearby enemies.
+Battery Bullets.png|Battery Bullets|Passive|Zap!|"Causes water that bullets pass over to become electrified, damaging enemies."
+Homing Bullets.png|Homing Bullets|Passive|Fire And Forget|Bullets home in on enemies.
+Shadow Bullets.png|Shadow Bullets|Passive|Double Tap|Firing a weapon has a chance to fire an additional projectile.
+Easy Reload Bullets.png|Easy Reload Bullets|Passive|Rolling Reload|Dodge rolling reloads one bullet.
+Bionic Leg.png|Bionic Leg|Passive|More Machine Than Man|Increases movement speed and grants a piece of armor.
+Shotgun Coffee.png|Shotgun Coffee|Passive|Speed Up|Increases movement speed.
+Shotga Cola.png|Shotga Cola|Passive|Speed Up|Increases movement speed.
+Ballistic Boots.png|Ballistic Boots|Passive|Speedier Than A Bullet|Increases movement speed.
+Magic Sweet.png|Magic Sweet|Passive|Free Stats|"Increases health, movement speed, and damage."
+Disarming Personality.png|Disarming Personality|Passive|For You?|Decreases shop prices.
+Mustache.png|Mustache|Passive|A Familiar Face|Has a chance to heal the player upon purchasing an item.
+Lichy Trigger Finger.png|Lichy Trigger Finger|Passive|Rate of Fire Up|Increases rate of fire.
+Enraging Photo.png|Enraging Photo|Passive|Don't Believe His Lies|Taking damage makes the player briefly deal extra damage.
+Ballot.png|Ballot|Passive|Vote Of Confidence!|"Increases the player's coolness, which decreases the cooldown of active items and increases luck."
+Live Ammo.png|Live Ammo|Passive|I'm A Bullet Too!|"Provides immunity to contact damage, and dodge rolls deal increased damage to enemies."
+Eyepatch.png|Eyepatch|Passive|Hit Harder Less Often|Increases damage but decreases accuracy.
+Military Training.png|Military Training|Passive|Hold Facing Enemy|Increases weapon accuracy and reload speed.
+Cartographer's Ring.png|Cartographer's Ring|Passive|Some Floors Are Familiar|New floors have a chance to be mapped out.
+Ring of Fire Resistance.png|Ring of Fire Resistance|Passive|No Burns|Grants immunity to fire.
+Ring of Miserly Protection.png|Ring of Miserly Protection|Passive|Aids The Fiscally Responsible|Grants two heart containers. Disappears upon spending money.
+Unity.png|Unity|Passive|Our Powers Combined|Increases damage for each Gun held.
+Ring of Chest Vampirism.png|Ring of Chest Vampirism|Passive|Blood From Wood|Breaking chests heals the player.
+Cloranthy Ring.png|Cloranthy Ring|Passive|Dodge Power Up|Improves dodging.
+Ring of Chest Friendship.png|Ring of Chest Friendship|Passive|Chest Friends Forever|Increases the chance of finding chests.
+Ring of Mimic Friendship.png|Ring of Mimic Friendship|Passive|Unlikely Allies|Mimics will not attack the player.
+Ring of Triggers.png|Ring of Triggers|Passive|Items == Guns|Using an active item fires the currently held weapon in all directions.
+Ring of Ethereal Form.png|Ring of Ethereal Form|Active|Get Ethereal!|"While active, the player is invincible and has flight."
+Gundromeda Strain.png|Gundromeda Strain|Passive|All Enemies Weaker!|Decreases health of all enemies encountered.
+Broccoli.png|Broccoli|Passive|Makes You Strong|Increases damage.
+Crutch.png|Crutch|Passive|You Need It|Causes bullets to slightly curve towards enemies.
+Liquid Valkyrie.png|Liquid Valkyrie|Passive|Maximum Pain|Decreases enemy bullet speed.
+Bloody Eye.png|Bloody Eye|Passive|Slower Enemy Bullets|Decreases enemy bullet speed.
+Gunknight Helmet.png|Gunknight Helmet|Passive|Armor Every Floor|Grants a piece of armor upon pickup and another piece of armor every floor.
+Gunknight Greaves.png|Gunknight Greaves|Passive|Armor Every Floor|Grants a piece of armor upon pickup and another piece of armor every floor.
+Gunknight Armor.png|Gunknight Armor|Passive|Armor Every Floor|Grants a piece of armor upon pickup and another piece of armor every floor.
+Gunknight Gauntlet.png|Gunknight Gauntlet|Passive|Armor Every Floor|Grants a piece of armor upon pickup and another piece of armor every floor.
+Amulet of the Pit Lord.png|Amulet of the Pit Lord|Passive|No Fall Damage|Falling into pits no longer deals damage.
+Old Knight's Shield.png|Old Knight's Shield|Passive|Heavy With Experience|Grants two pieces of armor.
+Old Knight's Helm.png|Old Knight's Helm|Passive|Protects Knowledge|Grants two pieces of armor.
+Old Knight's Flask.png|Old Knight's Flask|Active|Heals Per Floor|Heals the player for half a heart upon use. Gains 2 charges each floor.
+Old Crest.png|Old Crest|Armor Up|Passive|Grants a piece of armor. Consumed upon taking any damage.
+Armor of Thorns.png|Armor of Thorns|Passive|Your Body Is A Weapon|Increases damage dealt by dodge rolling into enemies. Grants two pieces of armor.
+Heavy Boots.png|Heavy Boots|Passive|Low Center Of Mass|"Prevents the player from being affected by enemy knockback, gun recoil, and conveyor belts."
+Bug Boots.png|Bug Boots|Passive|Yikes!|Dodge rolling leaves a trail of poison creep. Makes the player immune to poison.
+Gunboots.png|Gunboots|Passive|They Go Down Well|Dodge rolling fires a spread of five bullets backwards.
+Coin Crown.png|Coin Crown|Passive|"Play Well, Get Money"|Increases the chance to find Money.png coins upon completing rooms.
+Oiled Cylinder.png|Oiled Cylinder|Passive|Reload Faster|Decreases reload time.
+Ice Cube.png|Ice Cube|Passive|Items Recharge While Active|Reduces the cooldown timer of active items.
+Rolling Eye.png|Rolling Eye|Passive|Back At You|Rolling through bullets reflects them at enemies.
+Cigarettes.png|Cigarettes|Active|Hazardous To Health|Damages the player for half a heart and increases their coolness. Coolness decreases the cooldown of active items and increases luck.
+Charm Horn.png|Charm Horn|Active|The Call Of Duty|Charms enemies around the player upon use.
+Cog of Battle.png|Cog of Battle|Passive|Active Reload|"When reloading, pressing reload again when the indicator passes a certain mark on the reload bar will instantly reload the weapon, effectively decreasing the reload time."
+Metronome.png|Metronome|Passive|Better And Better|Grants a damage bonus for each enemy killed. The bonus is reset if the player takes damage or changes guns.
+Honeycomb.png|Honeycomb|Passive|Bee Prepared|Taking damage spawns bees that seek out and damage enemies.
+Map.png|Map|Passive|Floor Revealed|Reveals the entire map for the current floor.
+Gungeon Blueprint.png|Gungeon Blueprint|Passive|Procedurally Updates|Reveals all floor-maps for the rest of the run.
+Sense of Direction.png|Sense of Direction|Active|Surprisingly Rare.|Points in the direction of the floor's exit.
+Duct Tape.png|Duct Tape|Active|Friend Of Gunsmiths|Single use. Combines 2 guns by granting one gun the projectiles that the other gun fires.
+Gungeon Pepper.png|Gungeon Pepper|Passive|The Heat Is On!|Deals damage to nearby enemies.
+Antibody.png|Antibody|Passive|Heals Up|Picking up health has a chance to heal the player for an extra half a heart.
+Pink Guon Stone.png|Pink Guon Stone|Passive|Increased Health|"Orbits the player, blocking enemy shots on contact. Grants one extra heart container."
+White Guon Stone.png|White Guon Stone|Passive|Kindles Blanks|"Orbits the player, blocking enemy shots on contact. Grants an extra blank per floor."
+Orange Guon Stone.png|Orange Guon Stone|Passive|Hot Rock|"Orbits the player, blocking enemy shots on contact. Shoots at enemies."
+Clear Guon Stone.png|Clear Guon Stone|Passive|Pure|"Orbits the player, blocking enemy shots on contact. Negates poison damage."
+Green Guon Stone.png|Green Guon Stone|Passive|Chance To Heal|"Orbits the player, blocking enemy shots on contact. Chance to heal upon taking damage."
+Red Guon Stone.png|Red Guon Stone|Passive|Dodge Up|"Orbits the player, blocking enemy shots on contact. Improves dodging."
+Blue Guon Stone.png|Blue Guon Stone|Passive|On My Side|"Orbits the player, blocking enemy shots on contact. Upon taking damage, briefly slows time."
+Iron Coin.png|Iron Coin|Active|Valar Morgunis|"3 uses. Upon use, has a chance to kill all enemies in the next room entered. If the effect took place, a note can be found lying on the ground."
+Drum Clip.png|Drum Clip|Passive|One Size Fits All|Increases the magazine size of all weapons.
+Blood Brooch.png|Blood Brooch|Passive|What Music They Make!|Increases Curse while held. Adds a small chance to heal upon damaging an enemy.
+Backup Gun.png|Backup Gun|Passive|Watch Your Back|"With each shot fired, a second bullet will be fired in the opposite direction that the player is aiming."
+Sunglasses.png|Sunglasses|Passive|Bright Future|Slows down time and increases dodge power during explosions.
+Mimic Tooth Necklace.png|Mimic Tooth Necklace|Passive|Chomp|Every chest is guaranteed to be a Mimic.
+Escape Rope.png|Escape Rope|Active|Works Anywhere!|Teleport out of the current room into the shop of the current floor.
+Jetpack.png|Jetpack|Active|To Fly|Can be toggled. "While active, the player has increased movement speed and flight, but cannot dodge roll. Passing over puddles of oil will set them on fire."
+Wax Wings.png|Wax Wings|Passive|Too Close To The Gun|Grants flight.
+Blast Helmet.png|Blast Helmet|Passive|Duck And Cover|Decreases the radius that explosions will hurt the player in.
+Monster Blood.png|Monster Blood|Passive|Twist To Open|Taking damage spawns a pool of poison creep. Grants immunity to poison creep.
+Nanomachines.png|Nanomachines|Passive|Son|Grants two pieces of armor upon pickup. Grants a piece of armor every 4 times damage is taken.
+Seven-Leaf Clover.png|Seven-Leaf Clover|Passive|Lucky!|Increases the quality of chests.
+Number 2.png|Number 2|Passive|Sidekick No More|"Boosts stats when alone. Only available in co-op, where The Cultist starts with this item."
+Gold Ammolet.png|Gold Ammolet|Passive|Blank Damage Up|Increases blank damage.
+Chaos Ammolet.png|Chaos Ammolet|Passive|What Can Will|"Blanks have a chance to poison, freeze, and ignite enemies."
+Lodestone Ammolet.png|Lodestone Ammolet|Passive|Blank Knockback Up|Increases the knockback of blanks.
+Uranium Ammolet.png|Uranium Ammolet|Passive|Blanks Poison|Blanks have a chance to poison enemies.
+Copper Ammolet.png|Copper Ammolet|Passive|Blanks Ignite|Blanks have a chance to ignite enemies.
+Frost Ammolet.png|Frost Ammolet|Passive|Chance To Freeze|Blanks have a chance to freeze enemies.
+Table Tech Sight.png|Table Tech Sight|Passive|Flip Multiplier|Flipping a table briefly slows down time and triple the player's shots.
+Table Tech Money.png|Table Tech Money|Passive|Flip Prosperity|"Flipping a table flips all other tables in the room, and flipping a table has a chance to spawn money."
+Table Tech Rocket.png|Table Tech Rocket|Passive|End Table|Flipping a table causes it to launch forward and explode.
+Table Tech Rage.png|Table Tech Rage|Passive|Flips Of Fury|Flipping a table briefly increases the player's damage.
+Table Tech Blanks.png|Table Tech Blanks|Passive|Flip Clarity|Flipping a table activates a free blank.
+Table Tech Stun.png|Table Tech Stun|Passive|Flip Showmanship|Flipping a table briefly stuns nearby enemies.
+Heart Holster.png|Heart Holster|Passive|On Your Sleeve|Grants a heart container.
+Heart Lunchbox.png|Heart Lunchbox|Passive|Healthy Meal|Grants a heart container.
+Heart Locket.png|Heart Locket|Passive|Memento Mori|Grants a heart container.
+Heart Bottle.png|Heart Bottle|Passive|Liquid Life|Grants a heart container.
+Heart Purse.png|Heart Purse|Passive|Form Begets Function|Grants a heart container.
+Ruby Bracelet.png|Ruby Bracelet|Passive|Thrown Guns Explode|Thrown guns will explode.
+Sixth Chamber.png|Sixth Chamber|Passive|Blessing Of Kaliber|Increases Coolness proportional to the amount of Curse the player has. Increases Curse.
+Busted Television.png|Busted Television|Active|Broken And Heavy|"Upon use, the television is thrown in the direction of the cursor. Dropped upon dodge rolling."
+Coolant Leak.png|Coolant Leak|Active|Don't Overheat!|Sprays water forward.
+Heart of Ice.png|Heart of Ice|Passive|That's Cold|Grants a heart container. Taking damage releases bouncing ice bullets.
+Ancient Hero's Bandana.png|Ancient Hero's Bandana|Passive|Limitless|Quadruples maximum ammo.
+Bloodied Scarf.png|Bloodied Scarf|Passive|Blink Away|Replaces the dodge roll with a teleport.
+Muscle Relaxant.png|Muscle Relaxant|Passive|Loosen Up|Increases accuracy.
+Hip Holster.png|Hip Holster|Passive|Quickdraw|Reloading a weapon fires it for free.
+Clone.png|Clone|Passive|The Real Me|"Upon death, the player is revived in the starting room of the first floor, retaining all items and guns."
+Sponge.png|Sponge|Passive|Godliness|Removes all liquids near the player.
+Gas Mask.png|Gas Mask|Passive|Breathe Deep|Grants immunity to poison.
+Hazmat Suit.png|Hazmat Suit|Passive|Safety Protocol|"Grants immunity to fire, poison, and electricity."
+Book of Chest Anatomy.png|Book of Chest Anatomy|Passive|Controlled Demolition|Improves the contents of broken chests.
+Gun Soul.png|Gun Soul|Passive|YOU DEFEATED|
+40px|Shelleton Key|Passive|Locks Are Dead To You|Allows any chest or lock to be opened without using a key. Increases curse while held.
+Brick of Cash.png|Brick of Cash|Passive|Secrets Of The Masons|Reveals secret rooms.
+Wingman.png|Wingman|Passive|Got Your Back|"Orbits the player, firing rockets at enemies."
+Wolf.png|Wolf|Passive|Junior|Chases and bites enemies.
+Dog.png|Dog|Passive|Junior II|Follows the player around and occasionally digs up a pickup upon completing a room.
+Owl.png|Owl|Passive|Hoots And More|"Follows the player, firing bullets at enemies and occasionally using short-ranged blanks."
+Super Space Turtle.png|Super Space Turtle|Passive|Hero From Space|"Follows the player, firing bullets at enemies."
+R2G2.png|R2G2|Passive|Gunmech Robot|"Follows the player, firing bullets at enemies."
+Badge.png|Badge|Passive|By The Book|"Summons a police officer that follows the player, firing bullets at enemies. Can be talked to. Can die after taking too much damage. (unknown what happens afterwards)"
+Space Friend.png|Space Friend|Passive|A Friend From The Space|"Follows the player, firing lasers at enemies and blocking enemy bullets."
+Pig.png|Pig|Passive|Shifty|"Upon death, instantly revives the player with full health."
+Blank Companion's Ring.png|Blank Companion's Ring|Passive|He Tries|Activates a blank each time an active item is used.
+Briefcase of Cash.png|Briefcase of Cash|Passive|Avarice|Grants 250 Money.png and 3 Hegemony Credit.png.
+Galactic Medal of Valor.png|Galactic Medal of Valor|Passive|Courage Increased|Deal more damage to Bosses.
+Bullet Idol.png|Bullet Idol|Passive|Vengeful Spirit|Deals damage to enemies upon taking damage.
+Riddle of Lead.png|Riddle of Lead|Passive|This You Can Trust|"Grants a heart container, fully heals the player, increases dodge roll speed, increases movement speed, and adds a chance to negate damage."
+Bracket Key.png|Bracket Key|Active|`debugkill|Deals a large amount of damage to all enemies in a room. Increases Curse.
+Elder Blank.png|Elder Blank|Active|Excommunicate Bullets|Activates a blank. Increases curse while held.
+Junk.png|Junk|Passive|Next Time Use A Key|Has no effect on its own. Often spawned by destroying chests.
+Junk.png|Lies|Passive|Next Time Tell The Truth|No effect.
+Spice.png|Spice|Active|A tantalizing cube of power.|"Single use. Increases stats upon use (currently not fully known which stats). Each time a spice cube is used, more spice cubes will spawn in place of items or pickups. After the second spice cube is consumed, consuming any more spice cubes will decrease the player's stats and increase their curse. "
