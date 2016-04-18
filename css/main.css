@@ -62,7 +62,7 @@ body {
 }
 
 .wrapper {
-    width: 90%;
+    width: 100%;
     margin: 0 5%;
 }
 
@@ -167,6 +167,7 @@ nav a:hover {
   height: 100%;
   background: #EA4394;
   border: none;
+  outline: none;
 /*  font-size: 10pt;
   float: left;*/
   color: white;
@@ -174,7 +175,7 @@ nav a:hover {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;*/
- 
+
   -webkit-transition: background .55s ease;
   -moz-transition: background .55s ease;
   -ms-transition: background .55s ease;
@@ -280,7 +281,7 @@ footer a:hover {
    =============== */
 
     .wrapper {
-        width: 1026px; /* 1140px - 10% for margins */
+        width: 90%; /* 1140px - 10% for margins */
         margin: 0 auto;
     }
 }
