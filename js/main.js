@@ -3,7 +3,7 @@ var o = null;
 var ul = document.getElementById("guns");
 console.dir(ul);
 var myArray = new Array();
-document.open();
+// document.open();
 
 for( var i = 0; i < data.length; i++ )
 {
