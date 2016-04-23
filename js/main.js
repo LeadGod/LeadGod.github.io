@@ -8,7 +8,9 @@ for( var i = 0; i < data.length; i++ )
 {
     o = data[i];
     var li = document.createElement("li");
-    li.appendChild(document.createTextNode('<img src="/img/guns/' + o.Icon + '\">'));
+	var img = document.createElement("img");
+	img.setAttribute("src", "/img/guns/" + o.Icon);
+    li.appendChild(img);
     ul.appendChild(li);
 }
 
