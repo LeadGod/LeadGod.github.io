@@ -1021,9 +1021,9 @@
     "Name":"Staff of Firepower",
     "Quote":"Missing Link",
     "Type":"Semiautomatic",
-    "Clip Size":"6 (gun)",
-    "Ammo":"",
-    "Notes":""
+    "Clip Size":"6 (gun) / 12 (staff)",
+    "Ammo":"200",
+    "Notes":"Reloading alternates between a rapid fire pistol and a beam weapon that can set enemies on fire."
   },
   {
     "Icon":"12 (staff)",
