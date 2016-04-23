@@ -10,6 +10,7 @@ for( var i = 0; i < data.length; i++ )
     var li = document.createElement("li");
 	var img = document.createElement("img");
 	img.setAttribute("src", "/img/guns/" + o.Icon);
+	img.setAttribute("alt", o.Name);
     li.appendChild(img);
     ul.appendChild(li);
 }
