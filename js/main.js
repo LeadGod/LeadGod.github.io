@@ -9,8 +9,7 @@ for( var i = 0; i < data.length; i++ )
 	var img = document.createElement("img");
 	img.setAttribute("src", "/img/guns/" + o.Icon);
 	img.setAttribute("alt", o.Name);
-	img.setAttribute("width", "200%");
-	img.setAttribute("height", "200%");
+	img.setAttribute("id", "gameObject");
     p.appendChild(img);
 }
 
@@ -27,9 +26,13 @@ for( var i = 0; i < data.length; i++ )
 	var img = document.createElement("img");
 	img.setAttribute("src", "/img/items/" + o.Icon);
 	img.setAttribute("alt", o.Name);
-	img.setAttribute("width", "200%");
-	img.setAttribute("height", "200%");
+	img.setAttribute("id", "gameObject")
     p.appendChild(img);
 }
 
+});
+
+$( "img" ).each( function() {
+    var $img = $( "#gameObject" ); 
+	$img.width( $img.width() * 2 );
 });
