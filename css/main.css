@@ -156,8 +156,8 @@ nav a:hover {
    ========================================================================== */
 .gameObjects img{
 	padding: 2px;
-	width: 200%;
-	height: 200%;
+	width: 64px;
+	height: 64px;
 }
    
 .container-1{
