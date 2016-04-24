@@ -34,5 +34,5 @@ for( var i = 0; i < data.length; i++ )
 
 $( "img" ).each( function() {
     var $img = $( "#gameObject" ); 
-	$img.width( $img.width() * 2 );
+	$img.width( $img.width() * .5 );
 });
