@@ -10,7 +10,7 @@ for( var i = 0; i < data.length; i++ )
 	img.setAttribute("src", "/img/guns/" + o.Icon);
 	img.setAttribute("alt", o.Name);
 	img.setAttribute("title", o.Name);
-	img.setAttribute("id", "gameObject");
+	img.setAttribute("class", "gameObject");
     p.appendChild(img);
 }
 
@@ -28,7 +28,7 @@ for( var i = 0; i < data.length; i++ )
 	img.setAttribute("src", "/img/items/" + o.Icon);
 	img.setAttribute("alt", o.Name);
 	img.setAttribute("title", o.Name);
-	img.setAttribute("id", "gameObject")
+	img.setAttribute("class", "gameObject")
     p.appendChild(img);
 }
 
