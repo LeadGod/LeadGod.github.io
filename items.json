@@ -1,35 +1,35 @@
 [
   {
     "Icon":"Master Round I.png",
-    "Name":"Master Round",
+    "Name":"Master Round I",
     "Type":"Passive",
     "Quote":"First Chamber",
     "Effect":"Grants a heart container."
   },
   {
     "Icon":"Master Round II.png",
-    "Name":"Master Round",
+    "Name":"Master Round II",
     "Type":"Passive",
     "Quote":"Second Chamber",
     "Effect":"Grants a heart container."
   },
   {
     "Icon":"Master Round III.png",
-    "Name":"Master Round",
+    "Name":"Master Round III",
     "Type":"Passive",
     "Quote":"Third Chamber",
     "Effect":"Grants a heart container."
   },
   {
     "Icon":"Master Round IV.png",
-    "Name":"Master Round",
+    "Name":"Master Round IV",
     "Type":"Passive",
     "Quote":"Fourth Chamber",
     "Effect":"Grants a heart container."
   },
   {
     "Icon":"Master Round V.png",
-    "Name":"Master Round",
+    "Name":"Master Round V",
     "Type":"Passive",
     "Quote":"Fifth Chamber",
     "Effect":"Grants a heart container."
