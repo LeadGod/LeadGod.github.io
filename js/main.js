@@ -8,7 +8,6 @@ $(document).ready(function () {
 	var $section = $("#guns");
 	var $div = $('<div class="iconRow">');
 	var $span = $('<span class="iconContainer">');
-    var $a = $('<a>')
 
 	for( var i = 0; i < data.length; i++ )
 	{
@@ -25,9 +24,11 @@ $(document).ready(function () {
 			'class="gameObject"' +
 			'src="/img/guns/' + object.Icon + '">'
 		);
-        $a.append($span);
-		$span.append($img);
-		$div.append($a);
+
+        var $a = $('<a>');
+        $a.append($img);
+		$span.append($a;
+		$div.append($span);
 	}
 
 	});
@@ -38,7 +39,6 @@ $(document).ready(function () {
 	var $section = $("#items");
 	var $div = $('<div class="iconRow">');
 	var $span = $('<span class="iconContainer">');
-    var $a = $('<a>')
 
 	for( var i = 0; i < data.length; i++ )
 	{
@@ -55,9 +55,11 @@ $(document).ready(function () {
 			'class="gameObject"' +
 			'src="/img/items/' + object.Icon + '">'
 		);
-        $a.append($span);
-        $span.append($img);
-        $div.append($a);
+
+        var $a = $('<a>');
+        $a.append($img);
+        $span.append($a;
+        $div.append($span);
 	}
 
 	});
