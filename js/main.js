@@ -25,9 +25,9 @@ $(document).ready(function () {
 			'class="gameObject"' +
 			'src="/img/guns/' + object.Icon + '">'
 		);
-        $a.append($img);
-		$span.append($a);
-		$div.append($span);
+        $a.append($span);
+		$span.append($img);
+		$div.append($a);
 	}
 
 	});
@@ -55,9 +55,9 @@ $(document).ready(function () {
 			'class="gameObject"' +
 			'src="/img/items/' + object.Icon + '">'
 		);
-        $a.append($img);
-        $span.append($a);
-        $div.append($span);
+        $a.append($span);
+        $span.append($img);
+        $div.append($a);
 	}
 
 	});
