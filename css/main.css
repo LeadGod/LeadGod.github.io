@@ -154,8 +154,24 @@ nav a:hover {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+.iconRow{
+	height: 3em;
+}
+   
+.iconContainer{
+	min-height: 100%;
+	width: 8%;
+	padding: 0 2%;
+	float: left;
+}
+
+.gameObject{
+	min-width: 100%;
+	min-height: auto;
+}
+   
 .gameObjects p>img{
-    margin: 5px;
+    margin: 2px;
 }
    
 .container-1{
