@@ -169,10 +169,11 @@ nav a:hover {
 }
 
 .gameObject{
-    text-align: center;
-    display: inline-block;
-    margin: 0 auto;
-    vertical-align: middle;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    right: 25%;
+    bottom: 25%;
 }
 
 .gameObjects p>img{
