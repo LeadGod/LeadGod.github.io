@@ -159,7 +159,7 @@ nav a:hover {
 	float: left;
 	width: 100%;
 }
-   
+
 .iconContainer{
 	display: inline-block;
 	min-height: 100%;
@@ -169,14 +169,13 @@ nav a:hover {
 }
 
 .gameObject{
-	min-width: 100%;
-	min-height: auto;
+    text-align: center;
 }
-   
+
 .gameObjects p>img{
     margin: 2px;
 }
-   
+
 .container-1{
 	position: relative;
 }
