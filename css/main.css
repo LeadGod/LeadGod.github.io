@@ -156,12 +156,15 @@ nav a:hover {
    ========================================================================== */
 .iconRow{
 	height: 3em;
+	float: left;
+	width: 100%;
 }
    
 .iconContainer{
+	display: inline-block;
 	min-height: 100%;
 	width: 8%;
-	padding: 0 2%;
+	padding: 0 1%;
 	float: left;
 }
 
