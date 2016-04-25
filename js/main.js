@@ -25,7 +25,7 @@ $(document).ready(function () {
 			'src="/img/guns/' + object.Icon + '">'
 		);
 
-        var $a = $('<a>');
+        var $a = $('<a href="#' + object.Name + '">');
         $a.append($img);
 		$span.append($a);
 		$div.append($span);
@@ -56,7 +56,7 @@ $(document).ready(function () {
 			'src="/img/items/' + object.Icon + '">'
 		);
 
-        var $a = $('<a>');
+        var $a = $('<a href="#' + object.Name + '">');
         $a.append($img);
         $span.append($a);
         $div.append($span);
