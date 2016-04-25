@@ -27,7 +27,7 @@ $(document).ready(function () {
 
         var $a = $('<a>');
         $a.append($img);
-		$span.append($a;
+		$span.append($a);
 		$div.append($span);
 	}
 
@@ -58,7 +58,7 @@ $(document).ready(function () {
 
         var $a = $('<a>');
         $a.append($img);
-        $span.append($a;
+        $span.append($a);
         $div.append($span);
 	}
 
