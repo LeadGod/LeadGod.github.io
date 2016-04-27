@@ -84,7 +84,7 @@ $(document).ready(function () {
         itemHTML += '<ul><li>' + object.Type + '</li>';
         itemHTML += '<li>Notes: ' + object.Effect + '</li></ul>';
 
-        content[object.Name] = $itemHTML;
+        content[object.Name] = itemHTML;
         $a.append($img);
         $span.append($a);
         $div.append($span);
