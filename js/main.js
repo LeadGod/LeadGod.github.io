@@ -4,20 +4,21 @@ $(document).ready(function () {
 	var gunsLoaded  = false;
 	var itemsLoaded = false;
 
-	var opts = {
+	var swapper = {
 		className: 'showInfo',
 		displayId: 'itemInfo',
 		displayDefault: true,
-		restoreDefault: false
+		restoreDefault: false,
+
+		content: {
+		}
 	}
 
-	var content = {
-
-	}
+	var tempContent = swapper.content;
 
 	$( document ).on("leadGodDataLoaded", function () {
 		if (gunsLoaded && itemsLoaded) {
-			$( document ).dw_hoverSwapContent(content, opts);
+			DYN_WEB.ContentSwap.setup(swapper);
 		} else {
 			console.log("Still waiting on JSON load callbacks...");
 		}
@@ -56,7 +57,7 @@ $(document).ready(function () {
 		itemHTML += '<li>Ammo: ' + object.Ammo + '</li>';
 		itemHTML += '<li>Notes: ' + object.Notes + '</li></ul>';
 
-		content[object.Name] = itemHTML;
+		tempContent[object.Name] = itemHTML;
 		$a.append($img);
 		$span.append($a);
 		$div.append($span);
@@ -98,7 +99,7 @@ $(document).ready(function () {
 		itemHTML += '<ul><li>' + object.Type + '</li>';
 		itemHTML += '<li>Notes: ' + object.Effect + '</li></ul>';
 
-		content[object.Name] = itemHTML;
+		tempContent[object.Name] = itemHTML;
 		$a.append($img);
 		$span.append($a);
 		$div.append($span);
