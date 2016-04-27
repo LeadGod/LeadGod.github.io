@@ -46,7 +46,7 @@ $(document).ready(function () {
 					'src="/img/guns/' + object.Icon + '">'
 		);
 
-		var $a = $('<a href="#" id="' + object.Name +
+		var $a = $('<a href="#' + object.Name +
 				'" class="showInfo" data-loc="' + object.Name + '">');
 
 		var itemHTML = '';
@@ -90,7 +90,7 @@ $(document).ready(function () {
 					'src="/img/items/' + object.Icon + '">'
 		);
 
-		var $a = $('<a href="#" id="' + object.Name +
+		var $a = $('<a href="#' + object.Name +
 				'" class="showInfo" data-loc="' + object.Name + '">');
 
 		var itemHTML = '';
