@@ -1,6 +1,8 @@
 
 $(document).ready(function () {
 	var ROW_LENGTH = 10;
+	var gunsLoaded  = false;
+	var itemsLoaded = false;
 
 	var opts = {
     	className: 'showInfo',
@@ -11,6 +13,14 @@ $(document).ready(function () {
     var content = {
 
     }
+	
+	$( document ).on("leadGodDataLoaded", function () {
+		if (gunsLoaded && itemsLoaded) {
+			$( document ).dw_hoverSwapContent(content, opts);
+		} else {
+			console.log("Still waiting on JSON load callbacks...");
+		}
+	});
 
 	$.getJSON('guns.json', function (data) {
 	var object = null;
@@ -50,7 +60,10 @@ $(document).ready(function () {
 		$span.append($a);
 		$div.append($span);
 	}
-
+	
+	gunsLoaded = true;
+	$( document ).trigger("leadGodDataLoaded");
+	
 	});
 
 	$.getJSON('items.json', function (data) {
@@ -89,8 +102,11 @@ $(document).ready(function () {
         $span.append($a);
         $div.append($span);
 	}
-
+	
+	itemsLoaded = true;
+	$( document ).trigger("leadGodDataLoaded");
+	
 	});
 
-    $( document ).dw_hoverSwapContent(content, opts);
+    
 });
