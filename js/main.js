@@ -38,12 +38,12 @@ $(document).ready(function () {
                 '" class="showInfo ' + object.Name + '">');
 
         var itemHTML = '';
-        var itemName += '<h2>' + object.Name + '</h2>';
-        var itemQuote += '<p>"' + object.Quote + '"</p>';
-        var itemType += '<ul><li>' + object.Type + '</li>';
-        var itemClip += '<li>Clip Size: ' + object["Clip Size"] + '</li>';
-        var itemAmmo += '<li>Ammo: ' + object.Ammo + '</li>';
-        var itemNotes += '<li>Notes: ' + object.Notes + '</li></ul>';
+        var itemHTML += '<h2>' + object.Name + '</h2>';
+        var itemHTML += '<p>"' + object.Quote + '"</p>';
+        var itemHTML += '<ul><li>' + object.Type + '</li>';
+        var itemHTML += '<li>Clip Size: ' + object["Clip Size"] + '</li>';
+        var itemHTML += '<li>Ammo: ' + object.Ammo + '</li>';
+        var itemHTML += '<li>Notes: ' + object.Notes + '</li></ul>';
 
         content[object.Name] = itemHTML;
         $a.append($img);
@@ -79,10 +79,10 @@ $(document).ready(function () {
                 '" class="showInfo ' + object.Name + '">');
 
         var itemHTML = '';
-        var itemName += '<h2>' + object.Name + '</h2>';
-        var itemQuote += '<p>"' + object.Quote + '"</p>';
-        var itemType += '<ul><li>' + object.Type + '</li>';
-        var itemEffect += '<li>Notes: ' + object.Effect + '</li></ul>';
+        var itemHTML += '<h2>' + object.Name + '</h2>';
+        var itemHTML += '<p>"' + object.Quote + '"</p>';
+        var itemHTML += '<ul><li>' + object.Type + '</li>';
+        var itemHTML += '<li>Notes: ' + object.Effect + '</li></ul>';
 
         content[object.Name] = $itemHTML;
         $a.append($img);
