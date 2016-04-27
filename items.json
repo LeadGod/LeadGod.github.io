@@ -484,7 +484,7 @@
     "Name":"Shock Rounds",
     "Type":"Passive",
     "Quote":"Electrified!",
-    "Quality":"1S",
+    "Quality":"S",
     "Effect":"Creates a beam of electricity between fired bullets."
   },
   {
@@ -796,7 +796,7 @@
     "Name":"Gundromeda Strain",
     "Type":"Passive",
     "Quote":"All Enemies Weaker!",
-    "Quality":"1S",
+    "Quality":"S",
     "Effect":"Decreases health of all enemies encountered."
   },
   {
@@ -804,7 +804,7 @@
     "Name":"Broccoli",
     "Type":"Passive",
     "Quote":"Makes You Strong",
-    "Quality":"A 1S",
+    "Quality":"A S",
     "Effect":"Increases damage."
   },
   {
@@ -1020,7 +1020,7 @@
     "Name":"Gungeon Blueprint",
     "Type":"Passive",
     "Quote":"Procedurally Updates",
-    "Quality":"1S",
+    "Quality":"S",
     "Effect":"Reveals all floor-maps for the rest of the run."
   },
   {
@@ -1092,7 +1092,7 @@
     "Name":"Green Guon Stone",
     "Type":"Passive",
     "Quote":"Chance To Heal",
-    "Quality":"1S",
+    "Quality":"S",
     "Effect":"Orbits the player, blocking enemy shots on contact. Chance to heal upon taking damage."
   },
   {
@@ -1124,7 +1124,7 @@
     "Name":"Super Hot Watch",
     "Type":"Passive",
     "Quote":"Suuuuuuper",
-    "Quality":"1S",
+    "Quality":"S",
     "Effect":"Slows down time immensely while standing still. Moving speeds up time back to normal."
   },
   {
@@ -1220,7 +1220,7 @@
     "Name":"Seven-Leaf Clover",
     "Type":"Passive",
     "Quote":"Lucky!",
-    "Quality":"1S",
+    "Quality":"S",
     "Effect":"Increases the quality of chests."
   },
   {
@@ -1404,7 +1404,7 @@
     "Name":"Heart of Ice",
     "Type":"Passive",
     "Quote":"That's Cold",
-    "Quality":"C B A 1S",
+    "Quality":"C B A S",
     "Effect":"Grants a heart container. Taking damage releases bouncing ice bullets."
   },
   {
@@ -1412,7 +1412,7 @@
     "Name":"Ancient Hero's Bandana",
     "Type":"Passive",
     "Quote":"Limitless",
-    "Quality":"1S",
+    "Quality":"S",
     "Effect":"Quadruples maximum ammo."
   },
   {
@@ -1444,7 +1444,7 @@
     "Name":"Clone",
     "Type":"Passive",
     "Quote":"The Real Me",
-    "Quality":"1S",
+    "Quality":"S",
     "Effect":"Upon death, the player is revived in the starting room of the first floor, retaining all items and guns."
   },
   {
@@ -1492,7 +1492,7 @@
     "Name":"Shelleton Key",
     "Type":"Passive",
     "Quote":"Locks Are Dead To You",
-    "Quality":"1S",
+    "Quality":"S",
     "Effect":"Allows any chest or lock to be opened without using a key. Increases curse while held."
   },
   {
@@ -1532,7 +1532,7 @@
     "Name":"Owl",
     "Type":"Passive",
     "Quote":"Hoots And More",
-    "Quality":"1S",
+    "Quality":"S",
     "Effect":"Follows the player, firing bullets at enemies and occasionally using short-ranged blanks."
   },
   {
@@ -1548,7 +1548,7 @@
     "Name":"R2G2",
     "Type":"Passive",
     "Quote":"Gunmech Robot",
-    "Quality":"1S",
+    "Quality":"S",
     "Effect":"Follows the player, firing bullets at enemies."
   },
   {
@@ -1612,7 +1612,7 @@
     "Name":"Riddle of Lead",
     "Type":"Passive",
     "Quote":"This You Can Trust",
-    "Quality":"1S",
+    "Quality":"S",
     "Effect":"Grants a heart container, fully heals the player, increases dodge roll speed, increases movement speed, and adds a chance to negate damage."
   },
   {
