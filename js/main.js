@@ -5,15 +5,16 @@ $(document).ready(function () {
 	var itemsLoaded = false;
 
 	var opts = {
-    	className: 'showInfo',
-    	displayId: 'itemInfo',
-        displayDefault: true
-    }
+		className: 'showInfo',
+		displayId: 'itemInfo',
+		displayDefault: true,
+		restoreDefault: false
+	}
 
-    var content = {
+	var content = {
 
-    }
-	
+	}
+
 	$( document ).on("leadGodDataLoaded", function () {
 		if (gunsLoaded && itemsLoaded) {
 			$( document ).dw_hoverSwapContent(content, opts);
@@ -39,31 +40,31 @@ $(document).ready(function () {
 
 		object = data[i];
 		var $img = ('<img alt="' + object.Name + '" ' +
-            'title="' + object.Name + '" ' +
-			'class="gameObject"' +
-			'src="/img/guns/' + object.Icon + '">'
+					'title="' + object.Name + '" ' +
+					'class="gameObject"' +
+					'src="/img/guns/' + object.Icon + '">'
 		);
 
-        var $a = $('<a href="#" id="' + object.Name +
-                '" class="showInfo ' + object.Name + '">');
+		var $a = $('<a href="#" id="' + object.Name +
+				'" class="showInfo" data-loc="' + object.Name + '">');
 
-        var itemHTML = '';
-        itemHTML += '<h2>' + object.Name + '</h2>';
-        itemHTML += '<p>"' + object.Quote + '"</p>';
-        itemHTML += '<ul><li>' + object.Type + '</li>';
-        itemHTML += '<li>Clip Size: ' + object["Clip Size"] + '</li>';
-        itemHTML += '<li>Ammo: ' + object.Ammo + '</li>';
-        itemHTML += '<li>Notes: ' + object.Notes + '</li></ul>';
+		var itemHTML = '';
+		itemHTML += '<h2>' + object.Name + '</h2>';
+		itemHTML += '<p>"' + object.Quote + '"</p>';
+		itemHTML += '<ul><li>' + object.Type + '</li>';
+		itemHTML += '<li>Clip Size: ' + object["Clip Size"] + '</li>';
+		itemHTML += '<li>Ammo: ' + object.Ammo + '</li>';
+		itemHTML += '<li>Notes: ' + object.Notes + '</li></ul>';
 
-        content[object.Name] = itemHTML;
-        $a.append($img);
+		content[object.Name] = itemHTML;
+		$a.append($img);
 		$span.append($a);
 		$div.append($span);
 	}
-	
+
 	gunsLoaded = true;
 	$( document ).trigger("leadGodDataLoaded");
-	
+
 	});
 
 	$.getJSON('items.json', function (data) {
@@ -83,30 +84,28 @@ $(document).ready(function () {
 
 		object = data[i];
 		var $img = ('<img alt="' + object.Name + '" ' +
-            'title="' + object.Name + '" ' +
-			'class="gameObject"' +
-			'src="/img/items/' + object.Icon + '">'
+					'title="' + object.Name + '" ' +
+					'class="gameObject"' +
+					'src="/img/items/' + object.Icon + '">'
 		);
 
-        var $a = $('<a href="#" id="' + object.Name +
-                '" class="showInfo ' + object.Name + '">');
+		var $a = $('<a href="#" id="' + object.Name +
+				'" class="showInfo" data-loc="' + object.Name + '">');
 
-        var itemHTML = '';
-        itemHTML += '<h2>' + object.Name + '</h2>';
-        itemHTML += '<p>"' + object.Quote + '"</p>';
-        itemHTML += '<ul><li>' + object.Type + '</li>';
-        itemHTML += '<li>Notes: ' + object.Effect + '</li></ul>';
+		var itemHTML = '';
+		itemHTML += '<h2>' + object.Name + '</h2>';
+		itemHTML += '<p>"' + object.Quote + '"</p>';
+		itemHTML += '<ul><li>' + object.Type + '</li>';
+		itemHTML += '<li>Notes: ' + object.Effect + '</li></ul>';
 
-        content[object.Name] = itemHTML;
-        $a.append($img);
-        $span.append($a);
-        $div.append($span);
+		content[object.Name] = itemHTML;
+		$a.append($img);
+		$span.append($a);
+		$div.append($span);
 	}
-	
+
 	itemsLoaded = true;
 	$( document ).trigger("leadGodDataLoaded");
-	
-	});
 
-    
+	});
 });
