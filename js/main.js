@@ -37,7 +37,7 @@ $(document).ready(function () {
         var $a = $('<a href="#" id="' + object.Name +
                 '" class="showInfo ' + object.Name + '"</a>');
 
-        var itemHTML += '';
+        var itemHTML = '';
         var itemName += '<h2>' + object.Name + '</h2>';
         var itemQuote += '<p>"' + object.Quote + '"</p>';
         var itemType += '<ul><li>' + object.Type + '</li>';
