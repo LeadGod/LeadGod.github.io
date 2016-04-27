@@ -55,7 +55,7 @@ $(document).ready(function () {
 		itemHTML += '<ul><li>Gun Quality: ' + object.Quality + '</li>';
 		itemHTML += '<li>Gun Type: ' + object.Type + '</li>';
 		itemHTML += '<li>Magazine Size: ' + object["Magazine Size"] + '</li>';
-		itemHTML += '<li>Ammo Capacity: ' + object.Ammo + '</li>';
+		itemHTML += '<li>Ammo Capacity: ' + object.["Ammo Capacity"] + '</li>';
 		itemHTML += '<li>Damage: ' + object.Damage + '</li>';
 		itemHTML += '<li>Fire Rate: ' + object["Fire Rate"] + '</li>';
 		itemHTML += '<li>Shot Speed: ' + object["Shot Speed"] + '</li>';
