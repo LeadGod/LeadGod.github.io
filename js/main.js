@@ -35,23 +35,17 @@ $(document).ready(function () {
 		);
 
         var $a = $('<a href="#" id="' + object.Name +
-                '" class="showInfo ' + object.Name + '"');
+                '" class="showInfo ' + object.Name + '"</a>');
 
-        var $itemHTML = $();
-        var $itemName = $('<h2>' + object.Name + '</h2>');
-        var $itemQuote = $('<p>"' + object.Quote + '"</p>');
-        var $itemType = $('<ul><li>' + object.Type + '</li>');
-        var $itemClip = $('<li>Clip Size: ' + object["Clip Size"] + '</li>');
-        var $itemAmmo = $('<li>Ammo: ' + object.Ammo + '</li>');
-        var $itemNotes = $('<li>Notes: ' + object.Notes + '</li></ul>');
-        $itemHTML.append($itemName);
-        $itemHTML.append($itemQuote);
-        $itemHTML.append($itemType);
-        $itemHTML.append($itemClip);
-        $itemHTML.append($itemAmmo);
-        $itemHTML.append($itemNotes);
+        var itemHTML += '';
+        var itemName += '<h2>' + object.Name + '</h2>';
+        var itemQuote += '<p>"' + object.Quote + '"</p>';
+        var itemType += '<ul><li>' + object.Type + '</li>';
+        var itemClip += '<li>Clip Size: ' + object["Clip Size"] + '</li>';
+        var itemAmmo += '<li>Ammo: ' + object.Ammo + '</li>';
+        var itemNotes += '<li>Notes: ' + object.Notes + '</li></ul>';
 
-        content[object.Name] = $itemHTML;
+        content[object.Name] = itemHTML;
         $a.append($img);
 		$span.append($a);
 		$div.append($span);
@@ -82,17 +76,13 @@ $(document).ready(function () {
 		);
 
         var $a = $('<a href="#" id="' + object.Name +
-                '" class="showInfo ' + object.Name + '"');
+                '" class="showInfo ' + object.Name + '"</a>');
 
-        var $itemHTML = $();
-        var $itemName = $('<h2>' + object.Name + '</h2>');
-        var $itemQuote = $('<p>"' + object.Quote + '"</p>');
-        var $itemType = $('<ul><li>' + object.Type + '</li>');
-        var $itemEffect = $('<li>Notes: ' + object.Effect + '</li></ul>');
-        $itemHTML.append($itemName);
-        $itemHTML.append($itemQuote);
-        $itemHTML.append($itemType);
-        $itemHTML.append($itemEffect);
+        var itemHTML = '';
+        var itemName += '<h2>' + object.Name + '</h2>';
+        var itemQuote += '<p>"' + object.Quote + '"</p>';
+        var itemType += '<ul><li>' + object.Type + '</li>';
+        var itemEffect += '<li>Notes: ' + object.Effect + '</li></ul>';
 
         content[object.Name] = $itemHTML;
         $a.append($img);
