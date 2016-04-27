@@ -52,9 +52,16 @@ $(document).ready(function () {
 		var itemHTML = '';
 		itemHTML += '<h2>' + object.Name + '</h2>';
 		itemHTML += '<p>"' + object.Quote + '"</p>';
-		itemHTML += '<ul><li>' + object.Type + '</li>';
-		itemHTML += '<li>Clip Size: ' + object["Clip Size"] + '</li>';
-		itemHTML += '<li>Ammo: ' + object.Ammo + '</li>';
+		itemHTML += '<ul><li>' + object.Quality + '</li>';
+		itemHTML += '<li>' + object.Type + '</li>';
+		itemHTML += '<li>Magazine Size: ' + object["Magazine Size"] + '</li>';
+		itemHTML += '<li>Ammo Capacity: ' + object.Ammo + '</li>';
+		itemHTML += '<li>Damage: ' + object.Damage + '</li>';
+		itemHTML += '<li>Fire Rate: ' + object["Fire Rate"] + '</li>';
+		itemHTML += '<li>Shot Speed: ' + object["Shot Speed"] + '</li>';
+		itemHTML += '<li>Range: ' + object.Range + '</li>';
+		itemHTML += '<li>Force: ' + object.Force + '</li>';
+		itemHTML += '<li>Spread: ' + object.Spread + '</li>';
 		itemHTML += '<li>Notes: ' + object.Notes + '</li></ul>';
 
 		tempContent[object.Name] = itemHTML;
@@ -96,7 +103,8 @@ $(document).ready(function () {
 		var itemHTML = '';
 		itemHTML += '<h2>' + object.Name + '</h2>';
 		itemHTML += '<p>"' + object.Quote + '"</p>';
-		itemHTML += '<ul><li>' + object.Type + '</li>';
+		itemHTML += '<ul><li>' + object.Quality + '</li>';
+		itemHTML += '<li>' + object.Type + '</li>';
 		itemHTML += '<li>Notes: ' + object.Effect + '</li></ul>';
 
 		tempContent[object.Name] = itemHTML;
