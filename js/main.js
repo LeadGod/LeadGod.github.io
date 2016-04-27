@@ -34,7 +34,7 @@ $(document).ready(function () {
 	{
 		$span = $('<span class="iconContainer">');
 
-		if ((i + 2) % ROW_LENGTH === 0) {
+		if (i === 0 || (i + 2) % ROW_LENGTH === 0) {
 			$div = $('<div class="iconRow">');
 			$section.append($div);
 		}
