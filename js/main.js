@@ -35,7 +35,7 @@ $(document).ready(function () {
 		);
 
         var $a = $('<a href="#" id="' + object.Name +
-                '" class="showInfo ' + object.Name + '"</a>');
+                '" class="showInfo ' + object.Name + '">');
 
         var itemHTML = '';
         var itemName += '<h2>' + object.Name + '</h2>';
@@ -76,7 +76,7 @@ $(document).ready(function () {
 		);
 
         var $a = $('<a href="#" id="' + object.Name +
-                '" class="showInfo ' + object.Name + '"</a>');
+                '" class="showInfo ' + object.Name + '">');
 
         var itemHTML = '';
         var itemName += '<h2>' + object.Name + '</h2>';
