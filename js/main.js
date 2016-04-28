@@ -26,7 +26,7 @@ $(window).load(function () {
 			gutter: 10
 		},
 		filter: function() {
-			return qsRegex ? $(this).text().match( qsRegex ) : true;
+			return qsRegex ? $(this).attr('title').match( qsRegex ) : true;
 		}
 	});
 
