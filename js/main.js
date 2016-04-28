@@ -129,9 +129,9 @@ $(document).ready(function () {
 	$grid2.imagesLoaded().done( function() {
 		$grid2.isotope('layout');
 	});
-});
 
-$(window).resize(function() {
-	$grid1.isotope('layout');
-	$grid2.isotope('layout');
-})
+	$(window).resize(function() {
+		$grid1.isotope('layout');
+		$grid2.isotope('layout');
+	})
+});
