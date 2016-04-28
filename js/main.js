@@ -15,7 +15,7 @@ $.fn.hideReveal = function( options ) {
     });
 };
 
-$(window).load(function () {
+$(document).ready(function() {
 	var ROW_LENGTH = 10;
 	var gunsLoaded  = false;
 	var itemsLoaded = false;
@@ -166,18 +166,14 @@ $(window).load(function () {
 	itemsLoaded = true;
 	$( document ).trigger("leadGodDataLoaded");
 	});
+});
 
+$(window).load(function () {
 	// Layout fixes and forced sorting.
 	$grid1.imagesLoaded( function() {
 		$grid1.isotope('layout');
-		$grid1.isotope('reloadItems');
-		$grid1.isotope({ sortBy : 'original-order' });
 	});
 	$grid2.imagesLoaded(function() {
 		$grid2.isotope('layout');
-		$grid2.isotope('reloadItems');
-		$grid2.isotope({ sortBy : 'original-order' });
 	});
-
-
 });
