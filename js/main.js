@@ -12,8 +12,17 @@ $(document).ready(function () {
 		content: {
 		}
 	}
-
 	var tempContent = swapper.content;
+
+	// init Isotope
+	var $grid1 = $('.grid1').isotope({
+		// options
+		itemSelector: '.grid-item1',
+		layoutMode: 'fitRows',
+		fitRows: {
+			gutter: 10
+		}
+	});
 
 	$( document ).on("leadGodDataLoaded", function () {
 		if (gunsLoaded && itemsLoaded) {
@@ -25,12 +34,10 @@ $(document).ready(function () {
 
 	$.getJSON('guns.json', function (data) {
 	var object = null;
-	var $section = $("#guns");
-	var $div = $('<div class="grid-item">');
 
 	for( var i = 0; i < data.length; i++ )
 	{
-		var $div = $('<div class="grid-item">');
+		var $div = $('<div class="grid-item1" />');
 
 		object = data[i];
 		var $img = ('<img alt="' + object.Name + '" ' +
@@ -42,6 +49,11 @@ $(document).ready(function () {
 		var $a = $('<a href="#' + object.Name +
 				'" class="showInfo" data-loc="' + object.Name + '">');
 
+		$a.append($img);
+		$div.append($a);
+		$grid1.isotope('insert', $div);
+
+		// Item descriptions
 		var itemHTML = '';
 		itemHTML += '<h2>' + object.Name + '</h2>';
 		itemHTML += '<p>"' + object.Quote + '"</p>';
@@ -58,9 +70,6 @@ $(document).ready(function () {
 		itemHTML += '<li>Notes: ' + object.Notes + '</li></ul>';
 
 		tempContent[object.Name] = itemHTML;
-		$a.append($img);
-		$div.append($a);
-		$section.append($div);
 	}
 
 	gunsLoaded = true;
@@ -68,14 +77,22 @@ $(document).ready(function () {
 
 	});
 
+	// init Isotope
+	var $grid2 = $('.grid2').isotope({
+		// options
+		itemSelector: '.grid-item2',
+		layoutMode: 'fitRows',
+		fitRows: {
+			gutter: 10
+		}
+	});
+
 	$.getJSON('items.json', function (data) {
 	var object = null;
-	var $section = $("#items");
-	var $div = $('<div class="grid-item">');
 
 	for( var i = 0; i < data.length; i++ )
 	{
-		var $div = $('<div class="grid-item">');
+		var $div = $('<div class="grid-item2" />');
 
 		object = data[i];
 		var $img = ('<img alt="' + object.Name + '" ' +
@@ -86,7 +103,11 @@ $(document).ready(function () {
 
 		var $a = $('<a href="#' + object.Name +
 				'" class="showInfo" data-loc="' + object.Name + '">');
+		$a.append($img);
+		$div.append($a);
+		$grid2.isotope('insert', $div);
 
+		// Item descriptions
 		var itemHTML = '';
 		itemHTML += '<h2>' + object.Name + '</h2>';
 		itemHTML += '<p>"' + object.Quote + '"</p>';
@@ -95,9 +116,6 @@ $(document).ready(function () {
 		itemHTML += '<li>Notes: ' + object.Effect + '</li></ul>';
 
 		tempContent[object.Name] = itemHTML;
-		$a.append($img);
-		$div.append($a);
-		$section.append($div);
 	}
 
 	itemsLoaded = true;
@@ -105,14 +123,10 @@ $(document).ready(function () {
 	});
 });
 
-var $grid = $('.grid').imagesLoaded( function() {
-	// init Isotope after all images have loaded
-	$grid.isotope({
-		// options
-		itemSelector: '.grid-item',
-		layoutMode: 'fitRows',
-		fitRows: {
-			gutter: 10
-		}
-	});
+// layout Isotope after each image loads
+$grid1.imagesLoaded().progress( function() {
+  $grid1.isotope('layout');
+});
+$grid2.imagesLoaded().progress( function() {
+  $grid2.isotope('layout');
 });

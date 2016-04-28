@@ -161,20 +161,20 @@ nav a:hover {
     margin-left: 150px;
 }
 
-.grid {
+.grid1, .grid2 {
     max-width: 100%;
 }
 /* clear fix */
-.grid:after {
+.grid1:after, .grid2:after {
   content: '';
   display: block;
   clear: both;
 }
-.grid-item {
+.grid-item1, .grid-item2 {
     float: left;
     max-width: 100px;
 }
-.grid-item img {
+.grid-item1 img, .grid-item2 img {
   display: block;
   max-width: 100%;
 }
