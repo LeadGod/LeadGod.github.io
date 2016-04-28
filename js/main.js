@@ -26,7 +26,7 @@ $(window).load(function () {
 			gutter: 10
 		},
 		filter: function() {
-			return ? $(this).text().match( qsRegex ) : true;
+			return qsRegex ? $(this).text().match( qsRegex ) : true;
 		}
 	});
 
@@ -38,7 +38,7 @@ $(window).load(function () {
 			gutter: 10
 		},
 		filter: function() {
-			return ? $(this).text().match( qsRegex ) : true;
+			return qsRegex ? $(this).text().match( qsRegex ) : true;
 		}
 	});
 
