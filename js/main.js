@@ -32,10 +32,11 @@ $(document).ready(function () {
 	$.getJSON('guns.json', function (data) {
 	var object = null;
 	var $section = $("#guns");
-	var $div = $('<p class="grid-item">');
+	var $div = $('<div class="grid-item">');
 
 	for( var i = 0; i < data.length; i++ )
 	{
+		var $div = $('<div class="grid-item">');
 
 		object = data[i];
 		var $img = ('<img alt="' + object.Name + '" ' +
@@ -64,8 +65,8 @@ $(document).ready(function () {
 
 		tempContent[object.Name] = itemHTML;
 		$a.append($img);
-		$p.append($a);
-		$section.append($p);
+		$div.append($a);
+		$section.append($div);
 	}
 
 	gunsLoaded = true;
@@ -76,10 +77,11 @@ $(document).ready(function () {
 	$.getJSON('items.json', function (data) {
 	var object = null;
 	var $section = $("#items");
-	var $p = $('<p class="grid-item">');
+	var $div = $('<div class="grid-item">');
 
 	for( var i = 0; i < data.length; i++ )
 	{
+		var $div = $('<div class="grid-item">');
 
 		object = data[i];
 		var $img = ('<img alt="' + object.Name + '" ' +
@@ -100,8 +102,8 @@ $(document).ready(function () {
 
 		tempContent[object.Name] = itemHTML;
 		$a.append($img);
-		$p.append($a);
-		$section.append($p);
+		$div.append($a);
+		$section.append($div);
 	}
 
 	itemsLoaded = true;
