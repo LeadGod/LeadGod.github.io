@@ -6,7 +6,10 @@ $(document).ready(function () {
 	$('.grid').isotope({
 		// options
 		itemSelector: '.grid-item',
-		layoutMode: 'fitRows'
+		layoutMode: 'fitRows',
+		fitRows: {
+			gutter: 10
+		}
 	});
 
 	var swapper = {
