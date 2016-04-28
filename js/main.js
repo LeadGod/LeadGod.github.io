@@ -37,21 +37,20 @@ $(window).load(function () {
 
 	for( var i = 0; i < data.length; i++ )
 	{
-		var $div = $('<div class="grid-item1" />');
-
 		object = data[i];
-		var $img = ('<img alt="' + object.Name + '" ' +
-					'title="' + object.Name + '" ' +
-					'class="gameObject"' +
-					'src="/img/guns/' + object.Icon + '">'
-		);
 
-		var $a = $('<a href="#' + object.Name +
-				'" class="showInfo" data-loc="' + object.Name + '">');
+		// var $div = $('<div class="grid-item1" />');
+		// var $img = ('<img alt="' + object.Name + '" ' +
+		// 			'title="' + object.Name + '" ' +
+		// 			'class="gameObject"' +
+		// 			'src="/img/guns/' + object.Icon + '">'
+		// );
+		// var $a = $('<a href="#' + object.Name +
+		// 		'" class="showInfo" data-loc="' + object.Name + '">');
 
-		$a.append($img);
-		$div.append($a);
-		$grid1.isotope('insert', $div);
+		// $a.append($img);
+		// $div.append($a);
+		// $grid1.isotope('insert', $div);
 
 		// Item descriptions
 		var itemHTML = '';
@@ -92,20 +91,20 @@ $(window).load(function () {
 
 	for( var i = 0; i < data.length; i++ )
 	{
-		var $div = $('<div class="grid-item2" />');
-
 		object = data[i];
-		var $img = ('<img alt="' + object.Name + '" ' +
-					'title="' + object.Name + '" ' +
-					'class="gameObject"' +
-					'src="/img/items/' + object.Icon + '">'
-		);
 
-		var $a = $('<a href="#' + object.Name +
-				'" class="showInfo" data-loc="' + object.Name + '">');
-		$a.append($img);
-		$div.append($a);
-		$grid2.isotope('insert', $div);
+		// var $div = $('<div class="grid-item2" />');
+		// var $img = ('<img alt="' + object.Name + '" ' +
+		// 			'title="' + object.Name + '" ' +
+		// 			'class="gameObject"' +
+		// 			'src="/img/items/' + object.Icon + '">'
+		// );
+		// var $a = $('<a href="#' + object.Name +
+		// 		'" class="showInfo" data-loc="' + object.Name + '">');
+
+		// $a.append($img);
+		// $div.append($a);
+		// $grid2.isotope('insert', $div);
 
 		// Item descriptions
 		var itemHTML = '';
