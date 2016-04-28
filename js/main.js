@@ -98,10 +98,8 @@ $(document).ready(function () {
 	$( document ).trigger("leadGodDataLoaded");
 
 	});
-});
 
-$(window).load(function() {
-    var options =
+	var options =
     {
         srcNode: 'img',             // grid items (class, node)
         margin: '10px',             // margin in pixel, default: 0px

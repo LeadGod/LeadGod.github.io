@@ -161,29 +161,6 @@ nav a:hover {
     margin-left: 150px;
 }
 
-.iconRow{
-	height: 3em;
-	float: left;
-	width: 100%;
-}
-
-.iconContainer{
-	display: inline-block;
-	min-height: 100%;
-	width: 8%;
-	padding: 0 1%;
-	float: left;
-    text-align: center;
-}
-
-.iconContainer img{
-    vertical-align: middle;
-}
-
-.gameObjects p>img{
-    margin: 2px;
-}
-
 .container-1{
 	position: relative;
 }
