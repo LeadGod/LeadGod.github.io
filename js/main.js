@@ -38,7 +38,7 @@ $(window).load(function () {
 			gutter: 10
 		},
 		filter: function() {
-			return qsRegex ? $(this).text().match( qsRegex ) : true;
+			return qsRegex ? $(this).attr('data-name').match( qsRegex ) : true;
 		}
 	});
 
@@ -127,7 +127,7 @@ $(window).load(function () {
 
 		var str = object.Name;
 		var res = str.replace(/ /g, "-").replace("'", "_");
-		var $div = $('<div class="grid-item1" data-name="' + object.Name + '" />');
+		var $div = $('<div class="grid-item2" data-name="' + object.Name + '" />');
 		var $img = ('<img alt="' + object.Name + '" ' +
 					'title="' + object.Name + '" ' +
 					'class="gameObject gameObject-' + res +
