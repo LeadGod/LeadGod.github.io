@@ -56,7 +56,7 @@ $(window).load(function () {
 		var $img = ('<img alt="' + object.Name + '" ' +
 					'title="' + object.Name + '" ' +
 					'class="gameObject gameObject-' + res +
-					'src="/img/trans.png>'
+					'" src="/img/trans.png>'
 		);
 		var $a = $('<a href="#' + object.Name +
 				'" class="showInfo" data-loc="' + object.Name + '">');
@@ -104,7 +104,7 @@ $(window).load(function () {
 		var $img = ('<img alt="' + object.Name + '" ' +
 					'title="' + object.Name + '" ' +
 					'class="gameObject gameObject-' + res +
-					'src="/img/trans.png>'
+					'" src="/img/trans.png>'
 		);
 		var $a = $('<a href="#' + object.Name +
 				'" class="showInfo" data-loc="' + object.Name + '">');
