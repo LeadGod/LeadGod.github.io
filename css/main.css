@@ -162,8 +162,17 @@ nav a:hover {
 }
 
 .grid {width: 100%;}
-.grid-item { width: 25%; }
-.grid-item--width2 { width: 50%; }
+/* clear fix */
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.grid-item { width: auto; }
+.grid-item img {
+  display: block;
+  max-width: 100%;
+}
 
 .container-1{
 	position: relative;
