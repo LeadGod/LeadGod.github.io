@@ -1,4 +1,4 @@
-$(document).ready(function () {
+$(window).load(function () {
 	var ROW_LENGTH = 10;
 	var gunsLoaded  = false;
 	var itemsLoaded = false;
@@ -129,9 +129,4 @@ $(document).ready(function () {
 	$grid2.imagesLoaded(function() {
 		$grid2.isotope('layout');
 	};
-
-	$(window).resize(function() {
-		$grid1.isotope('layout');
-		$grid2.isotope('layout');
-	})
 });
