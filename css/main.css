@@ -166,17 +166,19 @@ nav a:hover {
 }
 /* clear fix */
 .grid1:after, .grid2:after {
-  content: '';
-  display: block;
-  clear: both;
+    content: '';
+    display: block;
+    clear: both;
 }
 .grid-item1, .grid-item2 {
     float: left;
     max-width: 100px;
+    max-height: 100px;
 }
 .grid-item1 img, .grid-item2 img {
-  display: block;
-  max-width: 100%;
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
 }
 
 .container-1{
