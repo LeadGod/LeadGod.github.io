@@ -114,7 +114,7 @@ $(window).load(function() {
 				itemSelector: '.grid-item',
 				layoutMode: 'fitRows',
 				fitRows: {
-					gutter: 5
+					gutter: 10
 				}
 			});
 		});
