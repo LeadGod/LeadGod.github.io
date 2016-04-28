@@ -14,15 +14,25 @@ $(window).load(function () {
 	}
 	var tempContent = swapper.content;
 
-	// init Isotope
-	var $grid1 = $('.grid1').isotope({
-		// options
-		itemSelector: '.grid-item1',
-		layoutMode: 'fitRows',
-		fitRows: {
-			gutter: 10
-		}
-	});
+	// // init Isotope
+	// var $grid1 = $('.grid1').isotope({
+	// 	// options
+	// 	itemSelector: '.grid-item1',
+	// 	layoutMode: 'fitRows',
+	// 	fitRows: {
+	// 		gutter: 10
+	// 	}
+	// });
+
+	// // init Isotope
+	// var $grid2 = $('.grid2').isotope({
+	// 	// options
+	// 	itemSelector: '.grid-item2',
+	// 	layoutMode: 'fitRows',
+	// 	fitRows: {
+	// 		gutter: 10
+	// 	}
+	// });
 
 	$( document ).on("leadGodDataLoaded", function () {
 		if (gunsLoaded && itemsLoaded) {
@@ -35,21 +45,25 @@ $(window).load(function () {
 	$.getJSON('guns.json', function (data) {
 	var object = null;
 
+	var $guns = $("#guns");
 	for( var i = 0; i < data.length; i++ )
 	{
 		object = data[i];
 
-		// var $div = $('<div class="grid-item1" />');
-		// var $img = ('<img alt="' + object.Name + '" ' +
-		// 			'title="' + object.Name + '" ' +
-		// 			'class="gameObject"' +
-		// 			'src="/img/guns/' + object.Icon + '">'
-		// );
-		// var $a = $('<a href="#' + object.Name +
-		// 		'" class="showInfo" data-loc="' + object.Name + '">');
+		var str = object.Name;
+		var res = str.replace(/ /g, "-").replace("'", "_");
+		var $div = $('<div class="grid-item1" />');
+		var $img = ('<img alt="' + object.Name + '" ' +
+					'title="' + object.Name + '" ' +
+					'class="gameObject gameObject-' + res +
+					'src="/img/trans.png>'
+		);
+		var $a = $('<a href="#' + object.Name +
+				'" class="showInfo" data-loc="' + object.Name + '">');
 
-		// $a.append($img);
-		// $div.append($a);
+		$a.append($img);
+		$div.append($a);
+		$guns.append($div);
 		// $grid1.isotope('insert', $div);
 
 		// Item descriptions
@@ -76,34 +90,28 @@ $(window).load(function () {
 
 	});
 
-	// init Isotope
-	var $grid2 = $('.grid2').isotope({
-		// options
-		itemSelector: '.grid-item2',
-		layoutMode: 'fitRows',
-		fitRows: {
-			gutter: 10
-		}
-	});
-
 	$.getJSON('items.json', function (data) {
 	var object = null;
 
+	var $items = $("#items");
 	for( var i = 0; i < data.length; i++ )
 	{
 		object = data[i];
 
-		// var $div = $('<div class="grid-item2" />');
-		// var $img = ('<img alt="' + object.Name + '" ' +
-		// 			'title="' + object.Name + '" ' +
-		// 			'class="gameObject"' +
-		// 			'src="/img/items/' + object.Icon + '">'
-		// );
-		// var $a = $('<a href="#' + object.Name +
-		// 		'" class="showInfo" data-loc="' + object.Name + '">');
+		var str = object.Name;
+		var res = str.replace(/ /g, "-").replace("'", "_");
+		var $div = $('<div class="grid-item2" />');
+		var $img = ('<img alt="' + object.Name + '" ' +
+					'title="' + object.Name + '" ' +
+					'class="gameObject gameObject-' + res +
+					'src="/img/trans.png>'
+		);
+		var $a = $('<a href="#' + object.Name +
+				'" class="showInfo" data-loc="' + object.Name + '">');
 
-		// $a.append($img);
-		// $div.append($a);
+		$a.append($img);
+		$div.append($a);
+		$items.append($div);
 		// $grid2.isotope('insert', $div);
 
 		// Item descriptions
@@ -122,14 +130,14 @@ $(window).load(function () {
 	});
 
 	// layout Isotope after each image loads
-	$grid1.imagesLoaded( function() {
-		$grid1.isotope('layout');
-		$grid1.isotope('reloadItems');
-		$grid1.isotope({ sortBy : 'original-order' });
-	});
-	$grid2.imagesLoaded(function() {
-		$grid2.isotope('layout');
-		$grid2.isotope('reloadItems');
-		$grid2.isotope({ sortBy : 'original-order' });
-	});
+	// $grid1.imagesLoaded( function() {
+	// 	$grid1.isotope('layout');
+	// 	$grid1.isotope('reloadItems');
+	// 	$grid1.isotope({ sortBy : 'original-order' });
+	// });
+	// $grid2.imagesLoaded(function() {
+	// 	$grid2.isotope('layout');
+	// 	$grid2.isotope('reloadItems');
+	// 	$grid2.isotope({ sortBy : 'original-order' });
+	// });
 });
