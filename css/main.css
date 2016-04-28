@@ -172,14 +172,14 @@ nav a:hover {
 }
 .grid-item1, .grid-item2 {
     float: left;
-    max-width: 100px;
-    max-height: 100px;
+    width: 90px;
+    height: 90px;
     padding-bottom: 10px;
 }
-.grid-item1 img, .grid-item2 img {
+/*.grid-item1 img, .grid-item2 img {
     display: block;
     max-width: 100%;
-}
+}*/
 
 .container-1{
 	position: relative;
