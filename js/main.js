@@ -125,10 +125,12 @@ $(window).load(function () {
 	// layout Isotope after each image loads
 	$grid1.imagesLoaded( function() {
 		$grid1.isotope('layout');
-		$grid1.isotope('reloadItems')
+		$grid1.isotope('reloadItems');
+		$grid1.isotope({ sortBy : 'original-order' });
 	});
 	$grid2.imagesLoaded(function() {
 		$grid2.isotope('layout');
-		$grid2.isotope('reloadItems')
+		$grid2.isotope('reloadItems');
+		$grid2.isotope({ sortBy : 'original-order' });
 	});
 });
