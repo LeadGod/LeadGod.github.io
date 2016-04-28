@@ -112,4 +112,8 @@ $(document).ready(function () {
 			gutter: 10
 		}
 	});
+
+	$("#grid").isotope( 'remove', $(".grid-item"), function(){
+    $("#grid").prepend($(data)).isotope( 'reloadItems' ).isotope({ sortBy: 'original-order' });
+});
 });
