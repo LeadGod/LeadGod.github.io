@@ -59,7 +59,9 @@ $(window).load(function () {
 	// use value of search field to filter
 	var $search = $('.search').keyup( debounce( function() {
 		qsRegex = new RegExp( $search.val(), 'gi' );
-		$grid1.hideReveal();
+		$grid1.hideReveal({		filter: function() {
+			return qsRegex ? $(this).attr('data-name').match( qsRegex ) : true;
+		}});
 		$grid2.isotope();
 	}, 200 ) );
 
