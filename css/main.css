@@ -161,14 +161,19 @@ nav a:hover {
     margin-left: 150px;
 }
 
-.grid {width: 100%;}
+.grid {
+    max-width: 100%;
+}
 /* clear fix */
 .grid:after {
   content: '';
   display: block;
   clear: both;
 }
-.grid-item { width: auto; }
+.grid-item {
+    float: left;
+    width: 80px;
+}
 .grid-item img {
   display: block;
   max-width: 100%;
