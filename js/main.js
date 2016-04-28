@@ -15,12 +15,18 @@ $(window).load(function () {
 	var tempContent = swapper.content;
 
 	// init Isotope for weapons and items
+	// Search init
+
+	var qsRegex;
 	var $grid1 = $('.grid1').isotope({
 		// options
 		itemSelector: '.grid-item1',
 		layoutMode: 'fitRows',
 		fitRows: {
 			gutter: 10
+		},
+		filter: function() {
+			return ? $(this).text().match( qsRegex ) : true;
 		}
 	});
 
@@ -30,8 +36,33 @@ $(window).load(function () {
 		layoutMode: 'fitRows',
 		fitRows: {
 			gutter: 10
+		},
+		filter: function() {
+			return ? $(this).text().match( qsRegex ) : true;
 		}
 	});
+
+	// use value of search field to filter
+	var $search = $('.search').keyup( debounce( function() {
+		qsRegex = new RegExp( $search.val(), 'gi' );
+		$grid1.isotope();
+		$grid2.isotope();
+	}, 200 ) );
+
+	// debounce so filtering doesn't happen every millisecond
+	function debounce( fn, threshold ) {
+		var timeout;
+		return function debounced() {
+			if ( timeout ) {
+				clearTimeout( timeout );
+			}
+			function delayed() {
+				fn();
+				timeout = null;
+			}
+			timeout = setTimeout( delayed, threshold || 100 );
+		}
+	}
 
 	$( document ).on("leadGodDataLoaded", function () {
 		if (gunsLoaded && itemsLoaded) {
@@ -135,4 +166,6 @@ $(window).load(function () {
 		$grid2.isotope('reloadItems');
 		$grid2.isotope({ sortBy : 'original-order' });
 	});
+
+
 });
