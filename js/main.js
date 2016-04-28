@@ -129,4 +129,6 @@ $(window).load(function () {
 	$grid2.imagesLoaded(function() {
 		$grid2.isotope('layout');
 	});
+
+	$(window).smartresize();
 });
