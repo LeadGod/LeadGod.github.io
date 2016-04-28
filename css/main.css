@@ -161,6 +161,7 @@ nav a:hover {
     margin-left: 150px;
 }
 
+.grid {width: 100%;}
 .grid-item { width: 25%; }
 .grid-item--width2 { width: 50%; }
 
