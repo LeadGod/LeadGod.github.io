@@ -172,7 +172,7 @@ nav a:hover {
 }
 .grid-item {
     float: left;
-    width: 80px;
+    max-width: 80px;
 }
 .grid-item img {
   display: block;
