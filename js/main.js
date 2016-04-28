@@ -14,36 +14,20 @@ $(window).load(function () {
 	}
 	var tempContent = swapper.content;
 
-	$.fn.hideReveal = function( options ) {
-		options = $.extend({
-			filter: '*',
-			hiddenStyle: { opacity: 0.2 },
-			visibleStyle: { opacity: 1 },
-		}, options );
-		this.each( function() {
-			var $items = $(this).children();
-			var $visible = $items.filter( options.filter );
-			var $hidden = $items.not( options.filter );
-			// reveal visible
-			$visible.animate( options.visibleStyle );
-			// hide hidden
-			$hidden.animate( options.hiddenStyle );
-		});
-	};
-
 	var qsRegex;
 	var $grid1 = $('.grid1').isotope({
 		// options
 		itemSelector: '.grid-item1',
 		layoutMode: 'fitRows',
+		hiddenStyle: { opacity: 0.5 },
+		visibleStyle: { opacity: 1 },
 		fitRows: {
 			gutter: 10
+		},
+		filter: function() {
+			return qsRegex ? $(this).attr('data-name').match( qsRegex ) : true;
 		}
 	});
-
-	$grid1.hideReveal( {filter: function() {
-				return qsRegex ? $(this).attr('data-name').match( qsRegex ) : true;
-		}});
 
 	var $grid2 = $('.grid2').isotope({
 		// options
