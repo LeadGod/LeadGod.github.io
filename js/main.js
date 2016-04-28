@@ -14,8 +14,22 @@ $(window).load(function () {
 	}
 	var tempContent = swapper.content;
 
-	// init Isotope for weapons and items
-	// Search init
+	$.fn.hideReveal = function( options ) {
+		options = $.extend({
+			filter: '*',
+			hiddenStyle: { opacity: 0.2 },
+			visibleStyle: { opacity: 1 },
+		}, options );
+		this.each( function() {
+			var $items = $(this).children();
+			var $visible = $items.filter( options.filter );
+			var $hidden = $items.not( options.filter );
+			// reveal visible
+			$visible.animate( options.visibleStyle );
+			// hide hidden
+			$hidden.animate( options.hiddenStyle );
+		});
+	};
 
 	var qsRegex;
 	var $grid1 = $('.grid1').isotope({
@@ -24,11 +38,13 @@ $(window).load(function () {
 		layoutMode: 'fitRows',
 		fitRows: {
 			gutter: 10
-		},
-		filter: function() {
-			return qsRegex ? $(this).attr('data-name').match( qsRegex ) : true;
 		}
 	});
+
+	$grid1.hideReveal(
+		filter: function() {
+			return qsRegex ? $(this).attr('data-name').match( qsRegex ) : true;
+		});
 
 	var $grid2 = $('.grid2').isotope({
 		// options
