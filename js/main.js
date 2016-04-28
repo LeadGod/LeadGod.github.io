@@ -19,7 +19,7 @@ $(window).load(function () {
 		// options
 		itemSelector: '.grid-item1',
 		layoutMode: 'fitRows',
-		hiddenStyle: { opacity: 0.5 },
+		hiddenStyle: { opacity: 0.5, transform: 'scale(1)' },
 		visibleStyle: { opacity: 1 },
 		fitRows: {
 			gutter: 10
