@@ -123,7 +123,7 @@ $(window).load(function () {
 	});
 
 	// layout Isotope after each image loads
-	$grid1.imagesLoaded() function() {
+	$grid1.imagesLoaded( function() {
 		$grid1.isotope('layout');
 	};
 	$grid2.imagesLoaded(function() {
