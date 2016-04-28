@@ -130,5 +130,6 @@ $(window).load(function () {
 		$grid2.isotope('layout');
 	});
 
-	$(window).smartresize();
+	$grid1.isotope('reloadItems')
+	$grid2.isotope('reloadItems')
 });
