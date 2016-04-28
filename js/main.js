@@ -41,10 +41,9 @@ $(window).load(function () {
 		}
 	});
 
-	$grid1.hideReveal(
-		filter: function() {
-			return qsRegex ? $(this).attr('data-name').match( qsRegex ) : true;
-		});
+	$grid1.hideReveal( {filter: function() {
+				return qsRegex ? $(this).attr('data-name').match( qsRegex ) : true;
+		}});
 
 	var $grid2 = $('.grid2').isotope({
 		// options
