@@ -38,9 +38,6 @@ $(window).load(function () {
 		layoutMode: 'fitRows',
 		fitRows: {
 			gutter: 10
-		},
-		filter: function() {
-			return qsRegex ? $(this).attr('data-name').match( qsRegex ) : true;
 		}
 	});
 
@@ -50,9 +47,6 @@ $(window).load(function () {
 		layoutMode: 'fitRows',
 		fitRows: {
 			gutter: 10
-		},
-		filter: function() {
-			return qsRegex ? $(this).attr('data-name').match( qsRegex ) : true;
 		}
 	});
 
@@ -62,7 +56,9 @@ $(window).load(function () {
 		$grid1.hideReveal({		filter: function() {
 			return qsRegex ? $(this).attr('data-name').match( qsRegex ) : true;
 		}});
-		$grid2.isotope();
+		$grid2.hideReveal({		filter: function() {
+			return qsRegex ? $(this).attr('data-name').match( qsRegex ) : true;
+		}});
 	}, 200 ) );
 
 	// debounce so filtering doesn't happen every millisecond
