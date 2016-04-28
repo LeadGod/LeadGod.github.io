@@ -2,7 +2,7 @@ $(window).load(function() {
     var options =
     {
         srcNode: 'img',             // grid items (class, node)
-        margin: '5px',             // margin in pixel, default: 0px
+        margin: '10px',             // margin in pixel, default: 0px
         width: '35px',             // grid item width in pixel, default: 220px
         max_width: '',              // dynamic gird item width if specified, (pixel)
         resizable: true,           // re-layout if window resize
