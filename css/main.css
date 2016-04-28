@@ -162,8 +162,8 @@ nav a:hover {
 }
 
 .main-container {
-    height: 1%;
-    overflow: hidden;
+    display:block;
+    overflow:auto;
 }
 
 .grid1, .grid2 {
