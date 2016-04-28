@@ -161,6 +161,11 @@ nav a:hover {
     margin-left: 150px;
 }
 
+.main-container {
+    height: 1%;
+    overflow: hidden;
+}
+
 .grid1, .grid2 {
     max-width: 100%;
 }
