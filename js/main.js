@@ -105,18 +105,14 @@ $(document).ready(function () {
 	});
 });
 
-$(window).load(function() {
-	$(function() {
-		var $grid = $('.grid').imagesLoaded( function() {
-			// init Isotope after all images have loaded
-			$grid.isotope({
-				// options
-				itemSelector: '.grid-item',
-				layoutMode: 'fitRows',
-				fitRows: {
-					gutter: 10
-				}
-			});
-		});
+var $grid = $('.grid').imagesLoaded( function() {
+	// init Isotope after all images have loaded
+	$grid.isotope({
+		// options
+		itemSelector: '.grid-item',
+		layoutMode: 'fitRows',
+		fitRows: {
+			gutter: 10
+		}
 	});
 });
