@@ -172,8 +172,8 @@ nav a:hover {
 }
 .grid-item1, .grid-item2 {
     float: left;
-    width: 90px;
-    height: 90px;
+    max-width: 90px;
+    max-height: 90px;
     padding-bottom: 10px;
 }
 /*.grid-item1 img, .grid-item2 img {
