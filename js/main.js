@@ -121,12 +121,12 @@ $(document).ready(function () {
 	itemsLoaded = true;
 	$( document ).trigger("leadGodDataLoaded");
 	});
-});
 
-// layout Isotope after each image loads
-$grid1.imagesLoaded().progress( function() {
-  $grid1.isotope('reLayout');
-});
-$grid2.imagesLoaded().progress( function() {
-  $grid2.isotope('reLayout');
+	// layout Isotope after each image loads
+	$grid1.imagesLoaded().progress( function() {
+		$grid1.isotope('reLayout');
+	});
+	$grid2.imagesLoaded().progress( function() {
+		$grid2.isotope('reLayout');
+	});
 });
