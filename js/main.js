@@ -14,25 +14,25 @@ $(window).load(function () {
 	}
 	var tempContent = swapper.content;
 
-	// // init Isotope
-	// var $grid1 = $('.grid1').isotope({
-	// 	// options
-	// 	itemSelector: '.grid-item1',
-	// 	layoutMode: 'fitRows',
-	// 	fitRows: {
-	// 		gutter: 10
-	// 	}
-	// });
+	// init Isotope
+	var $grid1 = $('.grid1').isotope({
+		// options
+		itemSelector: '.grid-item1',
+		layoutMode: 'fitRows',
+		fitRows: {
+			gutter: 10
+		}
+	});
 
-	// // init Isotope
-	// var $grid2 = $('.grid2').isotope({
-	// 	// options
-	// 	itemSelector: '.grid-item2',
-	// 	layoutMode: 'fitRows',
-	// 	fitRows: {
-	// 		gutter: 10
-	// 	}
-	// });
+	// init Isotope
+	var $grid2 = $('.grid2').isotope({
+		// options
+		itemSelector: '.grid-item2',
+		layoutMode: 'fitRows',
+		fitRows: {
+			gutter: 10
+		}
+	});
 
 	$( document ).on("leadGodDataLoaded", function () {
 		if (gunsLoaded && itemsLoaded) {
@@ -45,7 +45,6 @@ $(window).load(function () {
 	$.getJSON('guns.json', function (data) {
 	var object = null;
 
-	var $guns = $("#guns");
 	for( var i = 0; i < data.length; i++ )
 	{
 		object = data[i];
@@ -63,8 +62,7 @@ $(window).load(function () {
 
 		$a.append($img);
 		$div.append($a);
-		$guns.append($div);
-		// $grid1.isotope('insert', $div);
+		$grid1.isotope('insert', $div);
 
 		// Item descriptions
 		var itemHTML = '';
@@ -93,7 +91,6 @@ $(window).load(function () {
 	$.getJSON('items.json', function (data) {
 	var object = null;
 
-	var $items = $("#items");
 	for( var i = 0; i < data.length; i++ )
 	{
 		object = data[i];
@@ -111,8 +108,7 @@ $(window).load(function () {
 
 		$a.append($img);
 		$div.append($a);
-		$items.append($div);
-		// $grid2.isotope('insert', $div);
+		$grid2.isotope('insert', $div);
 
 		// Item descriptions
 		var itemHTML = '';
@@ -129,15 +125,15 @@ $(window).load(function () {
 	$( document ).trigger("leadGodDataLoaded");
 	});
 
-	// layout Isotope after each image loads
-	// $grid1.imagesLoaded( function() {
-	// 	$grid1.isotope('layout');
-	// 	$grid1.isotope('reloadItems');
-	// 	$grid1.isotope({ sortBy : 'original-order' });
-	// });
-	// $grid2.imagesLoaded(function() {
-	// 	$grid2.isotope('layout');
-	// 	$grid2.isotope('reloadItems');
-	// 	$grid2.isotope({ sortBy : 'original-order' });
-	// });
+	layout Isotope after each image loads
+	$grid1.imagesLoaded( function() {
+		$grid1.isotope('layout');
+		$grid1.isotope('reloadItems');
+		$grid1.isotope({ sortBy : 'original-order' });
+	});
+	$grid2.imagesLoaded(function() {
+		$grid2.isotope('layout');
+		$grid2.isotope('reloadItems');
+		$grid2.isotope({ sortBy : 'original-order' });
+	});
 });
