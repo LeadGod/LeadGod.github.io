@@ -19,7 +19,7 @@ $(window).load(function () {
 		// options
 		itemSelector: '.grid-item1',
 		masonry: {
-			columnWidth: 90,
+			columnWidth: 60,
 			gutter: 10
 		}
 	});
