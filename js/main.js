@@ -3,15 +3,6 @@ $(document).ready(function () {
 	var gunsLoaded  = false;
 	var itemsLoaded = false;
 
-	$('.grid').isotope({
-		// options
-		itemSelector: '.grid-item',
-		layoutMode: 'fitRows',
-		fitRows: {
-			gutter: 10
-		}
-	});
-
 	var swapper = {
 		className: 'showInfo',
 		displayId: 'itemInfo',
@@ -111,5 +102,14 @@ $(document).ready(function () {
 
 	itemsLoaded = true;
 	$( document ).trigger("leadGodDataLoaded");
+	});
+
+	$('.grid').isotope({
+		// options
+		itemSelector: '.grid-item',
+		layoutMode: 'fitRows',
+		fitRows: {
+			gutter: 10
+		}
 	});
 });
