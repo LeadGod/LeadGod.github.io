@@ -18,8 +18,8 @@ $(window).load(function () {
 	var $grid1 = $('.grid1').isotope({
 		// options
 		itemSelector: '.grid-item1',
-		masonry: {
-			columnWidth: 60,
+		layoutMode: 'fitRows',
+		fitRows: {
 			gutter: 10
 		}
 	});
