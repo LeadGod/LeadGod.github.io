@@ -14,7 +14,7 @@ $(window).load(function () {
 	}
 	var tempContent = swapper.content;
 
-	// init Isotope
+	// init Isotope for weapons and items
 	var $grid1 = $('.grid1').isotope({
 		// options
 		itemSelector: '.grid-item1',
@@ -24,7 +24,6 @@ $(window).load(function () {
 		}
 	});
 
-	// init Isotope
 	var $grid2 = $('.grid2').isotope({
 		// options
 		itemSelector: '.grid-item2',
@@ -125,7 +124,7 @@ $(window).load(function () {
 	$( document ).trigger("leadGodDataLoaded");
 	});
 
-	// layout Isotope after each image loads
+	// Layout fixes and forced sorting.
 	$grid1.imagesLoaded( function() {
 		$grid1.isotope('layout');
 		$grid1.isotope('reloadItems');
