@@ -125,8 +125,8 @@ $(document).ready(function () {
 
 // layout Isotope after each image loads
 $grid1.imagesLoaded().progress( function() {
-  $grid1.isotope('layout');
+  $grid1.isotope('reLayout');
 });
 $grid2.imagesLoaded().progress( function() {
-  $grid2.isotope('layout');
+  $grid2.isotope('reLayout');
 });
