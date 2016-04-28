@@ -173,12 +173,11 @@ nav a:hover {
 .grid-item1, .grid-item2 {
     float: left;
     max-width: 100px;
-    max-height: auto;
+    max-height: 100px;
 }
 .grid-item1 img, .grid-item2 img {
     display: block;
     max-width: 100%;
-    max-height: auto;
 }
 
 .container-1{
