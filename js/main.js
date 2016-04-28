@@ -1,3 +1,20 @@
+$.fn.hideReveal = function( options ) {
+    options = $.extend({
+        filter: '*',
+        hiddenStyle: { opacity: 0.2 },
+        visibleStyle: { opacity: 1 },
+    }, options );
+    this.each( function() {
+        var $items = $(this).children();
+        var $visible = $items.filter( options.filter );
+        var $hidden = $items.not( options.filter );
+        // reveal visible
+        $visible.animate( options.visibleStyle );
+        // hide hidden
+        $hidden.animate( options.hiddenStyle );
+    });
+};
+
 $(window).load(function () {
 	var ROW_LENGTH = 10;
 	var gunsLoaded  = false;
@@ -19,8 +36,6 @@ $(window).load(function () {
 		// options
 		itemSelector: '.grid-item1',
 		layoutMode: 'fitRows',
-		hiddenStyle: { opacity: 0.5, transform: 'scale(1)' },
-		visibleStyle: { opacity: 1 },
 		fitRows: {
 			gutter: 10
 		},
@@ -44,7 +59,7 @@ $(window).load(function () {
 	// use value of search field to filter
 	var $search = $('.search').keyup( debounce( function() {
 		qsRegex = new RegExp( $search.val(), 'gi' );
-		$grid1.isotope();
+		$grid1.hideReveal();
 		$grid2.isotope();
 	}, 200 ) );
 
