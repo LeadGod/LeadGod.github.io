@@ -1,3 +1,15 @@
+$(window).load(function() {
+    var options =
+    {
+        srcNode: 'img',             // grid items (class, node)
+        margin: '5px',             // margin in pixel, default: 0px
+        width: '30px',             // grid item width in pixel, default: 220px
+        max_width: '',              // dynamic gird item width if specified, (pixel)
+        resizable: true,           // re-layout if window resize
+        transition: 'all 0.5s ease' // support transition for CSS3, default: all 0.5s ease
+    }
+    $('.grid').gridify(options);
+});
 
 $(document).ready(function () {
 	var ROW_LENGTH = 10;
@@ -27,17 +39,9 @@ $(document).ready(function () {
 	$.getJSON('guns.json', function (data) {
 	var object = null;
 	var $section = $("#guns");
-	var $div = $('<div class="iconRow">');
-	var $span = $('<span class="iconContainer">');
 
 	for( var i = 0; i < data.length; i++ )
 	{
-		$span = $('<span class="iconContainer">');
-
-		if ((i + 2) % ROW_LENGTH === 0) {
-			$div = $('<div class="iconRow">');
-			$section.append($div);
-		}
 
 		object = data[i];
 		var $img = ('<img alt="' + object.Name + '" ' +
@@ -66,8 +70,7 @@ $(document).ready(function () {
 
 		tempContent[object.Name] = itemHTML;
 		$a.append($img);
-		$span.append($a);
-		$div.append($span);
+		$section.append($a);
 	}
 
 	gunsLoaded = true;
@@ -78,17 +81,9 @@ $(document).ready(function () {
 	$.getJSON('items.json', function (data) {
 	var object = null;
 	var $section = $("#items");
-	var $div = $('<div class="iconRow">');
-	var $span = $('<span class="iconContainer">');
 
 	for( var i = 0; i < data.length; i++ )
 	{
-		$span = $('<span class="iconContainer">');
-
-		if ((i + 2) % ROW_LENGTH === 0) {
-			$div = $('<div class="iconRow">');
-			$section.append($div);
-		}
 
 		object = data[i];
 		var $img = ('<img alt="' + object.Name + '" ' +
@@ -109,8 +104,7 @@ $(document).ready(function () {
 
 		tempContent[object.Name] = itemHTML;
 		$a.append($img);
-		$span.append($a);
-		$div.append($span);
+		$section.append($a);
 	}
 
 	itemsLoaded = true;
