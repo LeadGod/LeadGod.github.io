@@ -79,8 +79,6 @@ $(document).ready(function () {
 	$( document ).on("leadGodDataLoaded", function () {
 		if (gunsLoaded && itemsLoaded) {
 			DYN_WEB.ContentSwap.setup(swapper);
-		} else {
-			console.log("Still waiting on JSON load callbacks...");
 		}
 	});
 
@@ -160,7 +158,7 @@ $(document).ready(function () {
 		itemHTML += '<li>Item Type: ' + object.Type + '</li>';
 		itemHTML += '<li>Notes: ' + object.Effect + '</li></ul>';
 
-		tempContent[object.Name] = itemHTML;
+		tempContent[object.Name] = itemHTML; 
 	}
 
 	itemsLoaded = true;
