@@ -15,7 +15,7 @@ $.fn.hideReveal = function( options ) {
     });
 };
 
-$(window).load(function () {
+$(document).ready(function () {
 	var ROW_LENGTH = 10;
 	var gunsLoaded  = false;
 	var itemsLoaded = false;
@@ -138,7 +138,7 @@ $(window).load(function () {
 		object = data[i];
 
 		var str = object.Name;
-		var res = str.replace(/ /g, "-").replace("'", "_");
+		var res = str.replace(/ /g, "-").replace("'", "_").replace("+", "-");
 		var $div = $('<div class="grid-item2" data-name="' + object.Name + '" />');
 		var $img = ('<img alt="' + object.Name + '" ' +
 					'title="' + object.Name + '" ' +
