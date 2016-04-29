@@ -166,7 +166,9 @@ $(document).ready(function() {
 	itemsLoaded = true;
 	$( document ).trigger("leadGodDataLoaded");
 	});
+});
 
+$(window).load(function () {
 	// Layout fixes and forced sorting.
 	$grid1.imagesLoaded( function() {
 		$grid1.isotope('layout');
