@@ -1,0 +1,2381 @@
+.gameObject {
+    background-image: url(../img/spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.gameObject--1-Bullets {
+    width: 36px;
+    height: 64px;
+    background-position: -1px -1px;
+}
+
+.gameObject-A-W-P- {
+    width: 120px;
+    height: 36px;
+    background-position: -39px -1px;
+}
+
+.gameObject-AK-47 {
+    width: 108px;
+    height: 28px;
+    background-position: -161px -1px;
+}
+
+.gameObject-AKEY-47 {
+    width: 104px;
+    height: 40px;
+    background-position: -271px -1px;
+}
+
+.gameObject-AU-Gun {
+    width: 68px;
+    height: 52px;
+    background-position: -377px -1px;
+}
+
+.gameObject-Abyssal-Tentacle {
+    width: 88px;
+    height: 60px;
+    background-position: -447px -1px;
+}
+
+.gameObject-Aged-Bell {
+    width: 52px;
+    height: 52px;
+    background-position: -537px -1px;
+}
+
+.gameObject-Air-Strike {
+    width: 68px;
+    height: 64px;
+    background-position: -591px -1px;
+}
+
+.gameObject-Alien-Engine {
+    width: 92px;
+    height: 60px;
+    background-position: -661px -1px;
+}
+
+.gameObject-Alien-Sidearm {
+    width: 64px;
+    height: 36px;
+    background-position: -755px -1px;
+}
+
+.gameObject-Alpha-Bullets {
+    width: 36px;
+    height: 64px;
+    background-position: -821px -1px;
+}
+
+.gameObject-Ammo-Belt {
+    width: 136px;
+    height: 36px;
+    background-position: -859px -1px;
+}
+
+.gameObject-Ammo-Synthesizer {
+    width: 44px;
+    height: 56px;
+    background-position: -997px -1px;
+}
+
+.gameObject-Amulet-of-the-Pit-Lord {
+    width: 84px;
+    height: 88px;
+    background-position: -1043px -1px;
+}
+
+.gameObject-Ancient-Hero_s-Bandana {
+    width: 104px;
+    height: 60px;
+    background-position: -1129px -1px;
+}
+
+.gameObject-Angry-Bullets {
+    width: 36px;
+    height: 52px;
+    background-position: -1235px -1px;
+}
+
+.gameObject-Antibody {
+    width: 60px;
+    height: 60px;
+    background-position: -39px -63px;
+}
+
+.gameObject-Anvillain {
+    width: 64px;
+    height: 52px;
+    background-position: -101px -63px;
+}
+
+.gameObject-Arcane-Gunpowder {
+    width: 48px;
+    height: 68px;
+    background-position: -167px -63px;
+}
+
+.gameObject-Armor-Synthesizer {
+    width: 44px;
+    height: 48px;
+    background-position: -217px -63px;
+}
+
+.gameObject-Armor-of-Thorns {
+    width: 68px;
+    height: 52px;
+    background-position: -263px -63px;
+}
+
+.gameObject-BSG {
+    width: 100px;
+    height: 56px;
+    background-position: -333px -63px;
+}
+
+.gameObject-Backpack {
+    width: 68px;
+    height: 56px;
+    background-position: -435px -63px;
+}
+
+.gameObject-Backup-Gun {
+    width: 80px;
+    height: 80px;
+    background-position: -505px -63px;
+}
+
+.gameObject-Badge {
+    width: 44px;
+    height: 48px;
+    background-position: -661px -63px;
+}
+
+.gameObject-Bait-Launcher {
+    width: 100px;
+    height: 60px;
+    background-position: -707px -63px;
+}
+
+.gameObject-Ballistic-Boots {
+    width: 56px;
+    height: 60px;
+    background-position: -859px -63px;
+}
+
+.gameObject-Ballot {
+    width: 56px;
+    height: 68px;
+    background-position: -917px -63px;
+}
+
+.gameObject-Banana {
+    width: 28px;
+    height: 56px;
+    background-position: -1235px -55px;
+}
+
+.gameObject-Barrel {
+    width: 56px;
+    height: 36px;
+    background-position: -975px -63px;
+}
+
+.gameObject-Battery-Bullets {
+    width: 36px;
+    height: 60px;
+    background-position: -1px -113px;
+}
+
+.gameObject-Bee-Hive {
+    width: 44px;
+    height: 40px;
+    background-position: -1129px -63px;
+}
+
+.gameObject-Betrayer_s-Shield {
+    width: 76px;
+    height: 52px;
+    background-position: -587px -113px;
+}
+
+.gameObject-Big-Boy {
+    width: 64px;
+    height: 52px;
+    background-position: -975px -113px;
+}
+
+.gameObject-Big-Iron {
+    width: 104px;
+    height: 44px;
+    background-position: -1041px -105px;
+}
+
+.gameObject-Bionic-Leg {
+    width: 40px;
+    height: 60px;
+    background-position: -1175px -63px;
+}
+
+.gameObject-Black-Hole-Gun {
+    width: 128px;
+    height: 64px;
+    background-position: -39px -151px;
+}
+
+.gameObject-Blank-Companion_s-Ring {
+    width: 60px;
+    height: 92px;
+    background-position: -217px -125px;
+}
+
+.gameObject-Blasphemy {
+    width: 116px;
+    height: 40px;
+    background-position: -279px -125px;
+}
+
+.gameObject-Blast-Helmet {
+    width: 60px;
+    height: 56px;
+    background-position: -397px -125px;
+}
+
+.gameObject-Blood-Brooch {
+    width: 48px;
+    height: 52px;
+    background-position: -809px -113px;
+}
+
+.gameObject-Bloodied-Scarf {
+    width: 104px;
+    height: 60px;
+    background-position: -665px -125px;
+}
+
+.gameObject-Bloody-Eye {
+    width: 28px;
+    height: 72px;
+    background-position: -1217px -113px;
+}
+
+.gameObject-Blooper {
+    width: 92px;
+    height: 24px;
+    background-position: -39px -125px;
+}
+
+.gameObject-Blue-Guon-Stone {
+    width: 36px;
+    height: 56px;
+    background-position: -1px -187px;
+}
+
+.gameObject-Blunderbuss {
+    width: 116px;
+    height: 32px;
+    background-position: -279px -187px;
+}
+
+.gameObject-Bomb {
+    width: 64px;
+    height: 64px;
+    background-position: -1147px -125px;
+}
+
+.gameObject-Book-of-Chest-Anatomy {
+    width: 60px;
+    height: 64px;
+    background-position: -397px -187px;
+}
+
+.gameObject-Boomerang {
+    width: 44px;
+    height: 44px;
+    background-position: -169px -187px;
+}
+
+.gameObject-Bouncy-Bullets {
+    width: 36px;
+    height: 52px;
+    background-position: -459px -187px;
+}
+
+.gameObject-Bow {
+    width: 68px;
+    height: 76px;
+    background-position: -497px -191px;
+}
+
+.gameObject-Box {
+    width: 88px;
+    height: 64px;
+    background-position: -567px -191px;
+}
+
+.gameObject-Bracket-Key {
+    width: 44px;
+    height: 48px;
+    background-position: -657px -187px;
+}
+
+.gameObject-Brick-Breaker {
+    width: 112px;
+    height: 64px;
+    background-position: -703px -191px;
+}
+
+.gameObject-Brick-of-Cash {
+    width: 52px;
+    height: 44px;
+    background-position: -817px -187px;
+}
+
+.gameObject-Briefcase-of-Cash {
+    width: 72px;
+    height: 52px;
+    background-position: -871px -187px;
+}
+
+.gameObject-Broccoli {
+    width: 60px;
+    height: 64px;
+    background-position: -945px -187px;
+}
+
+.gameObject-Budget-Revolver {
+    width: 52px;
+    height: 40px;
+    background-position: -1007px -187px;
+}
+
+.gameObject-Bug-Boots {
+    width: 80px;
+    height: 76px;
+    background-position: -1061px -191px;
+}
+
+.gameObject-Bullet-Bore {
+    width: 96px;
+    height: 64px;
+    background-position: -1143px -191px;
+}
+
+.gameObject-Bullet-Idol {
+    width: 56px;
+    height: 72px;
+    background-position: -1px -257px;
+}
+
+.gameObject-Bullet-Time {
+    width: 44px;
+    height: 64px;
+    background-position: -59px -257px;
+}
+
+.gameObject-Bundle-of-Wands {
+    width: 124px;
+    height: 52px;
+    background-position: -105px -257px;
+}
+
+.gameObject-Busted-Television {
+    width: 68px;
+    height: 64px;
+    background-position: -231px -257px;
+}
+
+.gameObject-Buzzkill {
+    width: 72px;
+    height: 48px;
+    background-position: -301px -257px;
+}
+
+.gameObject-C4-_Item_ {
+    width: 56px;
+    height: 44px;
+    background-position: -375px -257px;
+}
+
+.gameObject-Cactus {
+    width: 100px;
+    height: 44px;
+    background-position: -567px -257px;
+}
+
+.gameObject-Camera {
+    width: 56px;
+    height: 80px;
+    background-position: -433px -257px;
+}
+
+.gameObject-Cartographer_s-Ring {
+    width: 60px;
+    height: 88px;
+    background-position: -669px -257px;
+}
+
+.gameObject-Cat-Claw {
+    width: 76px;
+    height: 64px;
+    background-position: -731px -257px;
+}
+
+.gameObject-Chaff-Grenade {
+    width: 52px;
+    height: 64px;
+    background-position: -809px -257px;
+}
+
+.gameObject-Chaos-Ammolet {
+    width: 88px;
+    height: 68px;
+    background-position: -863px -257px;
+}
+
+.gameObject-Charge-Shot {
+    width: 104px;
+    height: 36px;
+    background-position: -953px -257px;
+}
+
+.gameObject-Charm-Horn {
+    width: 80px;
+    height: 48px;
+    background-position: -1143px -257px;
+}
+
+.gameObject-Charmed-Bow {
+    width: 68px;
+    height: 76px;
+    background-position: -301px -307px;
+}
+
+.gameObject-Cigarettes {
+    width: 48px;
+    height: 52px;
+    background-position: -1225px -257px;
+}
+
+.gameObject-Clear-Guon-Stone {
+    width: 36px;
+    height: 56px;
+    background-position: -105px -311px;
+}
+
+.gameObject-Clone {
+    width: 52px;
+    height: 72px;
+    background-position: -371px -307px;
+}
+
+.gameObject-Cloranthy-Ring {
+    width: 60px;
+    height: 60px;
+    background-position: -491px -307px;
+}
+
+.gameObject-Cluster-Mine {
+    width: 40px;
+    height: 48px;
+    background-position: -143px -311px;
+}
+
+.gameObject-Cobalt-Hammer {
+    width: 80px;
+    height: 48px;
+    background-position: -553px -307px;
+}
+
+.gameObject-Cog-of-Battle {
+    width: 60px;
+    height: 60px;
+    background-position: -953px -307px;
+}
+
+.gameObject-Coin-Crown {
+    width: 80px;
+    height: 84px;
+    background-position: -1015px -307px;
+}
+
+.gameObject-Cold-45 {
+    width: 72px;
+    height: 36px;
+    background-position: -1097px -307px;
+}
+
+.gameObject-Colt-1851 {
+    width: 76px;
+    height: 32px;
+    background-position: -1171px -311px;
+}
+
+.gameObject-Com4nd0 {
+    width: 108px;
+    height: 56px;
+    background-position: -185px -345px;
+}
+
+.gameObject-Composite-Gun {
+    width: 60px;
+    height: 40px;
+    background-position: -1px -345px;
+}
+
+.gameObject-Compressed-Air-Tank {
+    width: 120px;
+    height: 40px;
+    background-position: -731px -345px;
+}
+
+.gameObject-Coolant-Leak {
+    width: 44px;
+    height: 68px;
+    background-position: -425px -345px;
+}
+
+.gameObject-Copper-Ammolet {
+    width: 88px;
+    height: 68px;
+    background-position: -853px -345px;
+}
+
+.gameObject-Corsair {
+    width: 92px;
+    height: 60px;
+    background-position: -1097px -345px;
+}
+
+.gameObject-Crescent-Crossbow {
+    width: 96px;
+    height: 40px;
+    background-position: -1px -407px;
+}
+
+.gameObject-Crestfaller {
+    width: 104px;
+    height: 48px;
+    background-position: -99px -407px;
+}
+
+.gameObject-Crossbow {
+    width: 84px;
+    height: 28px;
+    background-position: -205px -407px;
+}
+
+.gameObject-Crutch {
+    width: 36px;
+    height: 72px;
+    background-position: -1191px -345px;
+}
+
+.gameObject-Dark-Marker {
+    width: 104px;
+    height: 52px;
+    background-position: -291px -419px;
+}
+
+.gameObject-Dart-Gun {
+    width: 48px;
+    height: 28px;
+    background-position: -397px -419px;
+}
+
+.gameObject-Deck4rd {
+    width: 68px;
+    height: 44px;
+    background-position: -447px -419px;
+}
+
+.gameObject-Decoy {
+    width: 56px;
+    height: 60px;
+    background-position: -517px -419px;
+}
+
+.gameObject-Demon-Head {
+    width: 60px;
+    height: 48px;
+    background-position: -575px -419px;
+}
+
+.gameObject-Derringer {
+    width: 28px;
+    height: 24px;
+    background-position: -1241px -187px;
+}
+
+.gameObject-Disarming-Personality {
+    width: 56px;
+    height: 48px;
+    background-position: -637px -419px;
+}
+
+.gameObject-Disintegrator {
+    width: 108px;
+    height: 56px;
+    background-position: -695px -419px;
+}
+
+.gameObject-Dog {
+    width: 56px;
+    height: 56px;
+    background-position: -805px -419px;
+}
+
+.gameObject-Double-Vision {
+    width: 56px;
+    height: 68px;
+    background-position: -863px -419px;
+}
+
+.gameObject-Dragunfire {
+    width: 84px;
+    height: 52px;
+    background-position: -943px -407px;
+}
+
+.gameObject-Drum-Clip {
+    width: 48px;
+    height: 104px;
+    background-position: -1029px -419px;
+}
+
+.gameObject-Duct-Tape {
+    width: 40px;
+    height: 40px;
+    background-position: -63px -345px;
+}
+
+.gameObject-Dueling-Pistol {
+    width: 72px;
+    height: 44px;
+    background-position: -1079px -419px;
+}
+
+.gameObject-Dungeon-Eagle {
+    width: 64px;
+    height: 36px;
+    background-position: -1153px -419px;
+}
+
+.gameObject-Easy-Reload-Bullets {
+    width: 36px;
+    height: 60px;
+    background-position: -1229px -345px;
+}
+
+.gameObject-Elder-Blank {
+    width: 60px;
+    height: 60px;
+    background-position: -1px -457px;
+}
+
+.gameObject-Elephant-Gun {
+    width: 124px;
+    height: 36px;
+    background-position: -63px -457px;
+}
+
+.gameObject-Enraging-Photo {
+    width: 64px;
+    height: 64px;
+    background-position: -189px -457px;
+}
+
+.gameObject-Escape-Rope {
+    width: 28px;
+    height: 64px;
+    background-position: -635px -311px;
+}
+
+.gameObject-Excaliber {
+    width: 156px;
+    height: 52px;
+    background-position: -1079px -465px;
+}
+
+.gameObject-Explosive-Decoy {
+    width: 56px;
+    height: 72px;
+    background-position: -1px -519px;
+}
+
+.gameObject-Explosive-Rounds {
+    width: 36px;
+    height: 60px;
+    background-position: -1237px -407px;
+}
+
+.gameObject-Eye-of-the-Beholster {
+    width: 88px;
+    height: 64px;
+    background-position: -59px -519px;
+}
+
+.gameObject-Eyepatch {
+    width: 56px;
+    height: 44px;
+    background-position: -255px -519px;
+}
+
+.gameObject-Face-Melter {
+    width: 128px;
+    height: 56px;
+    background-position: -313px -519px;
+}
+
+.gameObject-Fat-Bullets {
+    width: 44px;
+    height: 52px;
+    background-position: -443px -469px;
+}
+
+.gameObject-Fightsabre {
+    width: 128px;
+    height: 48px;
+    background-position: -489px -519px;
+}
+
+.gameObject-Flame-Hand {
+    width: 32px;
+    height: 56px;
+    background-position: -619px -469px;
+}
+
+.gameObject-Flare-Gun {
+    width: 68px;
+    height: 40px;
+    background-position: -653px -519px;
+}
+
+.gameObject-Flash-Ray {
+    width: 76px;
+    height: 60px;
+    background-position: -723px -519px;
+}
+
+.gameObject-Fortune_s-Favor {
+    width: 56px;
+    height: 68px;
+    background-position: -921px -469px;
+}
+
+.gameObject-Fossilized-Gun {
+    width: 92px;
+    height: 60px;
+    background-position: -801px -519px;
+}
+
+.gameObject-Freeze-Ray {
+    width: 72px;
+    height: 40px;
+    background-position: -1079px -519px;
+}
+
+.gameObject-Friendship-Cookie {
+    width: 60px;
+    height: 52px;
+    background-position: -1153px -519px;
+}
+
+.gameObject-Frost-Ammolet {
+    width: 88px;
+    height: 68px;
+    background-position: -149px -573px;
+}
+
+.gameObject-Frost-Bullets {
+    width: 36px;
+    height: 52px;
+    background-position: -979px -469px;
+}
+
+.gameObject-Frost-Giant {
+    width: 112px;
+    height: 76px;
+    background-position: -443px -573px;
+}
+
+.gameObject-Galactic-Medal-of-Valor {
+    width: 72px;
+    height: 44px;
+    background-position: -239px -573px;
+}
+
+.gameObject-Gamma-Ray {
+    width: 56px;
+    height: 36px;
+    background-position: -1215px -519px;
+}
+
+.gameObject-Gas-Mask {
+    width: 60px;
+    height: 72px;
+    background-position: -557px -573px;
+}
+
+.gameObject-Ghost-Bullets {
+    width: 36px;
+    height: 52px;
+    background-position: -895px -557px;
+}
+
+.gameObject-Gilded-Hydra {
+    width: 84px;
+    height: 48px;
+    background-position: -933px -557px;
+}
+
+.gameObject-Glacier {
+    width: 76px;
+    height: 52px;
+    background-position: -619px -573px;
+}
+
+.gameObject-Gold-Ammolet {
+    width: 88px;
+    height: 68px;
+    background-position: -1019px -573px;
+}
+
+.gameObject-Grappling-Hook {
+    width: 60px;
+    height: 28px;
+    background-position: -1109px -573px;
+}
+
+.gameObject-Grasschopper {
+    width: 24px;
+    height: 16px;
+    background-position: -1247px -113px;
+}
+
+.gameObject-Green-Guon-Stone {
+    width: 36px;
+    height: 56px;
+    background-position: -771px -131px;
+}
+
+.gameObject-Grenade-Launcher {
+    width: 84px;
+    height: 44px;
+    background-position: -1171px -573px;
+}
+
+.gameObject-Grey-Mauser-_Gun_ {
+    width: 84px;
+    height: 56px;
+    background-position: -1px -619px;
+}
+
+.gameObject-Gun-Soul {
+    width: 56px;
+    height: 64px;
+    background-position: -87px -619px;
+}
+
+.gameObject-Gunboots {
+    width: 80px;
+    height: 80px;
+    background-position: -239px -619px;
+}
+
+.gameObject-Gunbow {
+    width: 64px;
+    height: 80px;
+    background-position: -321px -619px;
+}
+
+.gameObject-Gundromeda-Strain {
+    width: 48px;
+    height: 80px;
+    background-position: -387px -619px;
+}
+
+.gameObject-Gungeon-Ant {
+    width: 108px;
+    height: 44px;
+    background-position: -697px -603px;
+}
+
+.gameObject-Gungeon-Blueprint {
+    width: 104px;
+    height: 84px;
+    background-position: -807px -619px;
+}
+
+.gameObject-Gungeon-Pepper {
+    width: 32px;
+    height: 44px;
+    background-position: -255px -469px;
+}
+
+.gameObject-Gungine {
+    width: 104px;
+    height: 56px;
+    background-position: -913px -619px;
+}
+
+.gameObject-Gunknight-Armor {
+    width: 80px;
+    height: 60px;
+    background-position: -1109px -619px;
+}
+
+.gameObject-Gunknight-Gauntlet {
+    width: 72px;
+    height: 64px;
+    background-position: -1191px -619px;
+}
+
+.gameObject-Gunknight-Greaves {
+    width: 48px;
+    height: 72px;
+    background-position: -1px -685px;
+}
+
+.gameObject-Gunknight-Helmet {
+    width: 56px;
+    height: 76px;
+    background-position: -51px -685px;
+}
+
+.gameObject-Gunslinger_s-Ashes {
+    width: 112px;
+    height: 40px;
+    background-position: -437px -681px;
+}
+
+.gameObject-Gunther {
+    width: 100px;
+    height: 52px;
+    background-position: -551px -681px;
+}
+
+.gameObject-Gunzheng {
+    width: 84px;
+    height: 88px;
+    background-position: -109px -685px;
+}
+
+.gameObject-H4mmer {
+    width: 68px;
+    height: 44px;
+    background-position: -653px -685px;
+}
+
+.gameObject-Hazmat-Suit {
+    width: 48px;
+    height: 44px;
+    background-position: -859px -131px;
+}
+
+.gameObject-Heart-Bottle {
+    width: 80px;
+    height: 60px;
+    background-position: -723px -685px;
+}
+
+.gameObject-Heart-Holster {
+    width: 100px;
+    height: 88px;
+    background-position: -913px -681px;
+}
+
+.gameObject-Heart-Locket {
+    width: 76px;
+    height: 92px;
+    background-position: -1015px -685px;
+}
+
+.gameObject-Heart-Lunchbox {
+    width: 72px;
+    height: 72px;
+    background-position: -1093px -685px;
+}
+
+.gameObject-Heart-Purse {
+    width: 80px;
+    height: 100px;
+    background-position: -1167px -685px;
+}
+
+.gameObject-Heart-Synthesizer {
+    width: 60px;
+    height: 52px;
+    background-position: -1px -787px;
+}
+
+.gameObject-Heart-of-Ice {
+    width: 60px;
+    height: 64px;
+    background-position: -63px -787px;
+}
+
+.gameObject-Heavy-Boots {
+    width: 80px;
+    height: 72px;
+    background-position: -125px -787px;
+}
+
+.gameObject-Heavy-Bullets {
+    width: 36px;
+    height: 52px;
+    background-position: -459px -131px;
+}
+
+.gameObject-Heck-Blaster {
+    width: 56px;
+    height: 40px;
+    background-position: -207px -787px;
+}
+
+.gameObject-Hegemony-Carbine {
+    width: 116px;
+    height: 40px;
+    background-position: -265px -759px;
+}
+
+.gameObject-Hegemony-Credit {
+    width: 44px;
+    height: 52px;
+    background-position: -383px -787px;
+}
+
+.gameObject-Hegemony-Rifle {
+    width: 120px;
+    height: 48px;
+    background-position: -429px -759px;
+}
+
+.gameObject-Helix {
+    width: 64px;
+    height: 36px;
+    background-position: -551px -787px;
+}
+
+.gameObject-Heroine {
+    width: 68px;
+    height: 36px;
+    background-position: -617px -787px;
+}
+
+.gameObject-Hexagun {
+    width: 128px;
+    height: 40px;
+    background-position: -687px -759px;
+}
+
+.gameObject-Hidden-Compartment {
+    width: 40px;
+    height: 60px;
+    background-position: -195px -685px;
+}
+
+.gameObject-Hip-Holster {
+    width: 100px;
+    height: 76px;
+    background-position: -817px -787px;
+}
+
+.gameObject-Homing-Bullets {
+    width: 44px;
+    height: 52px;
+    background-position: -919px -787px;
+}
+
+.gameObject-Honeycomb {
+    width: 52px;
+    height: 56px;
+    background-position: -965px -787px;
+}
+
+.gameObject-Hot-Lead {
+    width: 36px;
+    height: 52px;
+    background-position: -1019px -787px;
+}
+
+.gameObject-Huntsman {
+    width: 104px;
+    height: 56px;
+    background-position: -1057px -787px;
+}
+
+.gameObject-IBomb-Companion-App {
+    width: 64px;
+    height: 48px;
+    background-position: -1163px -787px;
+}
+
+.gameObject-Ice-Bomb {
+    width: 64px;
+    height: 64px;
+    background-position: -207px -837px;
+}
+
+.gameObject-Ice-Breaker {
+    width: 108px;
+    height: 36px;
+    background-position: -273px -837px;
+}
+
+.gameObject-Ice-Cube {
+    width: 36px;
+    height: 44px;
+    background-position: -397px -469px;
+}
+
+.gameObject-Iron-Coin {
+    width: 72px;
+    height: 68px;
+    background-position: -429px -837px;
+}
+
+.gameObject-Irradiated-Lead {
+    width: 36px;
+    height: 52px;
+    background-position: -1229px -787px;
+}
+
+.gameObject-Jar-of-Bees {
+    width: 44px;
+    height: 64px;
+    background-position: -1px -841px;
+}
+
+.gameObject-Jetpack {
+    width: 44px;
+    height: 60px;
+    background-position: -383px -841px;
+}
+
+.gameObject-Jolter {
+    width: 88px;
+    height: 48px;
+    background-position: -503px -841px;
+}
+
+.gameObject-Junk {
+    width: 48px;
+    height: 52px;
+    background-position: -593px -837px;
+}
+
+.gameObject-Klobbe {
+    width: 72px;
+    height: 36px;
+    background-position: -643px -841px;
+}
+
+.gameObject-Knife-Shield {
+    width: 40px;
+    height: 48px;
+    background-position: -575px -469px;
+}
+
+.gameObject-Laser-Lotus {
+    width: 96px;
+    height: 60px;
+    background-position: -717px -841px;
+}
+
+.gameObject-Laser-Rifle {
+    width: 108px;
+    height: 36px;
+    background-position: -1163px -841px;
+}
+
+.gameObject-Laser-Sight {
+    width: 44px;
+    height: 44px;
+    background-position: -919px -841px;
+}
+
+.gameObject-Lichy-Trigger-Finger {
+    width: 72px;
+    height: 40px;
+    background-position: -47px -879px;
+}
+
+.gameObject-Light-Gun {
+    width: 60px;
+    height: 36px;
+    background-position: -121px -879px;
+}
+
+.gameObject-Lil_-Bomber {
+    width: 92px;
+    height: 76px;
+    background-position: -273px -879px;
+}
+
+.gameObject-Liquid-Valkyrie {
+    width: 28px;
+    height: 72px;
+    background-position: -643px -879px;
+}
+
+.gameObject-Live-Ammo {
+    width: 56px;
+    height: 56px;
+    background-position: -815px -879px;
+}
+
+.gameObject-Lodestone-Ammolet {
+    width: 88px;
+    height: 68px;
+    background-position: -965px -879px;
+}
+
+.gameObject-Lower-Case-r {
+    width: 52px;
+    height: 48px;
+    background-position: -1055px -879px;
+}
+
+.gameObject-Luxin-Cannon {
+    width: 104px;
+    height: 52px;
+    background-position: -1109px -879px;
+}
+
+.gameObject-M1 {
+    width: 124px;
+    height: 24px;
+    background-position: -551px -759px;
+}
+
+.gameObject-M16 {
+    width: 128px;
+    height: 40px;
+    background-position: -1px -933px;
+}
+
+.gameObject-M1911 {
+    width: 68px;
+    height: 44px;
+    background-position: -131px -933px;
+}
+
+.gameObject-MAC10 {
+    width: 96px;
+    height: 56px;
+    background-position: -367px -933px;
+}
+
+.gameObject-Machine-Fist {
+    width: 48px;
+    height: 36px;
+    background-position: -1215px -879px;
+}
+
+.gameObject-Machine-Pistol {
+    width: 48px;
+    height: 44px;
+    background-position: -201px -917px;
+}
+
+.gameObject-Magic-Lamp {
+    width: 76px;
+    height: 44px;
+    background-position: -465px -933px;
+}
+
+.gameObject-Magic-Sweet {
+    width: 52px;
+    height: 52px;
+    background-position: -543px -917px;
+}
+
+.gameObject-Magnum {
+    width: 68px;
+    height: 52px;
+    background-position: -673px -933px;
+}
+
+.gameObject-Mahoguny {
+    width: 104px;
+    height: 56px;
+    background-position: -1055px -933px;
+}
+
+.gameObject-Mailbox {
+    width: 56px;
+    height: 56px;
+    background-position: -743px -917px;
+}
+
+.gameObject-Makarov {
+    width: 52px;
+    height: 40px;
+    background-position: -873px -917px;
+}
+
+.gameObject-Makeshift-Cannon {
+    width: 104px;
+    height: 44px;
+    background-position: -1161px -933px;
+}
+
+.gameObject-Map {
+    width: 104px;
+    height: 84px;
+    background-position: -1px -979px;
+}
+
+.gameObject-Marine-Sidearm {
+    width: 56px;
+    height: 36px;
+    background-position: -107px -979px;
+}
+
+.gameObject-Mass-Shotgun {
+    width: 92px;
+    height: 48px;
+    background-position: -165px -979px;
+}
+
+.gameObject-Master-Round-I {
+    width: 48px;
+    height: 104px;
+    background-position: -259px -979px;
+}
+
+.gameObject-Master-Round-II {
+    width: 48px;
+    height: 108px;
+    background-position: -309px -979px;
+}
+
+.gameObject-Master-Round-III {
+    width: 48px;
+    height: 112px;
+    background-position: -465px -979px;
+}
+
+.gameObject-Master-Round-IV {
+    width: 48px;
+    height: 108px;
+    background-position: -515px -979px;
+}
+
+.gameObject-Master-Round-V {
+    width: 72px;
+    height: 132px;
+    background-position: -565px -979px;
+}
+
+.gameObject-Master-of-Unlocking {
+    width: 76px;
+    height: 40px;
+    background-position: -743px -979px;
+}
+
+.gameObject-Meatbun {
+    width: 40px;
+    height: 40px;
+    background-position: -653px -469px;
+}
+
+.gameObject-Medkit {
+    width: 52px;
+    height: 36px;
+    background-position: -821px -979px;
+}
+
+.gameObject-Mega-Douser {
+    width: 76px;
+    height: 32px;
+    background-position: -875px -979px;
+}
+
+.gameObject-Megahand {
+    width: 44px;
+    height: 32px;
+    background-position: -185px -311px;
+}
+
+.gameObject-Melted-Rock {
+    width: 64px;
+    height: 64px;
+    background-position: -953px -979px;
+}
+
+.gameObject-Metronome {
+    width: 40px;
+    height: 36px;
+    background-position: -673px -879px;
+}
+
+.gameObject-Microtransaction-Gun {
+    width: 80px;
+    height: 76px;
+    background-position: -1161px -979px;
+}
+
+.gameObject-Military-Training {
+    width: 48px;
+    height: 56px;
+    background-position: -107px -1057px;
+}
+
+.gameObject-Mimic-Tooth-Necklace {
+    width: 72px;
+    height: 48px;
+    background-position: -157px -1057px;
+}
+
+.gameObject-Mine-Cutter {
+    width: 76px;
+    height: 52px;
+    background-position: -359px -1057px;
+}
+
+.gameObject-Molotov {
+    width: 28px;
+    height: 68px;
+    background-position: -639px -979px;
+}
+
+.gameObject-Molotov-Launcher {
+    width: 128px;
+    height: 32px;
+    background-position: -965px -845px;
+}
+
+.gameObject-Money {
+    width: 36px;
+    height: 36px;
+    background-position: -1237px -469px;
+}
+
+.gameObject-Monster-Blood {
+    width: 44px;
+    height: 60px;
+    background-position: -639px -1057px;
+}
+
+.gameObject-Moonscraper {
+    width: 64px;
+    height: 44px;
+    background-position: -685px -1057px;
+}
+
+.gameObject-Muscle-Relaxant {
+    width: 48px;
+    height: 48px;
+    background-position: -751px -1057px;
+}
+
+.gameObject-Mustache {
+    width: 52px;
+    height: 20px;
+    background-position: -801px -1057px;
+}
+
+.gameObject-Mutation {
+    width: 32px;
+    height: 32px;
+    background-position: -1241px -213px;
+}
+
+.gameObject-Nail-Gun {
+    width: 32px;
+    height: 36px;
+    background-position: -149px -507px;
+}
+
+.gameObject-Nanomachines {
+    width: 60px;
+    height: 44px;
+    background-position: -855px -1057px;
+}
+
+.gameObject-Napalm-Strike {
+    width: 68px;
+    height: 64px;
+    background-position: -917px -1057px;
+}
+
+.gameObject-Number-2 {
+    width: 104px;
+    height: 60px;
+    background-position: -987px -1057px;
+}
+
+.gameObject-Obsidian-Shell-Casing {
+    width: 52px;
+    height: 80px;
+    background-position: -1093px -1057px;
+}
+
+.gameObject-Oiled-Cylinder {
+    width: 64px;
+    height: 64px;
+    background-position: -1147px -1057px;
+}
+
+.gameObject-Old-Crest {
+    width: 56px;
+    height: 64px;
+    background-position: -1213px -1057px;
+}
+
+.gameObject-Old-Goldie {
+    width: 120px;
+    height: 36px;
+    background-position: -1019px -991px;
+}
+
+.gameObject-Old-Knight_s-Flask {
+    width: 52px;
+    height: 84px;
+    background-position: -1px -1123px;
+}
+
+.gameObject-Old-Knight_s-Helm {
+    width: 68px;
+    height: 48px;
+    background-position: -55px -1123px;
+}
+
+.gameObject-Old-Knight_s-Shield {
+    width: 44px;
+    height: 56px;
+    background-position: -125px -1123px;
+}
+
+.gameObject-Omega-Bullets {
+    width: 36px;
+    height: 64px;
+    background-position: -171px -1123px;
+}
+
+.gameObject-Orange {
+    width: 56px;
+    height: 52px;
+    background-position: -209px -1123px;
+}
+
+.gameObject-Orange-Guon-Stone {
+    width: 36px;
+    height: 72px;
+    background-position: -267px -1123px;
+}
+
+.gameObject-Origuni {
+    width: 76px;
+    height: 44px;
+    background-position: -305px -1123px;
+}
+
+.gameObject-Owl {
+    width: 68px;
+    height: 64px;
+    background-position: -383px -1123px;
+}
+
+.gameObject-Particulator {
+    width: 112px;
+    height: 48px;
+    background-position: -453px -1123px;
+}
+
+.gameObject-Patriot {
+    width: 104px;
+    height: 52px;
+    background-position: -567px -1123px;
+}
+
+.gameObject-Pea-Shooter {
+    width: 56px;
+    height: 40px;
+    background-position: -673px -1123px;
+}
+
+.gameObject-Phoenix {
+    width: 52px;
+    height: 44px;
+    background-position: -731px -1123px;
+}
+
+.gameObject-Pig {
+    width: 60px;
+    height: 68px;
+    background-position: -785px -1123px;
+}
+
+.gameObject-Pink-Guon-Stone {
+    width: 60px;
+    height: 52px;
+    background-position: -847px -1123px;
+}
+
+.gameObject-Pitchfork {
+    width: 28px;
+    height: 68px;
+    background-position: -1243px -979px;
+}
+
+.gameObject-Plague-Pistol {
+    width: 80px;
+    height: 36px;
+    background-position: -909px -1123px;
+}
+
+.gameObject-Planar-Lead {
+    width: 64px;
+    height: 68px;
+    background-position: -991px -1123px;
+}
+
+.gameObject-Plunger {
+    width: 92px;
+    height: 28px;
+    background-position: -1147px -1123px;
+}
+
+.gameObject-Poison-Vial {
+    width: 44px;
+    height: 64px;
+    background-position: -1057px -1153px;
+}
+
+.gameObject-Polaris {
+    width: 64px;
+    height: 40px;
+    background-position: -1103px -1153px;
+}
+
+.gameObject-Portable-Turret {
+    width: 44px;
+    height: 72px;
+    background-position: -1169px -1153px;
+}
+
+.gameObject-Potion-of-Gun-Friendship {
+    width: 44px;
+    height: 68px;
+    background-position: -1215px -1153px;
+}
+
+.gameObject-Potion-of-Lead-Skin {
+    width: 44px;
+    height: 68px;
+    background-position: -1273px -1px;
+}
+
+.gameObject-Prime-Primer {
+    width: 48px;
+    height: 56px;
+    background-position: -1271px -131px;
+}
+
+.gameObject-Proton-Backpack {
+    width: 100px;
+    height: 32px;
+    background-position: -1px -1223px;
+}
+
+.gameObject-Prototype-Railgun {
+    width: 128px;
+    height: 44px;
+    background-position: -103px -1223px;
+}
+
+.gameObject-Proximity-Mine {
+    width: 48px;
+    height: 48px;
+    background-position: -1267px -311px;
+}
+
+.gameObject-Pulse-Cannon {
+    width: 104px;
+    height: 40px;
+    background-position: -233px -1223px;
+}
+
+.gameObject-Quad-Laser {
+    width: 72px;
+    height: 40px;
+    background-position: -587px -71px;
+}
+
+.gameObject-R2G2 {
+    width: 60px;
+    height: 72px;
+    background-position: -1249px -685px;
+}
+
+.gameObject-RC-Rocket {
+    width: 128px;
+    height: 60px;
+    background-position: -339px -1223px;
+}
+
+.gameObject-RPG {
+    width: 116px;
+    height: 36px;
+    background-position: -469px -1223px;
+}
+
+.gameObject-RUBE-ADYNE-MK-II {
+    width: 80px;
+    height: 44px;
+    background-position: -553px -361px;
+}
+
+.gameObject-RUBE-ADYNE-Prototype {
+    width: 72px;
+    height: 44px;
+    background-position: -587px -1223px;
+}
+
+.gameObject-Raiden-Coil {
+    width: 120px;
+    height: 44px;
+    background-position: -661px -1223px;
+}
+
+.gameObject-Railgun {
+    width: 128px;
+    height: 40px;
+    background-position: -783px -1223px;
+}
+
+.gameObject-Ration {
+    width: 52px;
+    height: 56px;
+    background-position: -665px -361px;
+}
+
+.gameObject-Rattler {
+    width: 92px;
+    height: 44px;
+    background-position: -913px -1223px;
+}
+
+.gameObject-Red-Guon-Stone {
+    width: 36px;
+    height: 56px;
+    background-position: -1273px -71px;
+}
+
+.gameObject-Regular-Shotgun {
+    width: 96px;
+    height: 20px;
+    background-position: -1007px -1223px;
+}
+
+.gameObject-Riddle-of-Lead {
+    width: 48px;
+    height: 72px;
+    background-position: -1265px -557px;
+}
+
+.gameObject-Ring-of-Chest-Friendship {
+    width: 60px;
+    height: 88px;
+    background-position: -1105px -1223px;
+}
+
+.gameObject-Ring-of-Chest-Vampirism {
+    width: 60px;
+    height: 96px;
+    background-position: -1215px -1223px;
+}
+
+.gameObject-Ring-of-Ethereal-Form {
+    width: 60px;
+    height: 80px;
+    background-position: -1319px -1px;
+}
+
+.gameObject-Ring-of-Fire-Resistance {
+    width: 60px;
+    height: 84px;
+    background-position: -1321px -83px;
+}
+
+.gameObject-Ring-of-Mimic-Friendship {
+    width: 60px;
+    height: 92px;
+    background-position: -1321px -169px;
+}
+
+.gameObject-Ring-of-Miserly-Protection {
+    width: 60px;
+    height: 92px;
+    background-position: -1317px -263px;
+}
+
+.gameObject-Ring-of-Triggers {
+    width: 60px;
+    height: 60px;
+    background-position: -1317px -357px;
+}
+
+.gameObject-Robot_s-Right-Hand {
+    width: 28px;
+    height: 20px;
+    background-position: -1px -83px;
+}
+
+.gameObject-Rocket-Powered-Bullets {
+    width: 52px;
+    height: 60px;
+    background-position: -1275px -419px;
+}
+
+.gameObject-Rogue-Special {
+    width: 48px;
+    height: 40px;
+    background-position: -1329px -419px;
+}
+
+.gameObject-Rolling-Eye {
+    width: 60px;
+    height: 60px;
+    background-position: -1275px -481px;
+}
+
+.gameObject-Ruby-Bracelet {
+    width: 64px;
+    height: 64px;
+    background-position: -1315px -543px;
+}
+
+.gameObject-Rusty-Sidearm {
+    width: 72px;
+    height: 40px;
+    background-position: -619px -631px;
+}
+
+.gameObject-SAA {
+    width: 56px;
+    height: 40px;
+    background-position: -1315px -609px;
+}
+
+.gameObject-Sawed-Off {
+    width: 64px;
+    height: 20px;
+    background-position: -497px -169px;
+}
+
+.gameObject-Scattershot {
+    width: 36px;
+    height: 52px;
+    background-position: -1337px -461px;
+}
+
+.gameObject-Science-Cannon {
+    width: 92px;
+    height: 52px;
+    background-position: -1267px -759px;
+}
+
+.gameObject-Scope {
+    width: 84px;
+    height: 68px;
+    background-position: -1273px -813px;
+}
+
+.gameObject-Screecher {
+    width: 72px;
+    height: 32px;
+    background-position: -289px -481px;
+}
+
+.gameObject-Sense-of-Direction {
+    width: 68px;
+    height: 80px;
+    background-position: -1311px -651px;
+}
+
+.gameObject-Serious-Cannon {
+    width: 100px;
+    height: 44px;
+    background-position: -1265px -883px;
+}
+
+.gameObject-Seven-Leaf-Clover {
+    width: 52px;
+    height: 60px;
+    background-position: -1273px -929px;
+}
+
+.gameObject-Shades_s-Revolver {
+    width: 68px;
+    height: 48px;
+    background-position: -817px -733px;
+}
+
+.gameObject-Shadow-Bullets {
+    width: 36px;
+    height: 64px;
+    background-position: -1327px -929px;
+}
+
+.gameObject-Shellegun {
+    width: 60px;
+    height: 52px;
+    background-position: -359px -995px;
+}
+
+.gameObject-Shelleton-Key {
+    width: 80px;
+    height: 80px;
+    background-position: -1273px -995px;
+}
+
+.gameObject-Shield-of-the-Maiden {
+    width: 64px;
+    height: 60px;
+    background-position: -669px -995px;
+}
+
+.gameObject-Shock-Rifle {
+    width: 96px;
+    height: 52px;
+    background-position: -1271px -1077px;
+}
+
+.gameObject-Shock-Rounds {
+    width: 36px;
+    height: 52px;
+    background-position: -383px -733px;
+}
+
+.gameObject-Shotbow {
+    width: 112px;
+    height: 52px;
+    background-position: -1261px -1131px;
+}
+
+.gameObject-Shotga-Cola {
+    width: 36px;
+    height: 60px;
+    background-position: -421px -995px;
+}
+
+.gameObject-Shotgrub {
+    width: 100px;
+    height: 28px;
+    background-position: -1px -1077px;
+}
+
+.gameObject-Shotgun-Coffee {
+    width: 48px;
+    height: 40px;
+    background-position: -1277px -1185px;
+}
+
+.gameObject-Shotgun-Full-of-Hate {
+    width: 120px;
+    height: 48px;
+    background-position: -1px -1321px;
+}
+
+.gameObject-Shotgun-Full-of-Love {
+    width: 116px;
+    height: 56px;
+    background-position: -123px -1321px;
+}
+
+.gameObject-Silencer {
+    width: 96px;
+    height: 96px;
+    background-position: -1277px -1227px;
+}
+
+.gameObject-Singularity {
+    width: 44px;
+    height: 60px;
+    background-position: -241px -1325px;
+}
+
+.gameObject-Siren {
+    width: 128px;
+    height: 44px;
+    background-position: -287px -1321px;
+}
+
+.gameObject-Sixth-Chamber {
+    width: 72px;
+    height: 100px;
+    background-position: -417px -1325px;
+}
+
+.gameObject-Skull-Spitter {
+    width: 92px;
+    height: 48px;
+    background-position: -491px -1325px;
+}
+
+.gameObject-Sling {
+    width: 20px;
+    height: 40px;
+    background-position: -1275px -263px;
+}
+
+.gameObject-Smiley_s-Revolver {
+    width: 68px;
+    height: 48px;
+    background-position: -585px -1325px;
+}
+
+.gameObject-Smoke-Bomb {
+    width: 60px;
+    height: 56px;
+    background-position: -655px -1325px;
+}
+
+.gameObject-Snakemaker {
+    width: 84px;
+    height: 52px;
+    background-position: -717px -1325px;
+}
+
+.gameObject-Sniper-Rifle {
+    width: 120px;
+    height: 36px;
+    background-position: -453px -1185px;
+}
+
+.gameObject-Snowballer {
+    width: 80px;
+    height: 52px;
+    background-position: -803px -1325px;
+}
+
+.gameObject-Space-Friend {
+    width: 56px;
+    height: 68px;
+    background-position: -885px -1325px;
+}
+
+.gameObject-Spice {
+    width: 80px;
+    height: 84px;
+    background-position: -943px -1325px;
+}
+
+.gameObject-Sponge {
+    width: 52px;
+    height: 64px;
+    background-position: -1025px -1325px;
+}
+
+.gameObject-Staff-of-Firepower {
+    width: 80px;
+    height: 52px;
+    background-position: -1079px -1325px;
+}
+
+.gameObject-Sticky-Crossbow {
+    width: 52px;
+    height: 40px;
+    background-position: -1327px -1185px;
+}
+
+.gameObject-Stinger {
+    width: 128px;
+    height: 48px;
+    background-position: -1161px -1325px;
+}
+
+.gameObject-Stuffed-Star {
+    width: 76px;
+    height: 72px;
+    background-position: -1291px -1325px;
+}
+
+.gameObject-Sunglasses {
+    width: 72px;
+    height: 36px;
+    background-position: -489px -481px;
+}
+
+.gameObject-Super-Hot-Watch {
+    width: 88px;
+    height: 88px;
+    background-position: -1383px -1px;
+}
+
+.gameObject-Super-Meat-Gun {
+    width: 56px;
+    height: 44px;
+    background-position: -1383px -91px;
+}
+
+.gameObject-Super-Space-Turtle {
+    width: 44px;
+    height: 32px;
+    background-position: -169px -137px;
+}
+
+.gameObject-Supply-Drop {
+    width: 40px;
+    height: 72px;
+    background-position: -1383px -137px;
+}
+
+.gameObject-T-Shirt-Cannon {
+    width: 88px;
+    height: 32px;
+    background-position: -1383px -211px;
+}
+
+.gameObject-Table-Tech-Blanks {
+    width: 76px;
+    height: 72px;
+    background-position: -1383px -245px;
+}
+
+.gameObject-Table-Tech-Money {
+    width: 76px;
+    height: 72px;
+    background-position: -1379px -319px;
+}
+
+.gameObject-Table-Tech-Rage {
+    width: 76px;
+    height: 72px;
+    background-position: -1379px -393px;
+}
+
+.gameObject-Table-Tech-Rocket {
+    width: 76px;
+    height: 72px;
+    background-position: -1375px -467px;
+}
+
+.gameObject-Table-Tech-Sight {
+    width: 76px;
+    height: 72px;
+    background-position: -1381px -541px;
+}
+
+.gameObject-Table-Tech-Stun {
+    width: 76px;
+    height: 72px;
+    background-position: -1381px -615px;
+}
+
+.gameObject-Tangler {
+    width: 84px;
+    height: 24px;
+    background-position: -295px -393px;
+}
+
+.gameObject-Tear-Jerker {
+    width: 40px;
+    height: 24px;
+    background-position: -909px -137px;
+}
+
+.gameObject-The-Emperor {
+    width: 104px;
+    height: 44px;
+    background-position: -1361px -733px;
+}
+
+.gameObject-The-Judge {
+    width: 76px;
+    height: 44px;
+    background-position: -1361px -779px;
+}
+
+.gameObject-The-Kiln {
+    width: 92px;
+    height: 52px;
+    background-position: -1359px -825px;
+}
+
+.gameObject-The-Membrane {
+    width: 100px;
+    height: 48px;
+    background-position: -1367px -879px;
+}
+
+.gameObject-The-Scrambler {
+    width: 60px;
+    height: 40px;
+    background-position: -1381px -689px;
+}
+
+.gameObject-Thompson-Sub-Machinegun {
+    width: 84px;
+    height: 32px;
+    background-position: -1365px -929px;
+}
+
+.gameObject-Thunderclap {
+    width: 84px;
+    height: 28px;
+    background-position: -1365px -963px;
+}
+
+.gameObject-Trashcannon {
+    width: 124px;
+    height: 64px;
+    background-position: -1px -1399px;
+}
+
+.gameObject-Trick-Gun {
+    width: 60px;
+    height: 40px;
+    background-position: -1365px -993px;
+}
+
+.gameObject-Trident {
+    width: 128px;
+    height: 48px;
+    background-position: -127px -1399px;
+}
+
+.gameObject-Triple-Crossbow {
+    width: 88px;
+    height: 52px;
+    background-position: -1369px -1035px;
+}
+
+.gameObject-Trusty-Lockpicks {
+    width: 20px;
+    height: 64px;
+    background-position: -1441px -91px;
+}
+
+.gameObject-Unfinished-Gun {
+    width: 92px;
+    height: 56px;
+    background-position: -1375px -1089px;
+}
+
+.gameObject-Unicorn-Horn {
+    width: 124px;
+    height: 56px;
+    background-position: -257px -1399px;
+}
+
+.gameObject-Unity {
+    width: 60px;
+    height: 72px;
+    background-position: -1381px -1147px;
+}
+
+.gameObject-Uranium-Ammolet {
+    width: 88px;
+    height: 68px;
+    background-position: -1381px -1221px;
+}
+
+.gameObject-Utility-Belt {
+    width: 108px;
+    height: 36px;
+    background-position: -55px -1185px;
+}
+
+.gameObject-VertebraeK-47 {
+    width: 112px;
+    height: 56px;
+    background-position: -491px -1399px;
+}
+
+.gameObject-Void-Core-Assault-Rifle {
+    width: 112px;
+    height: 44px;
+    background-position: -605px -1399px;
+}
+
+.gameObject-Void-Marshal {
+    width: 64px;
+    height: 40px;
+    background-position: -1375px -1291px;
+}
+
+.gameObject-Void-Shotgun {
+    width: 80px;
+    height: 32px;
+    background-position: -1061px -157px;
+}
+
+.gameObject-Vulcan-Cannon {
+    width: 104px;
+    height: 48px;
+    background-position: -719px -1399px;
+}
+
+.gameObject-Wax-Wings {
+    width: 52px;
+    height: 52px;
+    background-position: -1369px -1333px;
+}
+
+.gameObject-White-Guon-Stone {
+    width: 36px;
+    height: 48px;
+    background-position: -1425px -157px;
+}
+
+.gameObject-Winchester {
+    width: 72px;
+    height: 20px;
+    background-position: -471px -393px;
+}
+
+.gameObject-Winchester-Rifle {
+    width: 128px;
+    height: 32px;
+    background-position: -575px -1185px;
+}
+
+.gameObject-Wind-Up-Gun {
+    width: 104px;
+    height: 40px;
+    background-position: -1079px -1387px;
+}
+
+.gameObject-Wingman {
+    width: 52px;
+    height: 52px;
+    background-position: -825px -1387px;
+}
+
+.gameObject-Witch-Pistol {
+    width: 88px;
+    height: 40px;
+    background-position: -1185px -1387px;
+}
+
+.gameObject-Wolf {
+    width: 72px;
+    height: 72px;
+    background-position: -1369px -1387px;
+}
+
+.gameObject-Yari-Launcher {
+    width: 108px;
+    height: 36px;
+    background-position: -847px -1185px;
+}
+
+.gameObject-Zilla-Shotgun {
+    width: 100px;
+    height: 44px;
+    background-position: -127px -1461px;
+}
+
+.gameObject-Zorgun {
+    width: 100px;
+    height: 60px;
+    background-position: -1473px -1px;
+}
