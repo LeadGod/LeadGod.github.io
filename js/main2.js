@@ -92,14 +92,14 @@ $(document).ready(function () {
 
 		var str = object.Name;
 		var res = str.replace(/ /g, "-").replace("'", "_");
-		var $div = $('<div class="grid-item1" data-name="' + object.Name + '" />');
-		var $img = ('<img alt="' + object.Name + '" ' +
-					'title="' + object.Name + '" ' +
-					'class="gameObject gameObject-' + res +
+		var $div = $('<div class="grid-item1" data-name="' + object.Name.toLowerCase() + '" />');
+		var $img = ('<img alt="' + object.Name.toLowerCase() + '" ' +
+					'title="' + object.Name.toLowerCase() + '" ' +
+					'class="gameObject gameObject-' + res.toLowerCase() +
 					'" src="/img/trans.png">'
 					);
-		var $a = $('<a href="#' + object.Name +
-				'" class="showInfo" data-loc="' + object.Name + '">');
+		var $a = $('<a href="#' + object.Name.toLowerCase() +
+				'" class="showInfo" data-loc="' + object.Name.toLowerCase() + '">');
 
 		$a.append($img);
 		$div.append($a);
@@ -140,14 +140,14 @@ $(document).ready(function () {
 
 		var str = object.Name;
 		var res = str.replace(/ /g, "-").replace("'", "_").replace("+", "-");
-		var $div = $('<div class="grid-item2" data-name="' + object.Name + '" />');
-		var $img = ('<img alt="' + object.Name + '" ' +
-					'title="' + object.Name + '" ' +
-					'class="gameObject gameObject-' + res +
+		var $div = $('<div class="grid-item2" data-name="' + object.Name.toLowerCase() + '" />');
+		var $img = ('<img alt="' + object.Name.toLowerCase() + '" ' +
+					'title="' + object.Name.toLowerCase() + '" ' +
+					'class="gameObject gameObject-' + res.toLowerCase() +
 					'" src="/img/trans.png">'
 					);
-		var $a = $('<a href="#' + object.Name +
-				'" class="showInfo" data-loc="' + object.Name + '">');
+		var $a = $('<a href="#' + object.Name.toLowerCase() +
+				'" class="showInfo" data-loc="' + object.Name.toLowerCase() + '">');
 
 		$a.append($img);
 		$div.append($a);
