@@ -7,6 +7,7 @@ $.fn.hideReveal = function(options) {
         visibleStyle: {
             opacity: 1
         },
+		transitionDuration: 0
     }, options);
     this.each(function() {
         var $items = $(this).children();
