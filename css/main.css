@@ -66,6 +66,7 @@ body {
     margin: 0 5%;
 }
 
+
 /* ===================
     ALL: Orange Theme
    =================== */
@@ -89,6 +90,7 @@ body {
     color: white;
 }
 
+
 /* ==============
     MOBILE: Menu
    ============== */
@@ -103,11 +105,9 @@ nav a {
     display: block;
     margin-bottom: 10px;
     padding: 15px 0;
-
     text-align: center;
     text-decoration: none;
     font-weight: bold;
-
     color: white;
     background: #EA4394;
 }
@@ -120,6 +120,7 @@ nav a:visited {
 nav a:hover {
     text-decoration: underline;
 }
+
 
 /* ==============
     MOBILE: Main
@@ -143,6 +144,7 @@ nav a:hover {
     padding: 20px 0;
 }
 
+
 /* ===============
     ALL: IE Fixes
    =============== */
@@ -151,10 +153,12 @@ nav a:hover {
     padding-top: 20px;
 }
 
+
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-.main aside{
+
+.main aside {
     position: fixed;
     left: 50%;
     margin-left: 150px;
@@ -192,39 +196,45 @@ nav a:hover {
     min-width: 160px;
 }
 
-.grid1, .grid2 {
+.grid1,
+.grid2 {
     max-width: 100%;
 }
+
+
 /* clear fix */
-.grid1:after, .grid2:after {
+
+.grid1:after,
+.grid2:after {
     content: '';
     display: block;
     clear: both;
 }
-.grid-item1, .grid-item2 {
+
+.grid-item1,
+.grid-item2 {
     float: left;
     max-width: 90px;
     max-height: 90px;
     padding-bottom: 10px;
 }
 
-.container-1{
-	position: relative;
+.container-1 {
+    position: relative;
 }
 
-.container-1 input.search{
-	width: 100%;
-	height: 100%;
-	background: #EA4394;
-	border: none;
-	outline: none;
-	color: white;
-
-	-webkit-transition: background .55s ease;
-	-moz-transition: background .55s ease;
-	-ms-transition: background .55s ease;
-	-o-transition: background .55s ease;
-	transition: background .55s ease;
+.container-1 input.search {
+    width: 100%;
+    height: 100%;
+    background: #EA4394;
+    border: none;
+    outline: none;
+    color: white;
+    -webkit-transition: background .55s ease;
+    -moz-transition: background .55s ease;
+    -ms-transition: background .55s ease;
+    -o-transition: background .55s ease;
+    transition: background .55s ease;
 }
 
 footer a:link,
@@ -243,11 +253,9 @@ footer a:hover {
    ========================================================================== */
 
 @media only screen and (min-width: 480px) {
-
-/* ====================
+    /* ====================
     INTERMEDIATE: Menu
    ==================== */
-
     nav a {
         float: left;
         width: 15%;
@@ -255,63 +263,50 @@ footer a:hover {
         padding: 25px 2%;
         margin-bottom: 0;
     }
-
     nav li:first-child a {
         margin-left: 0;
     }
-
     nav li:last-child a {
         margin-right: 0;
     }
-
-/* ========================
+    /* ========================
     INTERMEDIATE: IE Fixes
    ======================== */
-
     nav ul li {
         display: inline;
     }
-
     .oldie nav a {
         margin: 0 0.7%;
     }
 }
 
 @media only screen and (min-width: 768px) {
-
-/* ====================
+    /* ====================
     WIDE: CSS3 Effects
    ==================== */
-
     .header-container,
     .main aside {
         -webkit-box-shadow: none;
-           -moz-box-shadow: none;
-                box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
     }
-
-/* ============
+    /* ============
     WIDE: Menu
    ============ */
-
     .title {
         float: left;
     }
-
     nav {
         float: right;
         width: 60%;
     }
-
-/* ============
+    /* ============
     WIDE: Main
    ============ */
-
     .main article {
         float: left;
         width: 57%;
     }
-
     .main aside {
         float: right;
         width: 28%;
@@ -319,16 +314,16 @@ footer a:hover {
 }
 
 @media only screen and (min-width: 1140px) {
-
-/* ===============
+    /* ===============
     Maximal Width
    =============== */
-
     .wrapper {
-        width: 90%; /* 1140px - 10% for margins */
+        width: 90%;
+        /* 1140px - 10% for margins */
         margin: 0 auto;
     }
 }
+
 
 /* ==========================================================================
    Helper classes
@@ -378,6 +373,7 @@ footer a:hover {
     *zoom: 1;
 }
 
+
 /* ==========================================================================
    Print styles
    ========================================================================== */
@@ -391,51 +387,41 @@ footer a:hover {
         box-shadow: none !important;
         text-shadow: none !important;
     }
-
     a,
     a:visited {
         text-decoration: underline;
     }
-
     a[href]:after {
         content: " (" attr(href) ")";
     }
-
     abbr[title]:after {
         content: " (" attr(title) ")";
     }
-
     a[href^="#"]:after,
     a[href^="javascript:"]:after {
         content: "";
     }
-
     pre,
     blockquote {
         border: 1px solid #999;
         page-break-inside: avoid;
     }
-
     thead {
         display: table-header-group;
     }
-
     tr,
     img {
         page-break-inside: avoid;
     }
-
     img {
         max-width: 100% !important;
     }
-
     p,
     h2,
     h3 {
         orphans: 3;
         widows: 3;
     }
-
     h2,
     h3 {
         page-break-after: avoid;

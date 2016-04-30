@@ -428,7 +428,7 @@ $(document).ready(function() {
             "Spice": "<h2>Spice</h2><p>\"A tantalizing cube of power.\"</p><ul><li>Item Quality: A</li><li>Item Type: Active</li><li>Notes: Single use. Increases stats upon use. Each time a spice cube is used, more spice cubes will spawn in place of items or pickups. Increases curse from the second use onwards, and removes a heart container from the third use onwards.</li></ul>"
         }
     }
-    
+
     DYN_WEB.ContentSwap.setup(swapper);
 
     var qsRegex;
@@ -440,7 +440,10 @@ $(document).ready(function() {
             gutter: 10
         },
         getSortData: {
-        	name: '[data-name] toLowerCase'
+            name: function(itemElem) {
+                var name = $(itemElem).find('.data-name').val().toLowerCase();
+                return name;
+            }
         }
     });
 
@@ -452,28 +455,31 @@ $(document).ready(function() {
             gutter: 10
         },
         getSortData: {
-        	name: '[data-name] toLowerCase'
+            name: function(itemElem) {
+                var name = $(itemElem).find('.data-name').val().toLowerCase();
+                return name;
+            }
         }
     });
 
     // bind sort button click
-    $('.sort-by-button-group').on( 'click', 'button', function() {
-		var sortValue = $(this).attr('data-sort-value');
-		$grid1.isotope({ sortBy: sortValue });
-	});
-    $('.sort-by-button-group').on( 'click', 'button', function() {
-		var sortValue = $(this).attr('data-sort-value');
-		$grid2.isotope({ sortBy: sortValue });
-	});
+    $('.sort-by-button-group').on('click', 'button', function() {
+        var sortValue = $(this).attr('data-sort-value');
+        $grid1.isotope({ sortBy: sortValue });
+    });
+    $('.sort-by-button-group').on('click', 'button', function() {
+        var sortValue = $(this).attr('data-sort-value');
+        $grid2.isotope({ sortBy: sortValue });
+    });
 
-	// change is-checked class on buttons
-	$('.button-group').each( function( i, buttonGroup ) {
-		var $buttonGroup = $( buttonGroup );
-		$buttonGroup.on( 'click', 'button', function() {
-			$buttonGroup.find('.is-checked').removeClass('is-checked');
-			$( this ).addClass('is-checked');
-		});
-	});
+    // change is-checked class on buttons
+    $('.button-group').each(function(i, buttonGroup) {
+        var $buttonGroup = $(buttonGroup);
+        $buttonGroup.on('click', 'button', function() {
+            $buttonGroup.find('.is-checked').removeClass('is-checked');
+            $(this).addClass('is-checked');
+        });
+    });
 
     // use value of search field to filter
     var $search = $('.search').keyup(debounce(function() {
