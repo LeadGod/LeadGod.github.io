@@ -33,7 +33,8 @@ $(document).ready(function() {
         },
         getSortData: {
             name: '[data-name]'
-        }
+        },
+		transitionDuration: 0
     });
 
     var $grid2 = $('.grid2').isotope({
@@ -45,7 +46,8 @@ $(document).ready(function() {
         },
         getSortData: {
             name: '[data-name]'
-        }
+        },
+		transitionDuration: 0
     });
 
     // bind sort button click
