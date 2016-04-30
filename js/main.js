@@ -20,9 +20,83 @@ $.fn.hideReveal = function(options) {
 };
 
 $(document).ready(function() {
-    var ROW_LENGTH = 10;
     var gunsLoaded = false;
     var itemsLoaded = false;
+
+    var qsRegex;
+    var $grid1 = $('.grid1').isotope({
+        // options
+        itemSelector: '.grid-item1',
+        layoutMode: 'fitRows',
+        fitRows: {
+            gutter: 10
+        },
+        getSortData: {
+            name: '[data-name]'
+        }
+    });
+
+    var $grid2 = $('.grid2').isotope({
+        // options
+        itemSelector: '.grid-item2',
+        layoutMode: 'fitRows',
+        fitRows: {
+            gutter: 10
+        },
+        getSortData: {
+            name: '[data-name]'
+        }
+    });
+
+    // bind sort button click
+    $('.sort-by-button-group').on('click', 'button', function() {
+        var sortValue = $(this).attr('data-sort-value');
+        $grid1.isotope({ sortBy: sortValue });
+    });
+    $('.sort-by-button-group').on('click', 'button', function() {
+        var sortValue = $(this).attr('data-sort-value');
+        $grid2.isotope({ sortBy: sortValue });
+    });
+
+    // change is-checked class on buttons
+    $('.button-group').each(function(i, buttonGroup) {
+        var $buttonGroup = $(buttonGroup);
+        $buttonGroup.on('click', 'button', function() {
+            $buttonGroup.find('.is-checked').removeClass('is-checked');
+            $(this).addClass('is-checked');
+        });
+    });
+
+    // use value of search field to filter
+    var $search = $('.search').keyup(debounce(function() {
+        qsRegex = new RegExp($search.val(), 'gi');
+        $grid1.hideReveal({
+            filter: function() {
+                return qsRegex ? $(this).attr('data-name').match(qsRegex) : true;
+            }
+        });
+        $grid2.hideReveal({
+            filter: function() {
+                return qsRegex ? $(this).attr('data-name').match(qsRegex) : true;
+            }
+        });
+    }, 50));
+
+    // debounce so filtering doesn't happen every millisecond
+    function debounce(fn, threshold) {
+        var timeout;
+        return function debounced() {
+            if (timeout) {
+                clearTimeout(timeout);
+            }
+
+            function delayed() {
+                fn();
+                timeout = null;
+            }
+            timeout = setTimeout(delayed, threshold || 100);
+        }
+    }
 
     var swapper = {
         className: 'showInfo',
@@ -430,79 +504,4 @@ $(document).ready(function() {
     }
 
     DYN_WEB.ContentSwap.setup(swapper);
-
-    var qsRegex;
-    var $grid1 = $('.grid1').isotope({
-        // options
-        itemSelector: '.grid-item1',
-        layoutMode: 'fitRows',
-        fitRows: {
-            gutter: 10
-        },
-        getSortData: {
-            name: '[data-name]'
-        }
-    });
-
-    var $grid2 = $('.grid2').isotope({
-        // options
-        itemSelector: '.grid-item2',
-        layoutMode: 'fitRows',
-        fitRows: {
-            gutter: 10
-        },
-        getSortData: {
-            name: '[data-name]'
-        }
-    });
-
-    // bind sort button click
-    $('.sort-by-button-group').on('click', 'button', function() {
-        var sortValue = $(this).attr('data-sort-value');
-        $grid1.isotope({ sortBy: sortValue });
-    });
-    $('.sort-by-button-group').on('click', 'button', function() {
-        var sortValue = $(this).attr('data-sort-value');
-        $grid2.isotope({ sortBy: sortValue });
-    });
-
-    // change is-checked class on buttons
-    $('.button-group').each(function(i, buttonGroup) {
-        var $buttonGroup = $(buttonGroup);
-        $buttonGroup.on('click', 'button', function() {
-            $buttonGroup.find('.is-checked').removeClass('is-checked');
-            $(this).addClass('is-checked');
-        });
-    });
-
-    // use value of search field to filter
-    var $search = $('.search').keyup(debounce(function() {
-        qsRegex = new RegExp($search.val(), 'gi');
-        $grid1.hideReveal({
-            filter: function() {
-                return qsRegex ? $(this).attr('data-name').match(qsRegex) : true;
-            }
-        });
-        $grid2.hideReveal({
-            filter: function() {
-                return qsRegex ? $(this).attr('data-name').match(qsRegex) : true;
-            }
-        });
-    }));
-
-    // debounce so filtering doesn't happen every millisecond
-    function debounce(fn, threshold) {
-        var timeout;
-        return function debounced() {
-            if (timeout) {
-                clearTimeout(timeout);
-            }
-
-            function delayed() {
-                fn();
-                timeout = null;
-            }
-            timeout = setTimeout(delayed, threshold || 100);
-        }
-    }
 });
