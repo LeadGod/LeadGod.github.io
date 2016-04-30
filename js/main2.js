@@ -132,7 +132,7 @@ $(document).ready(function () {
 
 	$.getJSON('items.json', function (data) {
 	var object = null;
-	var $iems = $("items");
+	var $items = $("items");
 
 	for( var i = 0; i < data.length; i++ )
 	{
