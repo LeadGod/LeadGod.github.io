@@ -2,7 +2,7 @@ $.fn.hideReveal = function(options) {
     options = $.extend({
         filter: '*',
         hiddenStyle: {
-            opacity: 0.2
+            opacity: 0.1
         },
         visibleStyle: {
             opacity: 1
