@@ -84,7 +84,6 @@ $(document).ready(function () {
 
 	$.getJSON('guns.json', function (data) {
 	var object = null;
-	var $guns = $("#guns");
 
 	for( var i = 0; i < data.length; i++ )
 	{
@@ -103,8 +102,7 @@ $(document).ready(function () {
 
 		$a.append($img);
 		$div.append($a);
-		$guns.append($div);
-		// $grid1.isotope('insert', $div);
+		$grid1.isotope('insert', $div);
 
 		// Item descriptions
 		var itemHTML = '';
@@ -132,7 +130,6 @@ $(document).ready(function () {
 
 	$.getJSON('items.json', function (data) {
 	var object = null;
-	var $items = $("#items");
 
 	for( var i = 0; i < data.length; i++ )
 	{
@@ -151,8 +148,7 @@ $(document).ready(function () {
 
 		$a.append($img);
 		$div.append($a);
-		$items.append($div);
-		// $grid2.isotope('insert', $div);
+		$grid2.isotope('insert', $div);
 
 		// Item descriptions
 		var itemHTML = '';
@@ -168,4 +164,14 @@ $(document).ready(function () {
 	itemsLoaded = true;
 	$( document ).trigger("leadGodDataLoaded");
 	});
+
+	// Layout fixes and forced sorting.
+	// $grid1.imagesLoaded( function() {
+	// 	$grid1.isotope('layout');
+	// });
+	// $grid2.imagesLoaded(function() {
+	// 	$grid2.isotope('layout');
+	// });
+
+
 });
