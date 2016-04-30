@@ -1,19 +1,19 @@
-// $.fn.hideReveal = function( options ) {
-//     options = $.extend({
-//         filter: '*',
-//         hiddenStyle: { opacity: 0.2 },
-//         visibleStyle: { opacity: 1 },
-//     }, options );
-//     this.each( function() {
-//         var $items = $(this).children();
-//         var $visible = $items.filter( options.filter );
-//         var $hidden = $items.not( options.filter );
-//         // reveal visible
-//         $visible.animate( options.visibleStyle );
-//         // hide hidden
-//         $hidden.animate( options.hiddenStyle );
-//     });
-// };
+$.fn.hideReveal = function( options ) {
+    options = $.extend({
+        filter: '*',
+        hiddenStyle: { opacity: 0.2 },
+        visibleStyle: { opacity: 1 },
+    }, options );
+    this.each( function() {
+        var $items = $(this).children();
+        var $visible = $items.filter( options.filter );
+        var $hidden = $items.not( options.filter );
+        // reveal visible
+        $visible.animate( options.visibleStyle );
+        // hide hidden
+        $hidden.animate( options.hiddenStyle );
+    });
+};
 
 $(document).ready(function () {
 	var ROW_LENGTH = 10;
@@ -31,50 +31,50 @@ $(document).ready(function () {
 	}
 	var tempContent = swapper.content;
 
-	// var qsRegex;
-	// var $grid1 = $('.grid1').isotope({
-	// 	// options
-	// 	itemSelector: '.grid-item1',
-	// 	layoutMode: 'fitRows',
-	// 	fitRows: {
-	// 		gutter: 10
-	// 	}
-	// });
+	var qsRegex;
+	var $grid1 = $('.grid1').isotope({
+		// options
+		itemSelector: '.grid-item1',
+		layoutMode: 'fitRows',
+		fitRows: {
+			gutter: 10
+		}
+	});
 
-	// var $grid2 = $('.grid2').isotope({
-	// 	// options
-	// 	itemSelector: '.grid-item2',
-	// 	layoutMode: 'fitRows',
-	// 	fitRows: {
-	// 		gutter: 10
-	// 	}
-	// });
+	var $grid2 = $('.grid2').isotope({
+		// options
+		itemSelector: '.grid-item2',
+		layoutMode: 'fitRows',
+		fitRows: {
+			gutter: 10
+		}
+	});
 
-	// // use value of search field to filter
-	// var $search = $('.search').keyup( debounce( function() {
-	// 	qsRegex = new RegExp( $search.val(), 'gi' );
-	// 	$grid1.hideReveal({		filter: function() {
-	// 		return qsRegex ? $(this).attr('data-name').match( qsRegex ) : true;
-	// 	}});
-	// 	$grid2.hideReveal({		filter: function() {
-	// 		return qsRegex ? $(this).attr('data-name').match( qsRegex ) : true;
-	// 	}});
-	// }, 200 ) );
+	// use value of search field to filter
+	var $search = $('.search').keyup( debounce( function() {
+		qsRegex = new RegExp( $search.val(), 'gi' );
+		$grid1.hideReveal({		filter: function() {
+			return qsRegex ? $(this).attr('data-name').match( qsRegex ) : true;
+		}});
+		$grid2.hideReveal({		filter: function() {
+			return qsRegex ? $(this).attr('data-name').match( qsRegex ) : true;
+		}});
+	}, 200 ) );
 
-	// // debounce so filtering doesn't happen every millisecond
-	// function debounce( fn, threshold ) {
-	// 	var timeout;
-	// 	return function debounced() {
-	// 		if ( timeout ) {
-	// 			clearTimeout( timeout );
-	// 		}
-	// 		function delayed() {
-	// 			fn();
-	// 			timeout = null;
-	// 		}
-	// 		timeout = setTimeout( delayed, threshold || 100 );
-	// 	}
-	// }
+	// debounce so filtering doesn't happen every millisecond
+	function debounce( fn, threshold ) {
+		var timeout;
+		return function debounced() {
+			if ( timeout ) {
+				clearTimeout( timeout );
+			}
+			function delayed() {
+				fn();
+				timeout = null;
+			}
+			timeout = setTimeout( delayed, threshold || 100 );
+		}
+	}
 
 	$( document ).on("leadGodDataLoaded", function () {
 		if (gunsLoaded && itemsLoaded) {
