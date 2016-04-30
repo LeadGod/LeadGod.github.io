@@ -479,4 +479,6 @@ $(document).ready(function() {
             timeout = setTimeout(delayed, threshold || 100);
         }
     }
+    
+    DYN_WEB.ContentSwap.setup(swapper);
 });
