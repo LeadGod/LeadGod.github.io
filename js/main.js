@@ -488,7 +488,7 @@ $(document).ready(function() {
                 return qsRegex ? $(this).attr('data-name').match(qsRegex) : true;
             }
         });
-    }, 200));
+    }));
 
     // debounce so filtering doesn't happen every millisecond
     function debounce(fn, threshold) {
