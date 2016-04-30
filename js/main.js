@@ -84,7 +84,7 @@ $(document).ready(function () {
 
 	$.getJSON('guns.json', function (data) {
 	var object = null;
-	var $guns = $(#"guns");
+	var $guns = $("#guns");
 
 	for( var i = 0; i < data.length; i++ )
 	{
