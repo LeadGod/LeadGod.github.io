@@ -440,9 +440,7 @@ $(document).ready(function() {
             gutter: 10
         },
         getSortData: {
-        	name: function ($elem) {
-        		$elem.attr('data-name').val().toLowerCase();
-        	}
+        	name: '[data-name] toLowerCase'
         }
     });
 
@@ -454,9 +452,7 @@ $(document).ready(function() {
             gutter: 10
         },
         getSortData: {
-        	name: function ($elem) {
-        		$elem.attr('data-name').val().toLowerCase();
-        	}
+        	name: '[data-name] toLowerCase'
         }
     });
 
