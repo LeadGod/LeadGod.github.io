@@ -438,6 +438,9 @@ $(document).ready(function() {
         layoutMode: 'fitRows',
         fitRows: {
             gutter: 10
+        },
+        getSortData: {
+        	name: '[data-name]'
         }
     });
 
@@ -447,8 +450,30 @@ $(document).ready(function() {
         layoutMode: 'fitRows',
         fitRows: {
             gutter: 10
+        },
+        getSortData: {
+        	name: '[data-name]'
         }
     });
+
+    // bind sort button click
+    $('.sort-by-button-group').on( 'click', 'button', function() {
+		var sortValue = $(this).attr('data-sort-value');
+		$grid1.isotope({ sortBy: sortValue });
+	});
+    $('.sort-by-button-group').on( 'click', 'button', function() {
+		var sortValue = $(this).attr('data-sort-value');
+		$grid2.isotope({ sortBy: sortValue });
+	});
+
+	// change is-checked class on buttons
+	$('.button-group').each( function( i, buttonGroup ) {
+		var $buttonGroup = $( buttonGroup );
+		$buttonGroup.on( 'click', 'button', function() {
+			$buttonGroup.find('.is-checked').removeClass('is-checked');
+			$( this ).addClass('is-checked');
+		});
+	});
 
     // use value of search field to filter
     var $search = $('.search').keyup(debounce(function() {
