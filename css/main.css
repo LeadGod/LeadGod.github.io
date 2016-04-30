@@ -76,6 +76,8 @@ body {
     position: fixed;
     top: 0px;
     margin: auto;
+    z-index: 100000;
+    width: 100%;
 }
 
 .footer-container,
