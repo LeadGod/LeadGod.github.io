@@ -428,7 +428,8 @@ $(document).ready(function() {
             "Spice": "<h2>Spice</h2><p>\"A tantalizing cube of power.\"</p><ul><li>Item Quality: A</li><li>Item Type: Active</li><li>Notes: Single use. Increases stats upon use. Each time a spice cube is used, more spice cubes will spawn in place of items or pickups. Increases curse from the second use onwards, and removes a heart container from the third use onwards.</li></ul>"
         }
     }
-    var tempContent = swapper.content;
+    
+    DYN_WEB.ContentSwap.setup(swapper);
 
     var qsRegex;
     var $grid1 = $('.grid1').isotope({
@@ -479,6 +480,4 @@ $(document).ready(function() {
             timeout = setTimeout(delayed, threshold || 100);
         }
     }
-    
-    DYN_WEB.ContentSwap.setup(swapper);
 });
