@@ -99,7 +99,7 @@ $(document).ready(function () {
 					'" src="/img/trans.png">'
 					);
 		var $a = $('<a href="#' + object.Name.toLowerCase() +
-				'" class="showInfo" data-loc="' + object.Name.toLowerCase() + '">');
+				'" class="showInfo" data-loc="' + object.Name + '">');
 
 		$a.append($img);
 		$div.append($a);
@@ -147,7 +147,7 @@ $(document).ready(function () {
 					'" src="/img/trans.png">'
 					);
 		var $a = $('<a href="#' + object.Name.toLowerCase() +
-				'" class="showInfo" data-loc="' + object.Name.toLowerCase() + '">');
+				'" class="showInfo" data-loc="' + object.Name + '">');
 
 		$a.append($img);
 		$div.append($a);
