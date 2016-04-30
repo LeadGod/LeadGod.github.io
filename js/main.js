@@ -441,7 +441,7 @@ $(document).ready(function() {
         },
         getSortData: {
             name: function(itemElem) {
-                var name = $(itemElem).find('.data-name').val().toLowerCase();
+                var name = $(itemElem).attr('.data-name').val().toLowerCase();
                 return name;
             }
         }
@@ -456,7 +456,7 @@ $(document).ready(function() {
         },
         getSortData: {
             name: function(itemElem) {
-                var name = $(itemElem).find('.data-name').val().toLowerCase();
+                var name = $(itemElem).attr('.data-name').val().toLowerCase();
                 return name;
             }
         }
