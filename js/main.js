@@ -6,17 +6,16 @@ $.fn.hideReveal = function(options) {
         },
         visibleStyle: {
             opacity: 1
-        },
-		transitionDuration: 0
+        }
     }, options);
     this.each(function() {
         var $items = $(this).children();
         var $visible = $items.filter(options.filter);
         var $hidden = $items.not(options.filter);
         // reveal visible
-        $visible.animate(options.visibleStyle);
+        $visible.animate(options.visibleStyle, 0);
         // hide hidden
-        $hidden.animate(options.hiddenStyle);
+        $hidden.animate(options.hiddenStyle, 0);
     });
 };
 
