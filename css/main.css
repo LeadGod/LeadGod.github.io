@@ -166,7 +166,6 @@ nav a:hover {
 .main aside {
     position: fixed;
     right: 0%;
-    margin-left: 150px;
     height: 100%;
 }
 
@@ -200,7 +199,6 @@ nav a:hover {
     display: none;
     position: absolute;
     background-color: #EA4394;
-    min-width: 160px;
 }
 
 .grid1,
@@ -232,6 +230,8 @@ nav a:hover {
 }
 
 .container-1 input.search {
+    padding-top: 0;
+    padding-bottom: 0;
     width: 100%;
     height: 100%;
     background: #EA4394;
@@ -313,11 +313,11 @@ footer a:hover {
    ============ */
     .main article {
         float: left;
-        width: 57%;
+        width: 70%;
     }
     .main aside {
         float: right;
-        width: 28%;
+        width: 20%;
     }
 }
 
