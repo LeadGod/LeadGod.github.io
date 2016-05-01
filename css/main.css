@@ -170,6 +170,7 @@ nav a:hover {
 }
 
 .main-container {
+    margin-top: 96px;
     display: block;
     overflow: hidden;
 }
