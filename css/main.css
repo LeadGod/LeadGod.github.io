@@ -82,7 +82,7 @@ body {
 
 .footer-container {
     border-top: 20px solid #EA4394;
-    z-index: 200000;
+    opacity: .99;
 }
 
 .header-container,
