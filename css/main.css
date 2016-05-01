@@ -80,9 +80,9 @@ body {
     width: 100%;
 }
 
-.footer-container,
-.main aside {
+.footer-container {
     border-top: 20px solid #EA4394;
+    z-index: 200000;
 }
 
 .header-container,
@@ -132,7 +132,7 @@ nav a:hover {
    ============== */
 
 .main {
-    padding: 30px 0;
+    padding: 0;
 }
 
 .main article h1 {
@@ -141,7 +141,7 @@ nav a:hover {
 
 .main aside {
     color: white;
-    padding: 0px 5% 10px;
+    padding: 0px 5% 0px;
 }
 
 .footer-container footer {
@@ -165,8 +165,9 @@ nav a:hover {
 
 .main aside {
     position: fixed;
-    left: 50%;
+    right: 0%;
     margin-left: 150px;
+    height: 100%;
 }
 
 .main-container {
