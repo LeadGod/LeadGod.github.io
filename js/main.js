@@ -24,8 +24,8 @@ $.fn.hideReveal = function(options) {
 $(document).ready(function() {
     var gunsLoaded = false;
     var itemsLoaded = false;
-
     var qsRegex;
+
     var $grid1 = $('.grid1').isotope({
         // options
         itemSelector: '.grid-item1',
@@ -70,7 +70,11 @@ $(document).ready(function() {
     // change is-checked class on buttons
     $('.button-group').each(function(i, buttonGroup) {
         var $buttonGroup = $(buttonGroup);
-        $buttonGroup.on('click', 'a', function() {
+        $buttonGroup.on('click', 'a#sort', function() {
+            $buttonGroup.find('.is-checked').removeClass('is-checked');
+            $(this).addClass('is-checked');
+        });
+        $buttonGroup.on('click', 'a#filter', function() {
             $buttonGroup.find('.is-checked').removeClass('is-checked');
             $(this).addClass('is-checked');
         });
@@ -103,7 +107,7 @@ $(document).ready(function() {
                 }
             });
         }
-    }, 50));
+    }, 200));
 
     // debounce so filtering doesn't happen every millisecond
     function debounce(fn, threshold) {
