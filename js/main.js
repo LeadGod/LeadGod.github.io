@@ -32,9 +32,9 @@ $(document).ready(function() {
             gutter: 10
         },
         getSortData: {
-            name: '[data-name]'
+            alphabetical: '[data-name]'
         },
-		transitionDuration: 0
+        transitionDuration: 0
     });
 
     var $grid2 = $('.grid2').isotope({
@@ -45,17 +45,17 @@ $(document).ready(function() {
             gutter: 10
         },
         getSortData: {
-            name: '[data-name]'
+            alphabetical: '[data-name]'
         },
-		transitionDuration: 0
+        transitionDuration: 0
     });
 
     // bind sort button click
-    $('.sort-by-button-group').on('click', 'button', function() {
+    $('.sort-by-button-group').on('click', 'a', function() {
         var sortValue = $(this).attr('data-sort-value');
         $grid1.isotope({ sortBy: sortValue });
     });
-    $('.sort-by-button-group').on('click', 'button', function() {
+    $('.sort-by-button-group').on('click', 'a', function() {
         var sortValue = $(this).attr('data-sort-value');
         $grid2.isotope({ sortBy: sortValue });
     });
@@ -63,14 +63,14 @@ $(document).ready(function() {
     // change is-checked class on buttons
     $('.button-group').each(function(i, buttonGroup) {
         var $buttonGroup = $(buttonGroup);
-        $buttonGroup.on('click', 'button', function() {
+        $buttonGroup.on('click', 'a', function() {
             $buttonGroup.find('.is-checked').removeClass('is-checked');
             $(this).addClass('is-checked');
         });
     });
 
     // use value of search field to filter
-    var $search = $('.search').keyup(debounce(function() {
+    var $search = $('.form-control').keyup(debounce(function() {
         qsRegex = new RegExp($search.val(), 'gi');
         $grid1.hideReveal({
             filter: function() {

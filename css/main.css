@@ -1,437 +1,124 @@
-/*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
-
-html {
-    background: #18101B;
-    color: white;
-    font-size: 1em;
-    line-height: 1.4;
-}
-
-::-moz-selection {
-    background: #b3d4fc;
-    text-shadow: none;
-}
-
-::selection {
-    background: #b3d4fc;
-    text-shadow: none;
-}
-
-hr {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #ccc;
-    margin: 1em 0;
-    padding: 0;
-}
-
-audio,
-canvas,
-iframe,
-img,
-svg,
-video {
-    vertical-align: middle;
-}
-
-fieldset {
-    border: 0;
-    margin: 0;
-    padding: 0;
-}
-
-textarea {
-    resize: vertical;
-}
-
-.browserupgrade {
-    margin: 0.2em 0;
-    background: #ccc;
-    color: #000;
-    padding: 0.2em 0;
-}
+/*
+ * Base structure
+ */
 
 
-/* ===== Initializr Styles ==================================================
-   Author: Jonathan Verrecchia - verekia.com/initializr/responsive-template
-   ========================================================================== */
+/* Move down content because we have a fixed navbar that is 50px tall */
 
 body {
-    font: 16px/26px Helvetica, Helvetica Neue, Arial;
-}
-
-.wrapper {
-    width: 100%;
-    margin: 0 5%;
+    padding-top: 50px;
 }
 
 
-/* ===================
-    ALL: Orange Theme
-   =================== */
+/*
+ * Global add-ons
+ */
 
-.header-container {
-    border-bottom: 20px solid #EA4394;
-    position: fixed;
-    top: 0px;
-    margin: auto;
-    z-index: 100000;
-    width: 100%;
-}
-
-.footer-container {
-    border-top: 20px solid #EA4394;
-    opacity: .99;
-}
-
-.header-container,
-.footer-container,
-.main aside {
-    background: #2D272E;
-}
-
-.title {
-    color: white;
+.sub-header {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
 }
 
 
-/* ==============
-    MOBILE: Menu
-   ============== */
+/*
+ * Top navigation
+ * Hide default border to remove 1px line.
+ */
 
-nav ul {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-}
-
-nav a {
-    display: block;
-    margin-bottom: 10px;
-    padding: 15px 0;
-    text-align: center;
-    text-decoration: none;
-    font-weight: bold;
-    color: white;
-    background: #EA4394;
-}
-
-nav a:hover,
-nav a:visited {
-    color: white;
-}
-
-nav a:hover {
-    text-decoration: underline;
+.navbar-fixed-top {
+    border: 0;
 }
 
 
-/* ==============
-    MOBILE: Main
-   ============== */
+/*
+ * Sidebar
+ */
+
+
+/* Hide for mobile, show later */
+
+.sidebar {
+    display: none;
+}
+
+@media (min-width: 768px) {
+    .sidebar {
+        position: fixed;
+        top: 51px;
+        bottom: 0;
+        left: 0;
+        z-index: 1000;
+        display: block;
+        padding: 20px;
+        overflow-x: hidden;
+        overflow-y: auto;
+        /* Scrollable contents if viewport is shorter than content. */
+        background-color: #f5f5f5;
+        border-right: 1px solid #eee;
+    }
+}
+
+
+/* Sidebar navigation */
+
+.nav-sidebar {
+    margin-right: -21px;
+    /* 20px padding + 1px border */
+    margin-bottom: 20px;
+    margin-left: -20px;
+}
+
+.nav-sidebar > li > a {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.nav-sidebar > .active > a,
+.nav-sidebar > .active > a:hover,
+.nav-sidebar > .active > a:focus {
+    color: #fff;
+    background-color: #428bca;
+}
+
+
+/*
+ * Main content
+ */
 
 .main {
-    padding: 0;
+    padding: 20px;
 }
 
-.main article h1 {
-    font-size: 2em;
+@media (min-width: 768px) {
+    .main {
+        padding-right: 40px;
+        padding-left: 40px;
+    }
 }
 
-.main aside {
-    color: white;
-    padding: 0px 5% 0px;
-}
-
-.footer-container footer {
-    color: white;
-    padding: 20px 0;
+.main .page-header {
+    margin-top: 0;
 }
 
 
-/* ===============
-    ALL: IE Fixes
-   =============== */
+/*
+ * Placeholder dashboard ideas
+ */
 
-.ie7 .title {
-    padding-top: 20px;
+.placeholders {
+    margin-bottom: 30px;
+    text-align: center;
 }
 
-
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
-
-.main aside {
-    position: fixed;
-    right: 0%;
-    height: 100%;
+.placeholders h4 {
+    margin-bottom: 0;
 }
 
-.main-container {
-    margin-top: 96px;
-    display: block;
-    overflow: hidden;
+.placeholder {
+    margin-bottom: 20px;
 }
 
-.dropdown {
-    position: relative;
+.placeholder img {
     display: inline-block;
-}
-
-.dropdown:hover .drop-content {
-    display: block;
-}
-
-.dropdown button {
-    background-color: #EA4394;
-    padding-top: 0;
-    padding-bottom: 0;
-    color: white;
-    border: none;
-    cursor: pointer;
-    border: none;
-    outline: none;
-}
-
-.drop-content {
-    display: none;
-    position: absolute;
-    background-color: #EA4394;
-}
-
-.grid1,
-.grid2 {
-    max-width: 100%;
-}
-
-
-/* clear fix */
-
-.grid1:after,
-.grid2:after {
-    content: '';
-    display: block;
-    clear: both;
-}
-
-.grid-item1,
-.grid-item2 {
-    float: left;
-    max-width: 90px;
-    max-height: 90px;
-    padding-bottom: 10px;
-    transition: all 0;
-}
-
-.container-1 {
-    position: relative;
-}
-
-.container-1 input.search {
-    padding-top: 0;
-    padding-bottom: 0;
-    width: 100%;
-    height: 100%;
-    background: #EA4394;
-    border: none;
-    outline: none;
-    color: white;
-    -webkit-transition: background .55s ease;
-    -moz-transition: background .55s ease;
-    -ms-transition: background .55s ease;
-    -o-transition: background .55s ease;
-    transition: background .55s ease;
-}
-
-footer a:link,
-footer a:hover,
-footer a:visited {
-    color: #EA4394;
-}
-
-footer a:hover {
-    text-decoration: underline;
-}
-
-
-/* ==========================================================================
-   Media Queries
-   ========================================================================== */
-
-@media only screen and (min-width: 480px) {
-    /* ====================
-    INTERMEDIATE: Menu
-   ==================== */
-    nav a {
-        float: left;
-        width: 15%;
-        margin: 0 1.7%;
-        padding: 25px 2%;
-        margin-bottom: 0;
-    }
-    nav li:first-child a {
-        margin-left: 0;
-    }
-    nav li:last-child a {
-        margin-right: 0;
-    }
-    /* ========================
-    INTERMEDIATE: IE Fixes
-   ======================== */
-    nav ul li {
-        display: inline;
-    }
-    .oldie nav a {
-        margin: 0 0.7%;
-    }
-}
-
-@media only screen and (min-width: 768px) {
-    /* ====================
-    WIDE: CSS3 Effects
-   ==================== */
-    .header-container,
-    .main aside {
-        -webkit-box-shadow: none;
-        -moz-box-shadow: none;
-        box-shadow: none;
-    }
-    /* ============
-    WIDE: Menu
-   ============ */
-    .title {
-        float: left;
-    }
-    nav {
-        float: right;
-        width: 60%;
-    }
-    /* ============
-    WIDE: Main
-   ============ */
-    .main article {
-        float: left;
-        width: 70%;
-    }
-    .main aside {
-        float: right;
-        width: 20%;
-    }
-}
-
-@media only screen and (min-width: 1140px) {
-    /* ===============
-    Maximal Width
-   =============== */
-    .wrapper {
-        width: 90%;
-        /* 1140px - 10% for margins */
-        margin: 0 auto;
-    }
-}
-
-
-/* ==========================================================================
-   Helper classes
-   ========================================================================== */
-
-.hidden {
-    display: none !important;
-    visibility: hidden;
-}
-
-.visuallyhidden {
-    border: 0;
-    clip: rect(0 0 0 0);
-    height: 1px;
-    margin: -1px;
-    overflow: hidden;
-    padding: 0;
-    position: absolute;
-    width: 1px;
-}
-
-.visuallyhidden.focusable:active,
-.visuallyhidden.focusable:focus {
-    clip: auto;
-    height: auto;
-    margin: 0;
-    overflow: visible;
-    position: static;
-    width: auto;
-}
-
-.invisible {
-    visibility: hidden;
-}
-
-.clearfix:before,
-.clearfix:after {
-    content: " ";
-    display: table;
-}
-
-.clearfix:after {
-    clear: both;
-}
-
-.clearfix {
-    *zoom: 1;
-}
-
-
-/* ==========================================================================
-   Print styles
-   ========================================================================== */
-
-@media print {
-    *,
-    *:before,
-    *:after {
-        background: transparent !important;
-        color: #000 !important;
-        box-shadow: none !important;
-        text-shadow: none !important;
-    }
-    a,
-    a:visited {
-        text-decoration: underline;
-    }
-    a[href]:after {
-        content: " (" attr(href) ")";
-    }
-    abbr[title]:after {
-        content: " (" attr(title) ")";
-    }
-    a[href^="#"]:after,
-    a[href^="javascript:"]:after {
-        content: "";
-    }
-    pre,
-    blockquote {
-        border: 1px solid #999;
-        page-break-inside: avoid;
-    }
-    thead {
-        display: table-header-group;
-    }
-    tr,
-    img {
-        page-break-inside: avoid;
-    }
-    img {
-        max-width: 100% !important;
-    }
-    p,
-    h2,
-    h3 {
-        orphans: 3;
-        widows: 3;
-    }
-    h2,
-    h3 {
-        page-break-after: avoid;
-    }
+    border-radius: 50%;
 }
