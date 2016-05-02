@@ -122,3 +122,8 @@ body {
     display: inline-block;
     border-radius: 50%;
 }
+
+.grid-item1,
+.grid-item2 {
+    margin-bottom: 10px;
+}

@@ -1,3 +1,5 @@
+var fade = true;
+
 $.fn.hideReveal = function(options) {
     options = $.extend({
         filter: '*',
@@ -51,13 +53,18 @@ $(document).ready(function() {
     });
 
     // bind sort button click
-    $('.sort-by-button-group').on('click', 'a', function() {
+    $('.sort-by-button-group').on('click', 'a#sort', function() {
         var sortValue = $(this).attr('data-sort-value');
         $grid1.isotope({ sortBy: sortValue });
-    });
-    $('.sort-by-button-group').on('click', 'a', function() {
-        var sortValue = $(this).attr('data-sort-value');
         $grid2.isotope({ sortBy: sortValue });
+    });
+    $('.sort-by-button-group').on('click', 'a#filter', function() {
+        var sortValue = $(this).attr('filter-type');
+        if (sortValue.match("fade")) {
+            fade = true;
+        } else if (sortValue.match("hide")) {
+            fade = false;
+        }
     });
 
     // change is-checked class on buttons
@@ -72,16 +79,30 @@ $(document).ready(function() {
     // use value of search field to filter
     var $search = $('.form-control').keyup(debounce(function() {
         qsRegex = new RegExp($search.val(), 'gi');
-        $grid1.hideReveal({
-            filter: function() {
-                return qsRegex ? $(this).attr('data-name').match(qsRegex) : true;
-            }
-        });
-        $grid2.hideReveal({
-            filter: function() {
-                return qsRegex ? $(this).attr('data-name').match(qsRegex) : true;
-            }
-        });
+        if (fade) {
+            $grid1.hideReveal({
+                filter: function() {
+                    return qsRegex ? $(this).attr('data-name').match(qsRegex) : true;
+                }
+            });
+            $grid2.hideReveal({
+                filter: function() {
+                    return qsRegex ? $(this).attr('data-name').match(qsRegex) : true;
+                }
+            });
+
+        } else {
+            $grid1.isotope({
+                filter: function() {
+                    return qsRegex ? $(this).attr('data-name').match(qsRegex) : true;
+                }
+            });
+            $grid2.isotope({
+                filter: function() {
+                    return qsRegex ? $(this).attr('data-name').match(qsRegex) : true;
+                }
+            });
+        }
     }, 50));
 
     // debounce so filtering doesn't happen every millisecond
