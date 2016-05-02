@@ -86,24 +86,24 @@ $(document).ready(function() {
         if (fade) {
             $grid1.hideReveal({
                 filter: function() {
-                    return qsRegex ? $(this).attr('data-name').match(qsRegex) : true;
+                    return qsRegex ? $(this).text().match(qsRegex) : true;
                 }
             });
             $grid2.hideReveal({
                 filter: function() {
-                    return qsRegex ? $(this).attr('data-name').match(qsRegex) : true;
+                    return qsRegex ? $(this).text().match(qsRegex) : true;
                 }
             });
 
         } else {
             $grid1.isotope({
                 filter: function() {
-                    return qsRegex ? $(this).attr('data-name').match(qsRegex) : true;
+                    return qsRegex ? $(this).text().match(qsRegex) : true;
                 }
             });
             $grid2.isotope({
                 filter: function() {
-                    return qsRegex ? $(this).attr('data-name').match(qsRegex) : true;
+                    return qsRegex ? $(this).text().match(qsRegex) : true;
                 }
             });
         }
