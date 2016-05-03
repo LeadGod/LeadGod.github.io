@@ -1,18 +1,8 @@
 $(document).ready(function() {
-
-    var swapper = {
-        className: 'showInfo',
-        displayId: 'itemInfo',
-        displayDefault: true,
-        restoreDefault: false,
-
-        content: {}
-    }
-
-    var tempContent = swapper.content;
     $.getJSON('/JSON/guns.json', function(data) {
         var object = null;
         var $guns = $("#guns");
+        var $modals = $("#modals");
 
         for (var i = 0; i < data.length; i++) {
             object = data[i];
@@ -30,12 +20,12 @@ $(document).ready(function() {
 
             $a.append($img);
             $div.append($a);
+            $guns.append($div);
 
             var $container = $('<div class="modal fade" id="modal' + res + '" tabindex="-1" role="dialog" aria-labelledby="modal' + res + '" aria-hidden="true" />');
             var $dialog = $('<div class="modal-dialog" />')
             var $content = $('<div class="modal-content" />')
             var $header = $('<div class="modal-header" />');
-
             var $close = $('<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>');
             var $title = $('<h4 class="modal-title" id="modalLabel">' + object.Name + '</h4>');
 
@@ -65,15 +55,14 @@ $(document).ready(function() {
 
             $dialog.append($content);
             $container.append($dialog);
-            $div.append($container);
-
-            $guns.append($div);
+            $modals.append($container);
         }
     });
 
     $.getJSON('/JSON/items.json', function(data) {
         var object = null;
         var $items = $("#items");
+        var $modals = $("#modals");
 
         for (var i = 0; i < data.length; i++) {
             object = data[i];
@@ -91,12 +80,12 @@ $(document).ready(function() {
 
             $a.append($img);
             $div.append($a);
+            $items.append($div);
 
             var $container = $('<div class="modal fade" id="modal' + res + '" tabindex="-1" role="dialog" aria-labelledby="modal' + res + '" aria-hidden="true" />');
             var $dialog = $('<div class="modal-dialog" />')
             var $content = $('<div class="modal-content" />')
             var $header = $('<div class="modal-header" />');
-
             var $close = $('<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>');
             var $title = $('<h4 class="modal-title" id="modalLabel">' + object.Name + '</h4>');
 
@@ -118,9 +107,7 @@ $(document).ready(function() {
 
             $dialog.append($content);
             $container.append($dialog);
-            $div.append($container);
-
-            $items.append($div);
+            $modals.append($container);
         }
     });
 });

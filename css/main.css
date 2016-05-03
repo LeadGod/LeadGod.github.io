@@ -7,6 +7,7 @@
 
 body {
     padding-top: 50px;
+    background-color: #231d24;
 }
 
 
@@ -19,6 +20,111 @@ body {
     border-bottom: 1px solid #eee;
 }
 
+.navbar-custom {
+    background-color: #EA3A65
+}
+
+.navbar-custom .navbar-nav>.active>a:hover,
+.navbar-custom .navbar-nav>li>a:hover,
+.navbar-custom .navbar-nav>li>a:focus {
+    background-color: #EA3A65
+}
+
+.navbar-custom .navbar-nav>.active>a,
+.navbar-custom .navbar-nav>.open>a,
+.navbar-custom .navbar-nav>.open>a,
+.navbar-custom .navbar-nav>.open>a:hover,
+.navbar-custom .navbar-nav>.open>a,
+.navbar-custom .navbar-nav>.open>a:hover,
+.navbar-custom .navbar-nav>.open>a:focus {
+    background-color: #EA3A65
+}
+
+.dropdown-menu {
+    background-color: #EA3A65
+}
+
+.dropdown-menu>li>a:hover,
+.dropdown-menu>li>a:focus {
+    background-color: #EA3A65
+}
+
+.navbar-custom {
+    background-image: none;
+}
+
+.dropdown-menu>li>a:hover,
+.dropdown-menu>li>a:focus {
+    background-image: none;
+}
+
+.navbar-custom {
+    border-color: #8F233E
+}
+
+.navbar-custom .navbar-brand {
+    color: #FFFFFF
+}
+
+.navbar-custom .navbar-brand:hover {
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+
+.navbar-custom .navbar-nav>li>a {
+    color: #FFFFFF
+}
+
+.navbar-custom .navbar-nav>li>a:hover,
+.navbar-custom .navbar-nav>li>a:focus {
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+
+.navbar-custom .navbar-nav>.active>a,
+.navbar-custom .navbar-nav>.open>a,
+.navbar-custom .navbar-nav>.open>a:hover,
+.navbar-custom .navbar-nav>.open>a:focus {
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+
+.navbar-custom .navbar-nav>.active>a:hover,
+.navbar-custom .navbar-nav>.active>a:focus {
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+
+.dropdown-menu > .dropdown-header {
+    color: #FFFFFF;
+}
+
+.dropdown-menu>li>a {
+    color: #FFFFFF;
+}
+
+.dropdown-menu>li>a:hover,
+.dropdown-menu>li>a:focus {
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+
+.navbar-custom .navbar-nav>.dropdown>a .caret {
+    border-top-color: #FFFFFF
+}
+
+.navbar-custom .navbar-nav>.dropdown>a:hover .caret {
+    border-top-color: #FFFFFF
+}
+
+.navbar-custom .navbar-nav>.dropdown>a .caret {
+    border-bottom-color: #FFFFFF
+}
+
+.navbar-custom .navbar-nav>.dropdown>a:hover .caret {
+    border-bottom-color: #FFFFFF
+}
+
 
 /*
  * Top navigation
@@ -27,6 +133,7 @@ body {
 
 .navbar-fixed-top {
     border: 0;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ea4394+0,eb3131+100 */
 }
 
 
@@ -53,8 +160,9 @@ body {
         overflow-x: hidden;
         overflow-y: auto;
         /* Scrollable contents if viewport is shorter than content. */
-        background-color: #f5f5f5;
-        border-right: 1px solid #eee;
+        background-color: #18101B;
+        border-right: 5px solid #261F27;
+        color: white;
     }
 }
 
@@ -62,7 +170,7 @@ body {
 /* Sidebar navigation */
 
 .nav-sidebar {
-    margin-right: -21px;
+    margin-right: -25px;
     /* 20px padding + 1px border */
     margin-bottom: 20px;
     margin-left: -20px;
@@ -100,27 +208,12 @@ body {
     margin-top: 0;
 }
 
-
-/*
- * Placeholder dashboard ideas
- */
-
-.placeholders {
-    margin-bottom: 30px;
-    text-align: center;
-}
-
-.placeholders h4 {
-    margin-bottom: 0;
-}
-
-.placeholder {
-    margin-bottom: 20px;
-}
-
-.placeholder img {
-    display: inline-block;
-    border-radius: 50%;
+h1.page-header {
+    background-color: #514952;
+    border-bottom: none;
+    color: white;
+    padding-left: 5px;
+    padding-top: 5px;
 }
 
 .grid-item1,
