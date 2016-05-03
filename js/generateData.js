@@ -15,19 +15,19 @@ $(document).ready(function() {
                 'class="gameObject gameObject-' + res +
                 '" src="/img/trans.png">'
             );
-            var $a = $('<a href="#modal' + res +
+            var $a = $('<a href="#' + res +
                 '" class="showInfo" data-loc="' + object.Name + '" data-toggle="modal">');
 
             $a.append($img);
             $div.append($a);
             $guns.append($div);
 
-            var $container = $('<div class="modal fade" id="modal' + res + '" tabindex="-1" role="dialog" aria-labelledby="modal' + res + '" aria-hidden="true" />');
+            var $container = $('<div class="modal fade" id="' + res + '" tabindex="-1" role="dialog" aria-labelledby="' + res + '" aria-hidden="true" />');
             var $dialog = $('<div class="modal-dialog" />')
             var $content = $('<div class="modal-content" />')
             var $header = $('<div class="modal-header" />');
             var $close = $('<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>');
-            var $title = $('<h4 class="modal-title" id="modalLabel">' + object.Name + '</h4>');
+            var $title = $('<h4 class="modal-title" id="' + res + '">' + object.Name + '</h4>');
 
             $header.append($close);
             $header.append($title);
@@ -75,14 +75,14 @@ $(document).ready(function() {
                 'class="gameObject gameObject-' + res +
                 '" src="/img/trans.png">'
             );
-            var $a = $('<a href="#modal' + res +
+            var $a = $('<a href="#' + res +
                 '" class="showInfo" data-loc="' + object.Name + '" data-toggle="modal">');
 
             $a.append($img);
             $div.append($a);
             $items.append($div);
 
-            var $container = $('<div class="modal fade" id="modal' + res + '" tabindex="-1" role="dialog" aria-labelledby="modal' + res + '" aria-hidden="true" />');
+            var $container = $('<div class="modal fade" id="' + res + '" tabindex="-1" role="dialog" aria-labelledby="' + res + '" aria-hidden="true" />');
             var $dialog = $('<div class="modal-dialog" />')
             var $content = $('<div class="modal-content" />')
             var $header = $('<div class="modal-header" />');
