@@ -15,14 +15,12 @@ $(document).ready(function() {
                 'class="gameObject gameObject-' + res +
                 '" src="/img/trans.png">'
             );
-            var $a = $('<a href="#' + res +
-                '" class="showInfo" data-loc="' + object.Name + '" data-toggle="modal">');
+            var $a = $('<a href="#modal' + res + '" data-toggle="modal">');
 
             $a.append($img);
             $div.append($a);
-            $guns.append($div);
 
-            var $container = $('<div class="modal fade" id="' + res + '" tabindex="-1" role="dialog" aria-labelledby="' + res + '" aria-hidden="true" />');
+            var $container = $('<div class="modal fade" id="modal' + res + '" tabindex="-1" role="dialog" aria-labelledby="' + res + '" aria-hidden="true" />');
             var $dialog = $('<div class="modal-dialog" />')
             var $content = $('<div class="modal-content" />')
             var $header = $('<div class="modal-header" />');
@@ -55,14 +53,14 @@ $(document).ready(function() {
 
             $dialog.append($content);
             $container.append($dialog);
-            $modals.append($container);
+            $div.append($container);
+            $guns.append($div);
         }
     });
 
     $.getJSON('/JSON/items.json', function(data) {
         var object = null;
         var $items = $("#items");
-        var $modals = $("#modals");
 
         for (var i = 0; i < data.length; i++) {
             object = data[i];
@@ -75,14 +73,12 @@ $(document).ready(function() {
                 'class="gameObject gameObject-' + res +
                 '" src="/img/trans.png">'
             );
-            var $a = $('<a href="#' + res +
-                '" class="showInfo" data-loc="' + object.Name + '" data-toggle="modal">');
+            var $a = $('<a href="#modal' + res + '" data-toggle="modal">');
 
             $a.append($img);
             $div.append($a);
-            $items.append($div);
 
-            var $container = $('<div class="modal fade" id="' + res + '" tabindex="-1" role="dialog" aria-labelledby="' + res + '" aria-hidden="true" />');
+            var $container = $('<div class="modal fade" id="modal' + res + '" tabindex="-1" role="dialog" aria-labelledby="' + res + '" aria-hidden="true" />');
             var $dialog = $('<div class="modal-dialog" />')
             var $content = $('<div class="modal-content" />')
             var $header = $('<div class="modal-header" />');
@@ -107,7 +103,8 @@ $(document).ready(function() {
 
             $dialog.append($content);
             $container.append($dialog);
-            $modals.append($container);
+            $div.append($container);
+            $items.append($div);
         }
     });
 });
