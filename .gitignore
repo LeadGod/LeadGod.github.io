@@ -1,3 +1,5 @@
 *.exe
 mongoose.conf
 generateData.html
+img/single
+img/single_2

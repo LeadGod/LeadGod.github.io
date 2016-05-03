@@ -63,10 +63,12 @@ body {
 }
 
 .navbar-custom .navbar-brand {
+    background-color: #EB3131;
     color: #FFFFFF
 }
 
 .navbar-custom .navbar-brand:hover {
+    background-color: #EB3131;
     color: #FFFFFF;
     text-decoration: underline;
 }
