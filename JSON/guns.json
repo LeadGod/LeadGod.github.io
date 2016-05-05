@@ -1,5 +1,4 @@
 [{
-    "Icon": "Rusty Sidearm.png",
     "Name": "Rusty Sidearm",
     "Quote": "Still Works. Mostly.",
     "Quality": "N",
@@ -14,7 +13,6 @@
     "Spread": 7,
     "Notes": "Starting gun of The Hunter. Does not reveal secret walls."
 }, {
-    "Icon": "Marine Sidearm.png",
     "Name": "Marine Sidearm",
     "Quote": "Always With You",
     "Quality": "N",
@@ -29,7 +27,6 @@
     "Spread": 5,
     "Notes": "Starting gun of The Marine. Does not reveal secret walls."
 }, {
-    "Icon": "Rogue Special.png",
     "Name": "Rogue Special",
     "Quote": "Underhanded And Efficient",
     "Quality": "N",
@@ -44,7 +41,6 @@
     "Spread": 10,
     "Notes": "Fires short-range, inaccurate lasers. Starting gun of The Pilot. Does not reveal secret walls."
 }, {
-    "Icon": "Budget Revolver.png",
     "Name": "Budget Revolver",
     "Quote": "Affordable Arms",
     "Quality": "N",
@@ -59,7 +55,6 @@
     "Spread": 10,
     "Notes": "Starting weapon of The Convict. Does not reveal secret walls."
 }, {
-    "Icon": "Dart Gun.png",
     "Name": "Dart Gun",
     "Quote": "Sticky",
     "Quality": "N",
@@ -74,7 +69,7 @@
     "Spread": 5,
     "Notes": "Fires sticky darts. Starting weapon of The Cultist. Does not reveal secret walls."
 }, {
-    "Icon": "Robot's Right Hand.png",
+    "Icon": "Robot's Right Hand",
     "Name": "Robot's Right Hand",
     "Quote": "Built To Kill",
     "Quality": "N",
@@ -89,7 +84,6 @@
     "Spread": 7,
     "Notes": "Starting weapon of The Robot. Does not reveal secret walls."
 }, {
-    "Icon": "Blasphemy.png",
     "Name": "Blasphemy",
     "Quote": "To The Point",
     "Quality": "B",
@@ -104,7 +98,6 @@
     "Spread": 10,
     "Notes": "Starting weapon of The Bullet. Does not reveal secret walls. Swinging the sword destroys bullets and damages enemies. When at full health, swinging the sword also sends out a piercing sword projectile."
 }, {
-    "Icon": "Pea Shooter.png",
     "Name": "Pea Shooter",
     "Quote": "Baby's First Gun",
     "Quality": "D",
@@ -119,7 +112,6 @@
     "Spread": 10,
     "Notes": "Fires peas."
 }, {
-    "Icon": "38 Special.png",
     "Name": "38 Special",
     "Quote": "For The Inquisitive",
     "Quality": "D",
@@ -134,7 +126,6 @@
     "Spread": 5,
     "Notes": ""
 }, {
-    "Icon": "Derringer.png",
     "Name": "Derringer",
     "Quote": "One Last Trick",
     "Quality": "D",
@@ -149,7 +140,6 @@
     "Spread": 6,
     "Notes": ""
 }, {
-    "Icon": "Unfinished Gun.png",
     "Name": "Unfinished Gun",
     "Quote": "Still Warm",
     "Quality": "D",
@@ -164,7 +154,6 @@
     "Spread": 15,
     "Notes": "Shots pierce through enemies."
 }, {
-    "Icon": "Makarov.png",
     "Name": "Makarov",
     "Quote": "The People's Gun",
     "Quality": "D",
@@ -179,7 +168,6 @@
     "Spread": 4,
     "Notes": ""
 }, {
-    "Icon": "M1911.png",
     "Name": "M1911",
     "Quote": "Classic",
     "Quality": "C",
@@ -194,7 +182,6 @@
     "Spread": 6,
     "Notes": ""
 }, {
-    "Icon": "Magnum.png",
     "Name": "Magnum",
     "Quote": "5 Shots Or 6?",
     "Quality": "B",
@@ -209,7 +196,6 @@
     "Spread": 7,
     "Notes": ""
 }, {
-    "Icon": "Colt 1851.png",
     "Name": "Colt 1851",
     "Quote": "You Dig",
     "Quality": "C",
@@ -224,7 +210,6 @@
     "Spread": null,
     "Notes": "Fires a burst of two bullets."
 }, {
-    "Icon": "SAA.png",
     "Name": "SAA",
     "Quote": "Exhilarating Reload Time",
     "Quality": "B",
@@ -239,7 +224,6 @@
     "Spread": 0,
     "Notes": "Fires bouncing bullets that aim towards enemies after bouncing."
 }, {
-    "Icon": "Cold 45.png",
     "Name": "Cold 45",
     "Quote": "Shatterday Night Special",
     "Quality": "B",
@@ -254,7 +238,6 @@
     "Spread": 6,
     "Notes": "Fires bullets that freeze enemies."
 }, {
-    "Icon": "Polaris.png",
     "Name": "Polaris",
     "Quote": "Storied",
     "Quality": "B",
@@ -269,7 +252,6 @@
     "Spread": 5,
     "Notes": "Has 3 levels. Killing enough enemies causes the gun to level up, increasing its damage. Taking damage decreases its level by 1."
 }, {
-    "Icon": "Jolter.png",
     "Name": "Jolter",
     "Quote": ".95 Caliber",
     "Quality": "B",
@@ -284,7 +266,6 @@
     "Spread": 10,
     "Notes": "Fires large and rectangular bullets with high knockback."
 }, {
-    "Icon": "Dungeon Eagle.png",
     "Name": "Dungeon Eagle",
     "Quote": "Caw!",
     "Quality": "C",
@@ -299,7 +280,7 @@
     "Spread": null,
     "Notes": ""
 }, {
-    "Icon": "Grey Mauser (Gun).png",
+    "Icon": "Grey Mauser (Gun)",
     "Name": "Grey Mauser",
     "Quote": "Silent and Deadly",
     "Quality": "B",
@@ -314,7 +295,6 @@
     "Spread": null,
     "Notes": ""
 }, {
-    "Icon": "Shellegun.png",
     "Name": "Shellegun",
     "Quote": "Circle Of Death",
     "Quality": "B",
@@ -329,7 +309,6 @@
     "Spread": 5,
     "Notes": "Reloading alternates between a pistol and a continuous beam."
 }, {
-    "Icon": "Dueling Pistol.png",
     "Name": "Dueling Pistol",
     "Quote": "Ricochet",
     "Quality": "D",
@@ -344,7 +323,6 @@
     "Spread": 8,
     "Notes": "Fires large bullets that bounce twice."
 }, {
-    "Icon": "AU Gun.png",
     "Name": "AU Gun",
     "Quote": "Some Assembly Required",
     "Quality": "S",
@@ -359,7 +337,6 @@
     "Spread": 0,
     "Notes": "Fires a single powerful bullet."
 }, {
-    "Icon": "Big Iron.png",
     "Name": "Big Iron",
     "Quote": "Heavy",
     "Quality": "B",
@@ -374,10 +351,9 @@
     "Spread": 4,
     "Notes": "Fires a random spread of three bullets."
 }, {
-    "Icon": "Composite Gun.png",
     "Name": "Composite Gun",
     "Quote": "Undetectable",
-    "Quality": "A S",
+    "Quality": "S",
     "Type": "Charged",
     "Magazine Size": "2",
     "Ammo Capacity": "50",
@@ -389,7 +365,6 @@
     "Spread": 0,
     "Notes": "Charged shot consumes all ammo in magazine and can pierce enemies."
 }, {
-    "Icon": "Flare Gun.png",
     "Name": "Flare Gun",
     "Quote": "Over Here",
     "Quality": "D",
@@ -404,7 +379,7 @@
     "Spread": 6,
     "Notes": "Fires bullets that have a chance to set enemies on fire."
 }, {
-    "Icon": "Smiley's Revolver.png",
+    "Icon": "Smiley's Revolver",
     "Name": "Smiley's Revolver",
     "Quote": "All Smiles",
     "Quality": "B",
@@ -419,7 +394,7 @@
     "Spread": 6,
     "Notes": "Decreases shop prices while held.Fire rate increased shortly after rolling."
 }, {
-    "Icon": "Shades's Revolver.png",
+    "Icon": "Shades's Revolver",
     "Name": "Shades's Revolver",
     "Quote": "Someone Loses An Eye",
     "Quality": "C",
@@ -434,7 +409,6 @@
     "Spread": 6,
     "Notes": "Increases the player's coolness while held, which decreases the cooldown of active items and increases luck."
 }, {
-    "Icon": "Regular Shotgun.png",
     "Name": "Regular Shotgun",
     "Quote": "Cocked and Loaded",
     "Quality": "D",
@@ -449,7 +423,6 @@
     "Spread": 10,
     "Notes": ""
 }, {
-    "Icon": "Old Goldie.png",
     "Name": "Old Goldie",
     "Quote": "For The Discerning",
     "Quality": "A",
@@ -464,7 +437,7 @@
     "Spread": 5,
     "Notes": ""
 }, {
-    "Icon": "Sawed-Off.png",
+    "Icon": "Sawed-Off",
     "Name": "Sawed-Off",
     "Quote": "No Butts About It",
     "Quality": "D",
@@ -479,7 +452,6 @@
     "Spread": 8,
     "Notes": ""
 }, {
-    "Icon": "Winchester.png",
     "Name": "Winchester",
     "Quote": "Better Than A Box Of Roses",
     "Quality": "C",
@@ -494,7 +466,6 @@
     "Spread": null,
     "Notes": ""
 }, {
-    "Icon": "Rattler.png",
     "Name": "Rattler",
     "Quote": "Snakes On A Gun",
     "Quality": "B",
@@ -509,7 +480,6 @@
     "Spread": null,
     "Notes": "Simultaneously fires a shotgun blast and a beam that has a chance to poison enemies."
 }, {
-    "Icon": "Elephant Gun.png",
     "Name": "Elephant Gun",
     "Quote": "Shoots Elephants",
     "Quality": "C",
@@ -524,7 +494,6 @@
     "Spread": null,
     "Notes": "Fires a cone spread of bullets and has strong knockback."
 }, {
-    "Icon": "Tangler.png",
     "Name": "Tangler",
     "Quote": "Get Wrecktangled",
     "Quality": "C",
@@ -539,7 +508,6 @@
     "Spread": null,
     "Notes": "Fires a shotgun blast of rectangular bullets that bounce off walls. Enemies hit will be folded into a rectangle."
 }, {
-    "Icon": "Void Shotgun.png",
     "Name": "Void Shotgun",
     "Quote": "CQC",
     "Quality": "B",
@@ -554,7 +522,6 @@
     "Spread": 0,
     "Notes": "Fires 5 purple bullets with strong knockback."
 }, {
-    "Icon": "Mass Shotgun.png",
     "Name": "Mass Shotgun",
     "Quote": "My Favorite Gun",
     "Quality": "B",
@@ -569,7 +536,6 @@
     "Spread": 0,
     "Notes": "Shoots a large slow projectile that will split up in a barrage of small bullets shortly afterwards."
 }, {
-    "Icon": "Shotgun Full of Hate.png",
     "Name": "Shotgun Full of Hate",
     "Quote": "Hate Is Power!",
     "Quality": "A",
@@ -584,7 +550,6 @@
     "Spread": 14,
     "Notes": "Shoots a shotgun burst of poison bullets that leave pools of poison goop."
 }, {
-    "Icon": "Shotgun Full of Love.png",
     "Name": "Shotgun Full of Love",
     "Quote": "Kill With Kindness",
     "Quality": "A",
@@ -599,7 +564,6 @@
     "Spread": 14,
     "Notes": "Has a chance to Charm enemies."
 }, {
-    "Icon": "Shotgrub.png",
     "Name": "Shotgrub",
     "Quote": "No Worries!",
     "Quality": "C",
@@ -614,7 +578,6 @@
     "Spread": 0,
     "Notes": "Fires a spread of 5 bullets that leave small pools of poison goop."
 }, {
-    "Icon": "Gilded Hydra.png",
     "Name": "Gilded Hydra",
     "Quote": "Heads Up!",
     "Quality": "S",
@@ -629,7 +592,6 @@
     "Spread": 0,
     "Notes": "Fires a large burst of piercing, bouncing bullets. Clip size is increased by 1 for each half heart the player is missing, and healing decreases clip size."
 }, {
-    "Icon": "Blunderbuss.png",
     "Name": "Blunderbuss",
     "Quote": "Shoots Anything",
     "Quality": "D",
@@ -644,7 +606,6 @@
     "Spread": 20,
     "Notes": "Fires a short-ranged spray of bullets."
 }, {
-    "Icon": "Pulse Cannon.png",
     "Name": "Pulse Cannon",
     "Quote": "Time Of Death…",
     "Quality": "C",
@@ -659,7 +620,6 @@
     "Spread": null,
     "Notes": "Fires a shotgun blast spread of 5 bullets."
 }, {
-    "Icon": "Siren.png",
     "Name": "Siren",
     "Quote": "Mershotgun",
     "Quality": "C",
@@ -674,7 +634,6 @@
     "Spread": 0,
     "Notes": "Fires a shotgun blast of bullets that leave pools of water. Negates fall damage and goop effects while equipped."
 }, {
-    "Icon": "Zilla Shotgun.png",
     "Name": "Zilla Shotgun",
     "Quote": "Quadruple the fun!",
     "Quality": "A",
@@ -689,7 +648,6 @@
     "Spread": 20,
     "Notes": "Can be charged to fire the entire magazine at once, which will cause it to fire piercing, bouncing bullets."
 }, {
-    "Icon": "Ice Breaker.png",
     "Name": "Ice Breaker",
     "Quote": "Never Let Go",
     "Quality": "B",
@@ -704,7 +662,6 @@
     "Spread": 0,
     "Notes": "The first two shots fire a shotgun blast of ice bullets, and the final shop fires a single explosive shot."
 }, {
-    "Icon": "The Membrane.png",
     "Name": "The Membrane",
     "Quote": "Green Or Yellow?",
     "Quality": "C",
@@ -719,7 +676,6 @@
     "Spread": null,
     "Notes": "Fires a shotgun blast of bouncing green bullets that split into more bouncing green bullets."
 }, {
-    "Icon": "Huntsman.png",
     "Name": "Huntsman",
     "Quote": "Axes Of Evil",
     "Quality": "C",
@@ -734,7 +690,6 @@
     "Spread": null,
     "Notes": "Fires shotgun blasts of bullets. Reloading swings the gun, destroying nearby bullets. Increases curse while held."
 }, {
-    "Icon": "Blooper.png",
     "Name": "Blooper",
     "Quote": "Close Your Bloop",
     "Quality": "B",
@@ -749,7 +704,6 @@
     "Spread": 0,
     "Notes": "Fires shotgun blasts of blue bullets with high knockback."
 }, {
-    "Icon": "Bow.png",
     "Name": "Bow",
     "Quote": "Hold Fire To Charge",
     "Quality": "C",
@@ -764,7 +718,6 @@
     "Spread": 0,
     "Notes": "Pierces enemies when fully charged."
 }, {
-    "Icon": "Charmed Bow.png",
     "Name": "Charmed Bow",
     "Quote": "<3-----<<<",
     "Quality": "B",
@@ -779,7 +732,6 @@
     "Spread": null,
     "Notes": "Has a chance to Charm enemies."
 }, {
-    "Icon": "Crossbow.png",
     "Name": "Crossbow",
     "Quote": "The Original",
     "Quality": "D",
@@ -794,7 +746,6 @@
     "Spread": 7,
     "Notes": "Fires bolts."
 }, {
-    "Icon": "Sticky Crossbow.png",
     "Name": "Sticky Crossbow",
     "Quote": "Reload, Explode",
     "Quality": "C",
@@ -809,7 +760,6 @@
     "Spread": null,
     "Notes": "Fires bolts that stick to the enemy and explode upon reloading."
 }, {
-    "Icon": "Shotbow.png",
     "Name": "Shotbow",
     "Quote": "A Teleporter Accident",
     "Quality": "B",
@@ -824,7 +774,6 @@
     "Spread": 5,
     "Notes": "Fires a shotgun blast of bolts."
 }, {
-    "Icon": "Triple Crossbow.png",
     "Name": "Triple Crossbow",
     "Quote": "3 > 1",
     "Quality": "C",
@@ -839,7 +788,6 @@
     "Spread": null,
     "Notes": "Reloading alternates between triple bolts and single bolts that slow enemies."
 }, {
-    "Icon": "Crescent Crossbow.png",
     "Name": "Crescent Crossbow",
     "Quote": "Moon Shot",
     "Quality": "A",
@@ -854,7 +802,6 @@
     "Spread": 0,
     "Notes": "Fires stars that split into smaller bouncing stars."
 }, {
-    "Icon": "Gunbow.png",
     "Name": "Gunbow",
     "Quote": "Failed Experiment",
     "Quality": "A",
@@ -869,7 +816,6 @@
     "Spread": 0,
     "Notes": "Fires a fast, piercing projectile that ricochets many times."
 }, {
-    "Icon": "Klobbe.png",
     "Name": "Klobbe",
     "Quote": "Everyone's Favorite",
     "Quality": "D",
@@ -884,7 +830,6 @@
     "Spread": 20,
     "Notes": "Rapidly fires low-damage bullets."
 }, {
-    "Icon": "Machine Pistol.png",
     "Name": "Machine Pistol",
     "Quote": "Rapid Fire",
     "Quality": "D",
@@ -899,7 +844,7 @@
     "Spread": 10,
     "Notes": ""
 }, {
-    "Icon": "Thompson Sub-Machinegun.png",
+    "Icon": "Thompson Sub-Machinegun",
     "Name": "Thompson Sub-Machinegun",
     "Quote": "Myeah, See!",
     "Quality": "C",
@@ -914,7 +859,7 @@
     "Spread": null,
     "Notes": ""
 }, {
-    "Icon": "AK-47.png",
+    "Icon": "AK-47",
     "Name": "AK-47",
     "Quote": "Accept No Substitutes",
     "Quality": "B",
@@ -929,7 +874,7 @@
     "Spread": 4,
     "Notes": ""
 }, {
-    "Icon": "AKEY-47.png",
+    "Icon": "AKEY-47",
     "Name": "AKEY-47",
     "Quote": "Unlocked And Loaded!",
     "Quality": "S",
@@ -944,7 +889,6 @@
     "Spread": 4,
     "Notes": "Shooting a locked chest or door unlocks it."
 }, {
-    "Icon": "M16.png",
     "Name": "M16",
     "Quote": "Underslung",
     "Quality": "A",
@@ -959,7 +903,6 @@
     "Spread": 7,
     "Notes": "Reloading alternates between bursts of bullets and a grenade launcher."
 }, {
-    "Icon": "Zorgun.png",
     "Name": "Zorgun",
     "Quote": "Don't Push The Red Button",
     "Quality": "A",
@@ -974,7 +917,7 @@
     "Spread": 5,
     "Notes": "Rapidly fires homing bullets. The final bullet in each clip fires a random explosive (grenade, rocket, or drill)."
 }, {
-    "Icon": "VertebraeK-47.png",
+    "Icon": "VertebraeK-47",
     "Name": "VertebraeK-47",
     "Quote": "Nervous Yet?",
     "Quality": "B",
@@ -989,7 +932,6 @@
     "Spread": 5,
     "Notes": "Bullets close to each other will form links between each other, which hurts enemies on touch."
 }, {
-    "Icon": "MAC10.png",
     "Name": "MAC10",
     "Quote": "$#!^@ Never End",
     "Quality": "C",
@@ -1004,7 +946,6 @@
     "Spread": 10,
     "Notes": "Fires a burst of four bullets."
 }, {
-    "Icon": "Heck Blaster.png",
     "Name": "Heck Blaster",
     "Quote": "Whoa, Nelly",
     "Quality": "A",
@@ -1019,7 +960,6 @@
     "Spread": 8,
     "Notes": "Rapidly fires invisible bullets."
 }, {
-    "Icon": "Patriot.png",
     "Name": "Patriot",
     "Quote": "Gun Eater",
     "Quality": "S",
@@ -1034,7 +974,6 @@
     "Spread": 1,
     "Notes": "Fires piercing bullets.Fire rate increases rapidly as the trigger is held."
 }, {
-    "Icon": "Vulcan Cannon.png",
     "Name": "Vulcan Cannon",
     "Quote": "Boundless Slaughter",
     "Quality": "S",
@@ -1049,7 +988,6 @@
     "Spread": 12,
     "Notes": ""
 }, {
-    "Icon": "Plague Pistol.png",
     "Name": "Plague Pistol",
     "Quote": "Chemical Warfare",
     "Quality": "D",
@@ -1064,7 +1002,6 @@
     "Spread": 5,
     "Notes": "Fires bullets that leave poison goop on the ground and have a chance to poison enemies."
 }, {
-    "Icon": "Gungine.png",
     "Name": "Gungine",
     "Quote": "12 Cylinder",
     "Quality": "S",
@@ -1079,7 +1016,6 @@
     "Spread": 6,
     "Notes": "Greatly increases movement speed while held. Reloading clears nearby goop and refills the gun's ammo."
 }, {
-    "Icon": "Dragunfire.png",
     "Name": "Dragunfire",
     "Quote": "Roar",
     "Quality": "A",
@@ -1094,7 +1030,6 @@
     "Spread": 7,
     "Notes": "Rapidly fires burning bullets that have a chance to inflict Burn."
 }, {
-    "Icon": "Sniper Rifle.png",
     "Name": "Sniper Rifle",
     "Quote": "Scope Creep",
     "Quality": "C",
@@ -1109,7 +1044,7 @@
     "Spread": null,
     "Notes": "Fires bullets that can pierce through one enemy."
 }, {
-    "Icon": "A.W.P..png",
+    "Icon": "A.W.P.",
     "Name": "A.W.P.",
     "Quote": "Noob Cannon",
     "Quality": "A",
@@ -1124,7 +1059,6 @@
     "Spread": 5,
     "Notes": "Fires bullets that can pierce through one enemy."
 }, {
-    "Icon": "M1.png",
     "Name": "M1",
     "Quote": "Bolt Action",
     "Quality": "C",
@@ -1139,7 +1073,6 @@
     "Spread": 2,
     "Notes": "Bullets penetrate enemies."
 }, {
-    "Icon": "Winchester Rifle.png",
     "Name": "Winchester Rifle",
     "Quote": "Guns and Deviltry.",
     "Quality": "D",
@@ -1154,7 +1087,6 @@
     "Spread": 5,
     "Notes": ""
 }, {
-    "Icon": "Corsair.png",
     "Name": "Corsair",
     "Quote": "Plot A Course",
     "Quality": "C",
@@ -1169,7 +1101,6 @@
     "Spread": 5,
     "Notes": "Fires slow-moving bullets that accelerate and bounce around the room."
 }, {
-    "Icon": "Railgun.png",
     "Name": "Railgun",
     "Quote": "Calibrating",
     "Quality": "S",
@@ -1184,7 +1115,6 @@
     "Spread": null,
     "Notes": "Fires a fast-moving piercing bullet that bounces many times."
 }, {
-    "Icon": "Prototype Railgun.png",
     "Name": "Prototype Railgun",
     "Quote": "DANGER: HIGH VOLTAGE",
     "Quality": "A",
@@ -1199,7 +1129,6 @@
     "Spread": null,
     "Notes": ""
 }, {
-    "Icon": "Void Marshal.png",
     "Name": "Void Marshal",
     "Quote": "Acquired Under The Table",
     "Quality": "B",
@@ -1214,7 +1143,6 @@
     "Spread": 7,
     "Notes": ""
 }, {
-    "Icon": "Deck4rd.png",
     "Name": "Deck4rd",
     "Quote": "Unicorn Of Handguns",
     "Quality": "A",
@@ -1229,7 +1157,6 @@
     "Spread": 10,
     "Notes": "Fires a single powerful bullet that will explode upon impact."
 }, {
-    "Icon": "The Judge.png",
     "Name": "The Judge",
     "Quote": "Hot Shot",
     "Quality": "B",
@@ -1244,7 +1171,6 @@
     "Spread": 7,
     "Notes": "The final shot of each clip has a chance to poison, freeze or ignite enemies. (likely more effects possible)"
 }, {
-    "Icon": "Alien Sidearm.png",
     "Name": "Alien Sidearm",
     "Quote": "Shield Breaker",
     "Quality": "D",
@@ -1259,7 +1185,7 @@
     "Spread": null,
     "Notes": "Charged shots are larger and deal more damage."
 }, {
-    "Icon": "RUBE-ADYNE Prototype.png",
+    "Icon": "RUBE-ADYNE Prototype",
     "Name": "RUBE-ADYNE Prototype",
     "Quote": "It Never Quits",
     "Quality": "B",
@@ -1274,7 +1200,7 @@
     "Spread": 5,
     "Notes": "Fires lasers that bounce four times."
 }, {
-    "Icon": "RUBE-ADYNE MK.II.png",
+    "Icon": "RUBE-ADYNE MK.II",
     "Name": "RUBE-ADYNE MK.II",
     "Quote": "Polished Product",
     "Quality": "A",
@@ -1289,7 +1215,6 @@
     "Spread": 7,
     "Notes": "Fires bouncing lasers with limited range."
 }, {
-    "Icon": "Mine Cutter.png",
     "Name": "Mine Cutter",
     "Quote": "Safety First",
     "Quality": "B",
@@ -1304,7 +1229,6 @@
     "Spread": 7,
     "Notes": "Reloading alternates between firing three small, piercing, parallel lasers and single large lasers."
 }, {
-    "Icon": "Void Core Assault Rifle.png",
     "Name": "Void Core Assault Rifle",
     "Quote": "Rapid Fire",
     "Quality": "B",
@@ -1319,7 +1243,6 @@
     "Spread": 3,
     "Notes": ""
 }, {
-    "Icon": "Flash Ray.png",
     "Name": "Flash Ray",
     "Quote": "Ah Ahhh!",
     "Quality": "D",
@@ -1334,7 +1257,6 @@
     "Spread": 10,
     "Notes": "Shoots lasers that pierce enemies. Has a chance to stun enemies."
 }, {
-    "Icon": "Wind Up Gun.png",
     "Name": "Wind Up Gun",
     "Quote": "Charge It",
     "Quality": "D",
@@ -1349,7 +1271,6 @@
     "Spread": 8,
     "Notes": "The second half of each clip is slower and deals less damage (unconfirmed)."
 }, {
-    "Icon": "H4mmer.png",
     "Name": "H4mmer",
     "Quote": "Many Bullets",
     "Quality": "B",
@@ -1364,7 +1285,6 @@
     "Spread": 7,
     "Notes": "Fires a barrage of bullets. The last shot in the magazine is a hammer, which deals extra damage and can stun enemies."
 }, {
-    "Icon": "Snakemaker.png",
     "Name": "Snakemaker",
     "Quote": "SSSSSSSSSSS",
     "Quality": "A",
@@ -1379,7 +1299,6 @@
     "Spread": 0,
     "Notes": ""
 }, {
-    "Icon": "Hegemony Carbine.png",
     "Name": "Hegemony Carbine",
     "Quote": "All The Same",
     "Quality": "C",
@@ -1394,7 +1313,6 @@
     "Spread": null,
     "Notes": "Shoots rapid fire white bolts of energy."
 }, {
-    "Icon": "Screecher.png",
     "Name": "Screecher",
     "Quote": "Cover Your Ears!",
     "Quality": "C",
@@ -1409,7 +1327,6 @@
     "Spread": null,
     "Notes": ""
 }, {
-    "Icon": "Laser Lotus.png",
     "Name": "Laser Lotus",
     "Quote": "Level 5",
     "Quality": "A",
@@ -1424,7 +1341,6 @@
     "Spread": 5,
     "Notes": ""
 }, {
-    "Icon": "Hegemony Rifle.png",
     "Name": "Hegemony Rifle",
     "Quote": "So Precise",
     "Quality": "B",
@@ -1439,7 +1355,6 @@
     "Spread": 13,
     "Notes": ""
 }, {
-    "Icon": "Fightsabre.png",
     "Name": "Fightsabre",
     "Quote": "Heresy",
     "Quality": "S",
@@ -1454,7 +1369,6 @@
     "Spread": 8,
     "Notes": "Reloading swings the gun around, reflecting nearby bullets. Increases Curse while carried."
 }, {
-    "Icon": "Helix.png",
     "Name": "Helix",
     "Quote": "Splice 'n' Dice",
     "Quality": "C",
@@ -1469,7 +1383,6 @@
     "Spread": 7,
     "Notes": "Fires two bullets in a helix pattern."
 }, {
-    "Icon": "Laser Rifle.png",
     "Name": "Laser Rifle",
     "Quote": "Blast Off!",
     "Quality": "C",
@@ -1484,7 +1397,6 @@
     "Spread": 5,
     "Notes": "Fires a burst of three lasers."
 }, {
-    "Icon": "Crestfaller.png",
     "Name": "Crestfaller",
     "Quote": "Cold Reality",
     "Quality": "C",
@@ -1499,7 +1411,6 @@
     "Spread": null,
     "Notes": "Fires piercing bullets that slow and freeze enemies."
 }, {
-    "Icon": "Thunderclap.png",
     "Name": "Thunderclap",
     "Quote": "Lightning In A Bullet",
     "Quality": "A",
@@ -1514,7 +1425,6 @@
     "Spread": 5,
     "Notes": "Fires balls of lightning."
 }, {
-    "Icon": "Charge Shot.png",
     "Name": "Charge Shot",
     "Quote": "Hold To Fire",
     "Quality": "B",
@@ -1529,7 +1439,6 @@
     "Spread": 5,
     "Notes": "Fires a large laser that pierces enemies and bounces off of walls."
 }, {
-    "Icon": "Dark Marker.png",
     "Name": "Dark Marker",
     "Quote": "Big Bang",
     "Quality": "S",
@@ -1544,7 +1453,6 @@
     "Spread": 0,
     "Notes": "Charge shot consumes the entire clip to create a room-wide explosion and blank effect."
 }, {
-    "Icon": "Particulator.png",
     "Name": "Particulator",
     "Quote": "Strange Matter",
     "Quality": "S",
@@ -1559,7 +1467,6 @@
     "Spread": 0,
     "Notes": "Fires bullets in a small spread, which will then automatically seek out enemies."
 }, {
-    "Icon": "The Emperor.png",
     "Name": "The Emperor",
     "Quote": "Electric Terror",
     "Quality": "A",
@@ -1574,7 +1481,6 @@
     "Spread": 7,
     "Notes": "Fires a burst of four bullets connected by electricity."
 }, {
-    "Icon": "RPG.png",
     "Name": "RPG",
     "Quote": "Leveled Up",
     "Quality": "B",
@@ -1589,7 +1495,6 @@
     "Spread": 5,
     "Notes": ""
 }, {
-    "Icon": "Grenade Launcher.png",
     "Name": "Grenade Launcher",
     "Quote": "Fwomp!",
     "Quality": "B",
@@ -1604,7 +1509,6 @@
     "Spread": 4,
     "Notes": "Shoots a grenade that bounces off of surfaces and explodes on impact with enemies."
 }, {
-    "Icon": "Stinger.png",
     "Name": "Stinger",
     "Quote": "Drone Warfare",
     "Quality": "B",
@@ -1619,7 +1523,6 @@
     "Spread": 1,
     "Notes": "Fires homing rockets that explode into bees."
 }, {
-    "Icon": "Com4nd0.png",
     "Name": "Com4nd0",
     "Quote": "You're Fired",
     "Quality": "B",
@@ -1634,7 +1537,6 @@
     "Spread": 5,
     "Notes": "Fires homing rockets."
 }, {
-    "Icon": "RC Rocket.png",
     "Name": "RC Rocket",
     "Quote": "Avoid User Error",
     "Quality": "A",
@@ -1649,7 +1551,6 @@
     "Spread": 1,
     "Notes": "Fires rockets guided by the player's cursor."
 }, {
-    "Icon": "Yari Launcher.png",
     "Name": "Yari Launcher",
     "Quote": "Hell. Yes.",
     "Quality": "S",
@@ -1664,7 +1565,7 @@
     "Spread": 45,
     "Notes": "Rapidly fires homing rockets."
 }, {
-    "Icon": "Lil' Bomber.png",
+    "Icon": "Lil' Bomber",
     "Name": "Lil' Bomber",
     "Quote": "ReFuse To Lose!",
     "Quality": "D",
@@ -1679,7 +1580,6 @@
     "Spread": 6,
     "Notes": "Fires a bomb that bounces off solid objects and explodes on enemy contact."
 }, {
-    "Icon": "Grasschopper.png",
     "Name": "Grasschopper",
     "Quote": "Noisy",
     "Quality": "A",
@@ -1694,7 +1594,6 @@
     "Spread": 5,
     "Notes": "Fires a single powerful blast that has a very strong recoil."
 }, {
-    "Icon": "Bundle of Wands.png",
     "Name": "Bundle of Wands",
     "Quote": "Dark Arts",
     "Quality": "C",
@@ -1709,7 +1608,6 @@
     "Spread": null,
     "Notes": "Has a chance to transmogrify enemies."
 }, {
-    "Icon": "Staff of Firepower.png",
     "Name": "Staff of Firepower",
     "Quote": "Missing Link",
     "Quality": "A",
@@ -1724,7 +1622,6 @@
     "Spread": 7,
     "Notes": "Reloading alternates between a rapid fire pistol and a beam weapon that can set enemies on fire."
 }, {
-    "Icon": "Witch Pistol.png",
     "Name": "Witch Pistol",
     "Quote": "Spells Your Doom",
     "Quality": "C",
@@ -1739,7 +1636,6 @@
     "Spread": null,
     "Notes": "Fires bullets that have a chance to transmogrify enemies."
 }, {
-    "Icon": "Hexagun.png",
     "Name": "Hexagun",
     "Quote": "Light Fantastic",
     "Quality": "B",
@@ -1754,7 +1650,6 @@
     "Spread": 0,
     "Notes": "Fires piercing bullets that have a chance to transmogrify enemies."
 }, {
-    "Icon": "Phoenix.png",
     "Name": "Phoenix",
     "Quote": "Reborn In Flame",
     "Quality": "D",
@@ -1769,7 +1664,6 @@
     "Spread": 3,
     "Notes": "Firing a bullet creates a small cone of fire in front of the player that sets enemies on fire."
 }, {
-    "Icon": "Magic Lamp.png",
     "Name": "Magic Lamp",
     "Quote": "One Wish, Three Times",
     "Quality": "B",
@@ -1784,7 +1678,7 @@
     "Spread": 5,
     "Notes": "Hitting an enemy three times causes a genie to punch them."
 }, {
-    "Icon": "Gunslinger's Ashes.png",
+    "Icon": "Gunslinger's Ashes",
     "Name": "Gunslinger's Ashes",
     "Quote": "Spirit, Willing",
     "Quality": "C",
@@ -1799,7 +1693,6 @@
     "Spread": null,
     "Notes": "Releases an armed spirit that attacks enemies."
 }, {
-    "Icon": "Luxin Cannon.png",
     "Name": "Luxin Cannon",
     "Quote": "Omnichrome",
     "Quality": "C",
@@ -1814,7 +1707,6 @@
     "Spread": null,
     "Notes": "Fires laser shots at enemies. When the magazine is emptied the tip of the crystal will be launched for extra damage."
 }, {
-    "Icon": "Gunther.png",
     "Name": "Gunther",
     "Quote": "Jealous Weapon",
     "Quality": "S",
@@ -1829,7 +1721,6 @@
     "Spread": 10,
     "Notes": "Cannot be used to reveal hidden walls. Grows stronger with each room cleared."
 }, {
-    "Icon": "Unicorn Horn.png",
     "Name": "Unicorn Horn",
     "Quote": "Fires Friendship",
     "Quality": "A",
@@ -1844,7 +1735,6 @@
     "Spread": 0,
     "Notes": "Fires a rainbow beam that homes in on enemies. Increases Curse while carried."
 }, {
-    "Icon": "Cobalt Hammer.png",
     "Name": "Cobalt Hammer",
     "Quote": "Break Stuff",
     "Quality": "A",
@@ -1859,7 +1749,6 @@
     "Spread": 0,
     "Notes": "Fires blue lasers. Charging the weapon makes it fire lasers in four directions."
 }, {
-    "Icon": "Frost Giant.png",
     "Name": "Frost Giant",
     "Quote": "Icy Grasp",
     "Quality": "B",
@@ -1874,7 +1763,6 @@
     "Spread": 12,
     "Notes": "Fires big bullets that have a chance to freeze enemies."
 }, {
-    "Icon": "Bullet Bore.png",
     "Name": "Bullet Bore",
     "Quote": "Mind Muncher",
     "Quality": "A",
@@ -1889,7 +1777,6 @@
     "Spread": 5,
     "Notes": "Fires drills that home in on enemies, stun them, and explode after a short delay."
 }, {
-    "Icon": "Cat Claw.png",
     "Name": "Cat Claw",
     "Quote": "Kneadle Your Foes!",
     "Quality": "A",
@@ -1904,7 +1791,6 @@
     "Spread": 5,
     "Notes": "Fires darts that home in on enemies and explode after a short delay. The darts deal no damage on contact."
 }, {
-    "Icon": "Megahand.png",
     "Name": "Megahand",
     "Quote": "-P-",
     "Quality": "B",
@@ -1919,7 +1805,6 @@
     "Spread": 0,
     "Notes": "Has 2 levels of damage depending on how long the gun has been charged."
 }, {
-    "Icon": "Demon Head.png",
     "Name": "Demon Head",
     "Quote": "Wanged",
     "Quality": "B",
@@ -1934,7 +1819,6 @@
     "Spread": 5,
     "Notes": "Fires a continuous beam that has a chance to afflict Burn."
 }, {
-    "Icon": "Heroine.png",
     "Name": "Heroine",
     "Quote": "Charge Beam Active",
     "Quality": "B",
@@ -1949,7 +1833,6 @@
     "Spread": 0,
     "Notes": "Has 3 levels of damage depending on how long the gun has been charged."
 }, {
-    "Icon": "Mutation.png",
     "Name": "Mutation",
     "Quote": "Didn't Need Two Anyway",
     "Quality": "B",
@@ -1964,7 +1847,6 @@
     "Spread": 5,
     "Notes": "Fires a continuous beam and heavily pushes back the player."
 }, {
-    "Icon": "Flame Hand.png",
     "Name": "Flame Hand",
     "Quote": "2D6 + Int Mod",
     "Quality": "B",
@@ -1979,7 +1861,6 @@
     "Spread": 0,
     "Notes": "Fires fireballs that pierce enemies and have a chance to set enemies on fire."
 }, {
-    "Icon": "Machine Fist.png",
     "Name": "Machine Fist",
     "Quote": "Avalanche Of Bullets",
     "Quality": "A",
@@ -1994,7 +1875,6 @@
     "Spread": 6,
     "Notes": "Reloading alternates between firing a gatling gun, and a single shot exploding rocket punch that is guided by the player's reticle. The rocket punch consumes 10 ammo upon firing."
 }, {
-    "Icon": "Snowballer.png",
     "Name": "Snowballer",
     "Quote": "May Contain Rocks",
     "Quality": "D",
@@ -2009,7 +1889,6 @@
     "Spread": 10,
     "Notes": "Fires snowballs that have a chance to freeze enemies."
 }, {
-    "Icon": "Super Meat Gun.png",
     "Name": "Super Meat Gun",
     "Quote": "Very Fast",
     "Quality": "A",
@@ -2024,7 +1903,6 @@
     "Spread": 5,
     "Notes": "Fires piercing, bouncing saw blades. Slightly increases movement speed while held."
 }, {
-    "Icon": "Anvillain.png",
     "Name": "Anvillain",
     "Quote": "Practical And Safe",
     "Quality": "C",
@@ -2039,7 +1917,6 @@
     "Spread": 5,
     "Notes": "Fires piercing anvils that knock back and stun enemies."
 }, {
-    "Icon": "Fossilized Gun.png",
     "Name": "Fossilized Gun",
     "Quote": "Proof That Guns Once Existed",
     "Quality": "D",
@@ -2054,7 +1931,6 @@
     "Spread": 0,
     "Notes": "Fires a stream of oil. Reloading causes the skull to spit fire, which can ignite the oil."
 }, {
-    "Icon": "Gamma Ray.png",
     "Name": "Gamma Ray",
     "Quote": "Mean Green",
     "Quality": "C",
@@ -2069,7 +1945,6 @@
     "Spread": 0,
     "Notes": "Fires a green laser that has a chance to poison enemies."
 }, {
-    "Icon": "Freeze Ray.png",
     "Name": "Freeze Ray",
     "Quote": "Ice To Meet You",
     "Quality": "A",
@@ -2084,7 +1959,6 @@
     "Spread": 0,
     "Notes": "Fires a blue laser that has a chance to freeze enemies."
 }, {
-    "Icon": "Science Cannon.png",
     "Name": "Science Cannon",
     "Quote": "Charged Particles",
     "Quality": "B",
@@ -2099,7 +1973,6 @@
     "Spread": 0,
     "Notes": "Fires a large laser after a short charge-up."
 }, {
-    "Icon": "Disintegrator.png",
     "Name": "Disintegrator",
     "Quote": "Return To Dust",
     "Quality": "S",
@@ -2114,7 +1987,6 @@
     "Spread": 0,
     "Notes": "Fires a large laser after a long charge-up."
 }, {
-    "Icon": "Proton Backpack.png",
     "Name": "Proton Backpack",
     "Quote": "Crossing Streams",
     "Quality": "B",
@@ -2129,7 +2001,6 @@
     "Spread": 0,
     "Notes": "Fires a homing laser."
 }, {
-    "Icon": "Mega Douser.png",
     "Name": "Mega Douser",
     "Quote": "Contents Under Pressure",
     "Quality": "D",
@@ -2144,7 +2015,6 @@
     "Spread": 0,
     "Notes": "Fires a stream of water."
 }, {
-    "Icon": "Plunger.png",
     "Name": "Plunger",
     "Quote": "Take Your Best Shot!",
     "Quality": "C",
@@ -2159,7 +2029,6 @@
     "Spread": 0,
     "Notes": "Fires a stream of poison. Has a chance to Poison enemies and leaves poisonous puddles on the floor."
 }, {
-    "Icon": "Raiden Coil.png",
     "Name": "Raiden Coil",
     "Quote": "Shoot Em' Up",
     "Quality": "A",
@@ -2174,7 +2043,6 @@
     "Spread": 5,
     "Notes": "Fires a laser that homes in on all on-screen enemies."
 }, {
-    "Icon": "Moonscraper.png",
     "Name": "Moonscraper",
     "Quote": "Beeeeoooowwww!",
     "Quality": "C",
@@ -2189,7 +2057,6 @@
     "Spread": 5,
     "Notes": "Fires a continuous laser that reflects when hitting anything solid for the first time."
 }, {
-    "Icon": "Barrel.png",
     "Name": "Barrel",
     "Quote": "Nothin' Easier",
     "Quality": "C",
@@ -2204,7 +2071,6 @@
     "Spread": 7,
     "Notes": "Fires fish that have a chance to stun enemies and leave pools of water."
 }, {
-    "Icon": "Trick Gun.png",
     "Name": "Trick Gun",
     "Quote": "Reload To Transform",
     "Quality": "C",
@@ -2219,7 +2085,6 @@
     "Spread": null,
     "Notes": "Reloading transforms the gun between a pistol and a shotgun."
 }, {
-    "Icon": "Mailbox.png",
     "Name": "Mailbox",
     "Quote": "Special Delivery",
     "Quality": "D",
@@ -2234,7 +2099,6 @@
     "Spread": 10,
     "Notes": "Fires mail at enemies, with the final bullet in the magazine being a package. The package can explode, leave confetti, Burn, or Poison enemies."
 }, {
-    "Icon": "Nail Gun.png",
     "Name": "Nail Gun",
     "Quote": "Pest Control",
     "Quality": "D",
@@ -2249,7 +2113,6 @@
     "Spread": 10,
     "Notes": "Fires a rapid stream of low damage nails. Fires faster if fire button is rapidly tapped rather than held."
 }, {
-    "Icon": "Light Gun.png",
     "Name": "Light Gun",
     "Quote": "Third-Party",
     "Quality": "B",
@@ -2264,7 +2127,6 @@
     "Spread": 5,
     "Notes": "Fires zaps of light at enemies. The last bullet in the magazine is a duck, which will automatically seek out the nearest enemy and attack them."
 }, {
-    "Icon": "Mahoguny.png",
     "Name": "Mahoguny",
     "Quote": "100% Organic",
     "Quality": "C",
@@ -2279,7 +2141,6 @@
     "Spread": 0,
     "Notes": "Fires bouncing wood bullets along with several leaves."
 }, {
-    "Icon": "The Scrambler.png",
     "Name": "The Scrambler",
     "Quote": "Bullet Or The Gun?",
     "Quality": "C",
@@ -2294,7 +2155,6 @@
     "Spread": null,
     "Notes": "Fires bullets that hatch into many homing bullets upon hitting an enemy or obstacle."
 }, {
-    "Icon": "Trashcannon.png",
     "Name": "Trashcannon",
     "Quote": "Take It Out!",
     "Quality": "C",
@@ -2309,7 +2169,6 @@
     "Spread": 5,
     "Notes": "Fires a trash bag that explodes into poison projectiles that leave trails of poison goop."
 }, {
-    "Icon": "Glacier.png",
     "Name": "Glacier",
     "Quote": "Refill Your Trays",
     "Quality": "C",
@@ -2324,7 +2183,6 @@
     "Spread": 5,
     "Notes": "Fires bouncing ice cubes that explode and freeze enemies."
 }, {
-    "Icon": "Origuni.png",
     "Name": "Origuni",
     "Quote": "Thousand Cuts",
     "Quality": "C",
@@ -2339,7 +2197,6 @@
     "Spread": null,
     "Notes": "Fires paper planes that follow the player's crosshair."
 }, {
-    "Icon": "The Kiln.png",
     "Name": "The Kiln",
     "Quote": "Fires Pots",
     "Quality": "C",
@@ -2354,7 +2211,6 @@
     "Spread": null,
     "Notes": "Fires pots that break into 3 bouncing crystals upon hitting something."
 }, {
-    "Icon": "Skull Spitter.png",
     "Name": "Skull Spitter",
     "Quote": "Hard Headed",
     "Quality": "C",
@@ -2369,7 +2225,6 @@
     "Spread": null,
     "Notes": "Fires homing skulls."
 }, {
-    "Icon": "Buzzkill.png",
     "Name": "Buzzkill",
     "Quote": "Sawed On!",
     "Quality": "C",
@@ -2384,7 +2239,6 @@
     "Spread": 5,
     "Notes": "Fires piercing, bouncing sawblades."
 }, {
-    "Icon": "Tear Jerker.png",
     "Name": "Tear Jerker",
     "Quote": "Q_Q",
     "Quality": "C",
@@ -2399,7 +2253,6 @@
     "Spread": null,
     "Notes": "Fires tears that leave behind puddles of water."
 }, {
-    "Icon": "Eye of the Beholster.png",
     "Name": "Eye of the Beholster",
     "Quote": "What A Beauty!",
     "Quality": "B",
@@ -2414,7 +2267,6 @@
     "Spread": 4,
     "Notes": "The last shot of each clip spawns a friendly Beadie."
 }, {
-    "Icon": "Molotov Launcher.png",
     "Name": "Molotov Launcher",
     "Quote": "Exactly What You Think",
     "Quality": "C",
@@ -2429,7 +2281,6 @@
     "Spread": 5,
     "Notes": "Fires molotovs that set areas on fire."
 }, {
-    "Icon": "Shock Rifle.png",
     "Name": "Shock Rifle",
     "Quote": "Zap",
     "Quality": "B",
@@ -2444,7 +2295,6 @@
     "Spread": 5,
     "Notes": "Fires a zap of electricity."
 }, {
-    "Icon": "Bait Launcher.png",
     "Name": "Bait Launcher",
     "Quote": "Meat Your Maker",
     "Quality": "C",
@@ -2459,7 +2309,6 @@
     "Spread": null,
     "Notes": "Fires a steak that causes a tiger to appear and maul the target."
 }, {
-    "Icon": "Brick Breaker.png",
     "Name": "Brick Breaker",
     "Quote": "Wrong Kind Of Mortar",
     "Quality": "C",
@@ -2474,7 +2323,7 @@
     "Spread": null,
     "Notes": "Fires turtle shells which pierce through enemies and bounce off of walls."
 }, {
-    "Icon": "Betrayer's Shield.png",
+    "Icon": "Betrayer's Shield",
     "Name": "Betrayer's Shield",
     "Quote": "Actually A Gun",
     "Quality": "B",
@@ -2489,7 +2338,6 @@
     "Spread": 5,
     "Notes": "Upon reloading, leaves a protective shield on the ground. Players in that area will be protected until the shield has absorbed a number of bullets."
 }, {
-    "Icon": "Lower Case r.png",
     "Name": "Lower Case r",
     "Quote": "Alphabetical!",
     "Quality": "D",
@@ -2504,7 +2352,6 @@
     "Spread": 0,
     "Notes": "Fires a burst of 6 bullets that spell out the word bullet."
 }, {
-    "Icon": "Excaliber.png",
     "Name": "Excaliber",
     "Quote": "Once And Future",
     "Quality": "B",
@@ -2519,7 +2366,6 @@
     "Spread": 0,
     "Notes": "Fires a burst of three piercing sword projectiles. Reloading swings the sword, destroying nearby bullets. Increases curse while held."
 }, {
-    "Icon": "Face Melter.png",
     "Name": "Face Melter",
     "Quote": "Squiddley-squiddley-wheeyooo!",
     "Quality": "B",
@@ -2534,7 +2380,6 @@
     "Spread": 6,
     "Notes": "Simultaneously fires music notes in four directions. Places an amplifier on the ground at the player's position upon reloading. Whenever the Face Melter is fired, the amplifier will fire music notes in the same pattern. Reloading again will remove the amplifier and place a new one."
 }, {
-    "Icon": "Trident.png",
     "Name": "Trident",
     "Quote": "Under The Sea",
     "Quality": "A",
@@ -2549,7 +2394,6 @@
     "Spread": 0,
     "Notes": "Fires a long-range laser that pierces one enemy."
 }, {
-    "Icon": "Abyssal Tentacle.png",
     "Name": "Abyssal Tentacle",
     "Quote": "Look Away",
     "Quality": "A",
@@ -2564,7 +2408,6 @@
     "Spread": 0,
     "Notes": "Fires a tentacle that homes in on and grips enemies, damaging them."
 }, {
-    "Icon": "Quad Laser.png",
     "Name": "Quad Laser",
     "Quote": "No One Can Defeat It",
     "Quality": "C",
@@ -2579,7 +2422,6 @@
     "Spread": null,
     "Notes": "Fires a large, square bullet that moves extremely slowly."
 }, {
-    "Icon": "Pitchfork.png",
     "Name": "Pitchfork",
     "Quote": "Get Forked!",
     "Quality": "C",
@@ -2594,7 +2436,6 @@
     "Spread": 5,
     "Notes": "Fires fireballs that have a chance to Burn enemies."
 }, {
-    "Icon": "Gungeon Ant.png",
     "Name": "Gungeon Ant",
     "Quote": "What Army?",
     "Quality": "C",
@@ -2609,7 +2450,6 @@
     "Spread": 0,
     "Notes": "Reloading alternates between firing spreads of bullets that leave behind oil and flaming bullets."
 }, {
-    "Icon": "Alien Engine.png",
     "Name": "Alien Engine",
     "Quote": "The Dangerzone",
     "Quality": "B",
@@ -2624,7 +2464,6 @@
     "Spread": 0,
     "Notes": "Rapid fire weapon that has a very short range, only damaging enemies that come into contact with the muzzle flash. Enemies damaged have a chance to catch on fire. Extremely high recoil."
 }, {
-    "Icon": "Microtransaction Gun.png",
     "Name": "Microtransaction Gun",
     "Quote": "Pay To Win",
     "Quality": "A",
@@ -2639,7 +2478,6 @@
     "Spread": null,
     "Notes": "Shoots green gems at the cost of 1 coin per shot"
 }, {
-    "Icon": "Poxcannon.png",
     "Name": "Poxcannon",
     "Quote": "Lousy T-Shirt",
     "Quality": "C",
@@ -2654,7 +2492,7 @@
     "Spread": null,
     "Notes": "Shoots poisonous t-shirts. Poisoned enemies leave behind pools of poison creep upon death."
 }, {
-    "Icon": "T-Shirt Cannon.png",
+    "Icon": "T-Shirt Cannon",
     "Name": "T-Shirt Cannon",
     "Quote": "Machine Gun Wash Only!",
     "Quality": "D",
@@ -2669,7 +2507,6 @@
     "Spread": 5,
     "Notes": "Fires t-shirts that have significant knockback."
 }, {
-    "Icon": "Banana.png",
     "Name": "Banana",
     "Quote": "Planpain",
     "Quality": "C",
@@ -2684,7 +2521,6 @@
     "Spread": null,
     "Notes": "Fires an explosive banana that sends out three more bouncing explosive bananas."
 }, {
-    "Icon": "Bee Hive.png",
     "Name": "Bee Hive",
     "Quote": "Bzzzzzzz!",
     "Quality": "B",
@@ -2699,7 +2535,6 @@
     "Spread": 90,
     "Notes": "Fires bees that home in on and damage enemies."
 }, {
-    "Icon": "Silencer.png",
     "Name": "Silencer",
     "Quote": "300 Dead Count",
     "Quality": "C",
@@ -2714,7 +2549,6 @@
     "Spread": 5,
     "Notes": "Fires zippers. Hitting an enemy with the swing of the weapon will stun the enemy."
 }, {
-    "Icon": "Camera.png",
     "Name": "Camera",
     "Quote": "Say Cheese",
     "Quality": "C",
@@ -2729,7 +2563,6 @@
     "Spread": null,
     "Notes": "Damages all enemies in the room. Has a chance to stun enemies."
 }, {
-    "Icon": "Gunzheng.png",
     "Name": "Gunzheng",
     "Quote": "Hustle",
     "Quality": "B",
@@ -2744,7 +2577,6 @@
     "Spread": 35,
     "Notes": ""
 }, {
-    "Icon": "Sling.png",
     "Name": "Sling",
     "Quote": "Outrageous!",
     "Quality": "D",
@@ -2759,7 +2591,6 @@
     "Spread": 0,
     "Notes": "Fires rocks that bounce once. Deals additional damage to bosses."
 }, {
-    "Icon": "Cactus.png",
     "Name": "Cactus",
     "Quote": "1000 Needles!",
     "Quality": "C",
@@ -2774,10 +2605,9 @@
     "Spread": null,
     "Notes": "Fires needles."
 }, {
-    "Icon": "Black Hole Gun.png",
     "Name": "Black Hole Gun",
     "Quote": "Won't You Come",
-    "Quality": "A  S",
+    "Quality": "S",
     "Type": "Charged",
     "Magazine Size": "1",
     "Ammo Capacity": "30",
@@ -2789,7 +2619,6 @@
     "Spread": 0,
     "Notes": "Fires black holes that attract enemies and enemy bullets."
 }, {
-    "Icon": "BSG.png",
     "Name": "BSG",
     "Quote": "Big Shooty Gun",
     "Quality": "S",
@@ -2804,7 +2633,6 @@
     "Spread": 0,
     "Notes": "Slowly charges up to fire a large high-damage projectile."
 }, {
-    "Icon": "Compressed Air Tank.png",
     "Name": "Compressed Air Tank",
     "Quote": "You Know My Work",
     "Quality": "A",
@@ -2819,7 +2647,6 @@
     "Spread": 6,
     "Notes": "Fires sharks that swim around the room, seeking enemies and biting them."
 }, {
-    "Icon": "Serious Cannon.png",
     "Name": "Serious Cannon",
     "Quote": "Seriously MENTAL",
     "Quality": "A",
@@ -2834,7 +2661,6 @@
     "Spread": 6,
     "Notes": "Fires large bouncing cannonballs."
 }, {
-    "Icon": "Makeshift Cannon.png",
     "Name": "Makeshift Cannon",
     "Quote": "You Only Get One Shot",
     "Quality": "S",

@@ -4,73 +4,73 @@
     display: block;
 }
 
-.gameObject--1-Bullets {
+.gameObject-1-Bullets {
     width: 27px;
     height: 48px;
     background-position: -2px -2px;
 }
 
-.gameObject--Black-Hole-Gun {
+.gameObject-Black-Hole-Gun {
     width: 96px;
     height: 48px;
     background-position: -33px -2px;
 }
 
-.gameObject--Fightsabre {
+.gameObject-Fightsabre {
     width: 96px;
     height: 36px;
     background-position: -133px -2px;
 }
 
-.gameObject--Hexagun {
+.gameObject-Hexagun {
     width: 96px;
     height: 30px;
     background-position: -233px -2px;
 }
 
-.gameObject--M16 {
+.gameObject-M16 {
     width: 96px;
     height: 30px;
     background-position: -333px -2px;
 }
 
-.gameObject--Molotov-Launcher {
+.gameObject-Molotov-Launcher {
     width: 96px;
     height: 24px;
     background-position: -433px -2px;
 }
 
-.gameObject--Prototype-Railgun {
+.gameObject-Prototype-Railgun {
     width: 96px;
     height: 33px;
     background-position: -533px -2px;
 }
 
-.gameObject--RC-Rocket {
+.gameObject-RC-Rocket {
     width: 96px;
     height: 45px;
     background-position: -633px -2px;
 }
 
-.gameObject--Railgun {
+.gameObject-Railgun {
     width: 96px;
     height: 30px;
     background-position: -733px -2px;
 }
 
-.gameObject--Siren {
+.gameObject-Siren {
     width: 96px;
     height: 33px;
     background-position: -833px -2px;
 }
 
-.gameObject--Trident {
+.gameObject-Trident {
     width: 96px;
     height: 36px;
     background-position: -233px -39px;
 }
 
-.gameObject--Winchester-Rifle {
+.gameObject-Winchester-Rifle {
     width: 96px;
     height: 24px;
     background-position: -333px -39px;
@@ -460,7 +460,7 @@
     background-position: -780px -223px;
 }
 
-.gameObject-C4-_Item_ {
+.gameObject-C4 {
     width: 42px;
     height: 33px;
     background-position: -928px -223px;
@@ -1162,7 +1162,7 @@
     background-position: -66px -709px;
 }
 
-.gameObject-IBomb-Companion-App {
+.gameObject-iBomb-Companion-App {
     width: 48px;
     height: 36px;
     background-position: -2px -724px;

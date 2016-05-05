@@ -3,6 +3,8 @@ $(document).ready( function() {
     var itemsLoaded = false;
     var qsRegex;
 
+    $('.main').load('generateData.html #pull');
+
     // David DeSandro's hideReveal plugin for isotope.js
     // http://codepen.io/desandro/pen/drpJK/
     $.fn.hideReveal = function(options) {

@@ -1,15 +1,27 @@
 $(document).ready(function() {
+    var quality = {
+        'S': 1,
+        'A': 2,
+        'B': 3,
+        'C': 4,
+        'D': 5,
+        'N': 6
+    }
+
     $.getJSON('/JSON/guns.json', function(data) {
         var object = null;
         var $guns = $("#guns");
-        var $modals = $("#modals");
 
         for (var i = 0; i < data.length; i++) {
             object = data[i];
 
             var str = object.Name;
-            var res = str.replace(/ /g, "-").replace("'", "_");
-            var $div = $('<div class="grid-item1" data-name="' + object.Name.toLowerCase() + '" />');
+            var res = str.replace(/ /g, "-").replace("'", "_").replace(".", "-");
+            var $div = $('<div class="grid-item1" />').attr({
+                "data-name": object.Name.toLowerCase(),
+                "data-quality": quality[object.Quality],
+                "data-type": object.Type
+            });
             var $img = ('<img alt="' + object.Name + '" ' +
                 'title="' + object.Name + '" ' +
                 'class="gameObject gameObject-' + res +
@@ -66,8 +78,12 @@ $(document).ready(function() {
             object = data[i];
 
             var str = object.Name;
-            var res = str.replace(/ /g, "-").replace("'", "_");
-            var $div = $('<div class="grid-item2" data-name="' + object.Name.toLowerCase() + '" />');
+            var res = str.replace(/ /g, "-").replace("'", "_").replace(".", "-").replace("+", "");
+            var $div = $('<div class="grid-item2" />').attr({
+                "data-name": object.Name.toLowerCase(),
+                "data-quality": quality[object.Quality],
+                "data-type": object.Type
+            });
             var $img = ('<img alt="' + object.Name + '" ' +
                 'title="' + object.Name + '" ' +
                 'class="gameObject gameObject-' + res +
