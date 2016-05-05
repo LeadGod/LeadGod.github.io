@@ -7,9 +7,8 @@
 
 body {
     padding-top: 50px;
-    background-color: #231d24;
+    background-color: #212121;
 }
-
 
 /*
  * Global add-ons
@@ -17,17 +16,17 @@ body {
 
 .sub-header {
     padding-bottom: 10px;
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid #eee
 }
 
 .navbar-custom {
-    background-color: #EA3A65
+    background-color: #E91E63
 }
 
 .navbar-custom .navbar-nav>.active>a:hover,
 .navbar-custom .navbar-nav>li>a:hover,
 .navbar-custom .navbar-nav>li>a:focus {
-    background-color: #EA3A65
+    background-color: #C2185B
 }
 
 .navbar-custom .navbar-nav>.active>a,
@@ -37,16 +36,16 @@ body {
 .navbar-custom .navbar-nav>.open>a,
 .navbar-custom .navbar-nav>.open>a:hover,
 .navbar-custom .navbar-nav>.open>a:focus {
-    background-color: #EA3A65
+    background-color: #C2185B
 }
 
 .dropdown-menu {
-    background-color: #EA3A65
+    background-color: #E91E63
 }
 
 .dropdown-menu>li>a:hover,
 .dropdown-menu>li>a:focus {
-    background-color: #EA3A65
+    background-color: #C2185B
 }
 
 .navbar-custom {
@@ -63,12 +62,12 @@ body {
 }
 
 .navbar-custom .navbar-brand {
-    background-color: #EB3131;
+    background-color: #C2185B;;
     color: #FFFFFF
 }
 
 .navbar-custom .navbar-brand:hover {
-    background-color: #EB3131;
+    background-color: #C2185B;
     color: #FFFFFF;
     text-decoration: underline;
 }
@@ -109,6 +108,7 @@ body {
 .dropdown-menu>li>a:focus {
     color: #FFFFFF;
     text-decoration: underline;
+    background-color: ;
 }
 
 .navbar-custom .navbar-nav>.dropdown>a .caret {
@@ -125,6 +125,12 @@ body {
 
 .navbar-custom .navbar-nav>.dropdown>a:hover .caret {
     border-bottom-color: #FFFFFF
+}
+
+.navbar-form {
+    padding: 0;
+    margin: 0;
+    height: 100%;
 }
 
 
@@ -162,8 +168,8 @@ body {
         overflow-x: hidden;
         overflow-y: auto;
         /* Scrollable contents if viewport is shorter than content. */
-        background-color: #18101B;
-        border-right: 5px solid #261F27;
+        background-color: #231D24;
+        border-right: 5px solid #B6B6B6;
         color: white;
     }
 }
@@ -187,7 +193,6 @@ body {
 .nav-sidebar > .active > a:hover,
 .nav-sidebar > .active > a:focus {
     color: #fff;
-    background-color: #428bca;
 }
 
 
@@ -211,7 +216,7 @@ body {
 }
 
 h1.page-header {
-    background-color: #514952;
+    background-color: #9E9E9E;
     border-bottom: none;
     color: white;
     padding-left: 5px;
