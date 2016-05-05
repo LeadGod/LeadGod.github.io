@@ -70,7 +70,7 @@ $(document).ready( function() {
 
     // Escape all RegEx reserved characters from string
     function escRegExp(str) {
-        return str.replace(/[\-\[\]\/\{\}\(\)\*\+\?\.\\\^\$\|]/g, "\\$&");
+        return str.replace("/\W+/g", "");
     }
 
     // David DeSandro's search, modified to search full contents of
