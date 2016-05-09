@@ -16,7 +16,7 @@ $(document).ready(function() {
             object = data[i];
 
             var str = object.Name;
-            var res = str.replace(/ /g, "-").replace("'", "_").replace(".", "-");
+            var res = str.replace(/\./g, "-").replace(/ /g, "-").replace(/\'/g, "_");
             var $div = $('<div class="grid-item1" />').attr({
                 "data-name": object.Name.toLowerCase(),
                 "data-quality": quality[object.Quality],
